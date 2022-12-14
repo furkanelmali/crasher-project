@@ -26,7 +26,7 @@ public class Controller : MonoBehaviour
     void MovePlayer()
     {
         _rigidbody.velocity =
-            new Vector3(joystick.Vertical * speed , _rigidbody.velocity.y, joystick.Horizontal * speed* (-1));
+            new Vector3( _rigidbody.velocity.x, joystick.Vertical * speed, joystick.Horizontal * speed* (-1));
         var xValue = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
         var yValue = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
