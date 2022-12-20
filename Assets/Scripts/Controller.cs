@@ -7,10 +7,13 @@ public class Controller : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private DynamicJoystick joystick;
-
+    
     
     [SerializeField] private float YLimiter, ZLimiter, MZLimiter = 7f; 
-
+    
+    public Transform point; // The point to which the object should be kept within a certain distance
+    public float maxDistance = 10f; // The maximum distance the object can be from the point
+    public float minDistance = 5f;
     void Start()
     {
 
@@ -38,9 +41,24 @@ public class Controller : MonoBehaviour
 
     void PositionHandler()
     {
-       
-        
+        // Calculate the distance between the object and the point
+        float distance = Vector3.Distance(transform.position, point.position);
 
+        // If the distance is greater than the maximum distance, move the object back to the maximum distance
+        if (distance > maxDistance)
+        {
+            // Calculate the direction from the object to the point
+            Vector3 direction = (point.position - transform.position).normalized;
+
+            // Set the position of the object to be at the maximum distance from the point in the calculated direction
+            transform.position = point.position - direction * maxDistance;
+        }
+        else if (minDistance > distance)
+        {
+            Vector3 direction = (point.position - transform.position).normalized;
+            transform.position = point.position - direction * minDistance;
+            
+        }
     } 
 }
 
