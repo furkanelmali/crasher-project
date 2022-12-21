@@ -30,7 +30,6 @@ public class IKManager : MonoBehaviour
                 current.rotate(-slope * rate);
                 current = current.get_Child();
             }
-          
         }
         
         
@@ -46,17 +45,13 @@ public class IKManager : MonoBehaviour
         float distance2 = getDistance(end.transform.position,Target.transform.position);
         
         _joint.rotate(-deltaTheta);
-
+        
         return(distance2-distance1)/deltaTheta;
-
     }
     
     float getDistance(Vector3 point1, Vector3 point2)
     {
         return Vector3.Distance(point1, point2);
-        
     }
-
-    
 }
 
