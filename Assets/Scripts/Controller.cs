@@ -9,11 +9,11 @@ public class Controller : MonoBehaviour
     [SerializeField] private DynamicJoystick joystick;
     
     
-    [SerializeField] private float YLimiter, ZLimiter, MZLimiter = 7f; 
+     
     
     public Transform point; // The point to which the object should be kept within a certain distance
-    public float maxDistance = 10f; // The maximum distance the object can be from the point
-    public float minDistance = 5f;
+    public float maxDistance = 5f; // The maximum distance the object can be from the point
+    public float minDistance = 2f;
     void Start()
     {
 
@@ -22,8 +22,8 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PositionHandler();
-        MovePlayer(5f,5f);
+        //PositionHandler();
+        MovePlayer(6f,6f);
     }
 
 

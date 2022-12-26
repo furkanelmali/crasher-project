@@ -16,7 +16,6 @@ public class Joint : MonoBehaviour
     public void rotate(float angle)
     {
         transform.Rotate(Vector3.up * angle);
-
     }
 }
     
