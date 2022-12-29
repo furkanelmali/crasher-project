@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,10 @@ public class Controller : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private DynamicJoystick joystick;
-    
-    
-     
-    
+
+
+    [SerializeField] float speedY = 6f;
+    [SerializeField] float speedZ = 6f;
     public Transform point; // The point to which the object should be kept within a certain distance
     public float maxDistance = 5f; // The maximum distance the object can be from the point
     public float minDistance = 2f;
@@ -21,14 +22,14 @@ public class Controller : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //PositionHandler();
-        MovePlayer(6f,6f);
+    { 
+        PositionHandler();
+        MovePlayer(speedY,speedZ);
     }
 
 
 
-    void MovePlayer(float speedy,float speedz)
+    public void MovePlayer(float speedy,float speedz)
     {
         _rigidbody.velocity =
             new Vector3(_rigidbody.velocity.x, joystick.Vertical * speedy, joystick.Horizontal * speedz * (-1));
@@ -59,6 +60,10 @@ public class Controller : MonoBehaviour
             transform.position = point.position - direction * minDistance;
             
         }
-    } 
+
+        
+    }
+
+ 
 }
 

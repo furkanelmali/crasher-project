@@ -13,7 +13,7 @@ public class IKManager : MonoBehaviour
     public GameObject Target;
     
     public float threasold= 0.05f;
-    public float rate = 5f;
+    public float rate = 20f;
     
    
   
