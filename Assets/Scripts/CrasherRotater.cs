@@ -20,8 +20,10 @@ public class CrasherRotater : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
-        //transform.Rotate(transform.rotation.x,transform.rotation.y+rotationSpeed,transform.rotation.z);
+    {
+        Vector3 rot = transform.eulerAngles;
+        transform.rotation= Quaternion.Euler(rot.x,rot.y,rot.z+ rotationSpeed*Time.deltaTime);
+        //transform.Rotate(Vector3.up,rotationSpeed);
     }
     private void OnCollisionEnter(Collision collision)
     {

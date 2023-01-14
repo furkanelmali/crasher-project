@@ -14,25 +14,28 @@ public class IKManager : MonoBehaviour
     
     public float threasold= 0.05f;
     public float rate = 20f;
-    
+
+    public Fuel fuel;
    
   
 
     // Update is called once per frame
     void Update()
     {
-        if (getDistance(end.transform.position, Target.transform.position) > threasold)
+        if (fuel.currentFuel > 0)
         {
-            Joint current = root;
-            while (current != null)
+            if (getDistance(end.transform.position, Target.transform.position) > threasold)
             {
-                float slope = calculateSlope(current);
-                current.rotate(-slope * rate);
-                current = current.get_Child();
+                Joint current = root;
+                while (current != null)
+                {
+                    float slope = calculateSlope(current);
+                    current.rotate(-slope * rate);
+                    current = current.get_Child();
+                }
             }
         }
-        
-        
+      
     }
 
     float calculateSlope(Joint _joint)
