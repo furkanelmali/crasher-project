@@ -23,23 +23,6 @@ public class CrasherRotater : MonoBehaviour
     {
         Vector3 rot = transform.eulerAngles;
         transform.rotation= Quaternion.Euler(rot.x,rot.y,rot.z+ rotationSpeed*Time.deltaTime);
-        //transform.Rotate(Vector3.up,rotationSpeed);
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-       
-        
-       
-        
-       
-        
-        
-    }
-
-    private void OnCollisionExit(Collision other)
-    {
-        
-        
-        
-    }
+    
 }

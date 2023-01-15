@@ -62,11 +62,6 @@ public class Controller : MonoBehaviour
             // Set the position of the object to be at the maximum distance from the point in the calculated direction
             transform.position = point.position - direction * maxDistance;
         }
-        
-
-        
     }
-
- 
 }
 

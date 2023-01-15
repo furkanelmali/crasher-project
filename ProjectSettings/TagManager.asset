@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Crasher
   - Plane
+  - Voxel
   layers:
   - Default
   - TransparentFX
