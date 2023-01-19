@@ -15,7 +15,8 @@ public class Controller : MonoBehaviour
     [SerializeField] float speedZ = 6f;
     public Transform point; // The point to which the object should be kept within a certain distance
     public float maxDistance = 5f; // The maximum distance the object can be from the point
-   
+
+    public UIManager uı;
     void Start()
     {
 
@@ -42,9 +43,12 @@ public class Controller : MonoBehaviour
                 var yValue = Input.GetAxis("Vertical") * Time.deltaTime * speedz;
                 transform.Translate(zValue, 0, yValue);
                 fuel.fuelDown();
-            }
-           
-            
+            }  
+        }
+        else
+        {
+            uı.GameOver();
+            fuel.currentFuel = fuel.startingFuel;
         }
     }
 

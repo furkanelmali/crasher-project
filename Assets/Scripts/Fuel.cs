@@ -5,14 +5,18 @@ using UnityEngine.UI;
 public class Fuel : MonoBehaviour
 {
     public float maxFuel = 100;
-
+    
     public Slider FuelBar;
     
-    public float currentFuel = 30; 
+    
+    public float currentFuel = 30;
+
+    public float startingFuel = 30;
     // Start is called before the first frame update
     void Start()
     {
         FuelBar.maxValue = maxFuel;
+        currentFuel = startingFuel;
     }
 
     // Update is called once per frame
@@ -25,7 +29,11 @@ public class Fuel : MonoBehaviour
     {
         currentFuel = currentFuel - Time.deltaTime;
         Debug.Log(currentFuel);
+        
     }
+    
+    
+    
     
     
 }
