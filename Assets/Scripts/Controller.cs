@@ -30,7 +30,7 @@ public class Controller : MonoBehaviour
     }
 
 
-
+    
     public void MovePlayer(float speedy,float speedz)
     {
         if (fuel.currentFuel > 0)
@@ -48,7 +48,8 @@ public class Controller : MonoBehaviour
         else
         {
             uı.GameOver();
-            fuel.currentFuel = fuel.startingFuel;
+            fuel.currentFuel = PlayerPrefs.GetFloat("Fuel");
+
         }
     }
 

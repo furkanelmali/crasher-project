@@ -6,6 +6,8 @@ using UnityEngine;
 public class VoxelGravity : MonoBehaviour
 { 
     public Rigidbody rb;
+    public float health;
+    
 
     private void Start()
     {
@@ -15,8 +17,7 @@ public class VoxelGravity : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other)
-    {
-            
+    {      
         if (other.gameObject.tag == "Crasher")
         {
             Debug.Log("Crash Detected");

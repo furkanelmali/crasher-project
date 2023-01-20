@@ -9,6 +9,7 @@ using Random = UnityEngine.Random;
 
 public class GoldDigger : MonoBehaviour
 {
+    public int totalCoin = 0;
     public int goldCoin = 0;
 
     public GameObject[] goldTypes;

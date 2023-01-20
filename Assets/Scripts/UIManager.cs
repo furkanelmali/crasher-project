@@ -1,12 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject MainMenu,GameMenu;
-        
+    public TextMeshProUGUI TotalGoldText; 
+    
+    public GoldDigger gd;
+    public Fuel fuel;
+    public MarketSystem ms;
     
 
 
@@ -19,6 +26,8 @@ public class UIManager : MonoBehaviour
     {
         if (MainMenu.gameObject.activeSelf)
         {
+            gd.totalCoin = PlayerPrefs.GetInt("Gold");
+            TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
             Pause();
         }
         else if(GameMenu.gameObject.activeSelf)
@@ -48,6 +57,22 @@ public class UIManager : MonoBehaviour
     {
         GameMenu.SetActive(false);
         MainMenu.SetActive(true);
+        gd.totalCoin +=  gd.goldCoin;
+        PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        SceneManager.LoadScene(0);
+    }
+
+    public void startingFuelUp()
+    {
+        if (gd.totalCoin >= ms.fuelPrize && fuel.maxFuel > fuel.currentFuel)
+        {
+            fuel.currentFuel += 10;
+            PlayerPrefs.SetFloat("Fuel",fuel.currentFuel);
+            ms.prizeUpdater(ms.fuelPrize);
+            PlayerPrefs.SetInt("FuelPrize", ms.fuelPrize);
+            gd.totalCoin -= ms.fuelPrize;
+            PlayerPrefs.SetInt("Gold", gd.totalCoin);
+        }
     }
     
     
