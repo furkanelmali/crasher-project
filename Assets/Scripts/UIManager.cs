@@ -9,7 +9,8 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public GameObject MainMenu,GameMenu;
-    public TextMeshProUGUI TotalGoldText; 
+    public TextMeshProUGUI TotalGoldText;
+    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
     public GoldDigger gd;
     public Fuel fuel;
@@ -28,6 +29,7 @@ public class UIManager : MonoBehaviour
         {
             gd.totalCoin = PlayerPrefs.GetInt("Gold");
             TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
+            FuelPrize.text = PlayerPrefs.GetInt("FuelPrize").ToString();
             Pause();
         }
         else if(GameMenu.gameObject.activeSelf)
@@ -68,8 +70,9 @@ public class UIManager : MonoBehaviour
         {
             fuel.currentFuel += 10;
             PlayerPrefs.SetFloat("Fuel",fuel.currentFuel);
-            ms.prizeUpdater(ms.fuelPrize);
+            ms.fuelPrize = ms.prizeUpdater(ms.fuelPrize);
             PlayerPrefs.SetInt("FuelPrize", ms.fuelPrize);
+            FuelPrize.text = PlayerPrefs.GetInt("FuelPrize").ToString();
             gd.totalCoin -= ms.fuelPrize;
             PlayerPrefs.SetInt("Gold", gd.totalCoin);
         }

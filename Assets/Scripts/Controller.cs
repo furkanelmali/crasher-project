@@ -68,5 +68,7 @@ public class Controller : MonoBehaviour
             transform.position = point.position - direction * maxDistance;
         }
     }
+    
+    
 }
 

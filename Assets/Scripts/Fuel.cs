@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Fuel : MonoBehaviour
 {
-    public float maxFuel = 100;
+    public float maxFuel = 100; 
     
-    public Slider FuelBar;
+    public Slider FuelBar; //Showing fuel at the UI
     
     
     public float currentFuel = 30;

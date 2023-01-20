@@ -6,9 +6,9 @@ public class MarketSystem : MonoBehaviour
 {
     public int fuelPrize=110;
 
-    public int scalePrize;
+    public int scalePrize=200;
 
-    public int powerPrize;
+    public int powerPrize=250;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +21,11 @@ public class MarketSystem : MonoBehaviour
         
     }
 
-    public void prizeUpdater(int prize)
+    public int prizeUpdater(int prize)
     {
         int prizeup = (prize / 100) * 20;
         prize += prizeup;
+        Debug.Log("Prize Updated" + prize);
+        return prize;
     }
 }
