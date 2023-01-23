@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -14,9 +15,14 @@ public class UIManager : MonoBehaviour
     
     public GoldDigger gd;
     public Fuel fuel;
+    private Power pw;
     public MarketSystem ms;
-    
 
+
+    private void Start()
+    {
+        pw = FindObjectOfType<Power>();
+    }
 
     void Update()
     {
@@ -30,6 +36,7 @@ public class UIManager : MonoBehaviour
             gd.totalCoin = PlayerPrefs.GetInt("Gold");
             TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
             FuelPrize.text = PlayerPrefs.GetInt("FuelPrize").ToString();
+            PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
             Pause();
         }
         else if(GameMenu.gameObject.activeSelf)
@@ -77,8 +84,23 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("Gold", gd.totalCoin);
         }
     }
-    
-    
+
+    public void PowerUpgrade()
+    {
+        
+        if (gd.totalCoin >= ms.powerPrize && pw.maxPow > pw.power)
+        {
+            pw.power += 1;
+            PlayerPrefs.SetInt("Power",pw.power);
+            ms.powerPrize = ms.prizeUpdater(ms.powerPrize);
+            PlayerPrefs.SetInt("PowerPrize",ms.powerPrize);
+            PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
+            gd.totalCoin -= ms.powerPrize;
+            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+
+        }
+
+    }
     
     
 }

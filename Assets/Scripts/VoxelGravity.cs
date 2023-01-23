@@ -7,12 +7,14 @@ public class VoxelGravity : MonoBehaviour
 { 
     public Rigidbody rb;
     public float damageCount = 4;
+    public Power power;
     
     
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        power = FindObjectOfType<Power>();
         rb.isKinematic = true;
         rb.useGravity = false;
     }
@@ -39,7 +41,7 @@ public class VoxelGravity : MonoBehaviour
     {
         if (collisionInfo.gameObject.tag == "Crasher")
         {
-            damageCount--;
+            damageCount-= power.power;
             damageCheck();
         }
     }

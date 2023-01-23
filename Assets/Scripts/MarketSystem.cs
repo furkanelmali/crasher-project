@@ -13,6 +13,7 @@ public class MarketSystem : MonoBehaviour
     void Start()
     {
        fuelPrize = PlayerPrefs.GetInt("FuelPrize");
+       powerPrize = PlayerPrefs.GetInt("PowerPrize");
     }
 
     // Update is called once per frame
