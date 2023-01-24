@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI TotalGoldText;
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
-    public GoldDigger gd;
+    public DesignPatterns.ObjectPolling.GoldDigger gd;
     public Fuel fuel;
     private Power pw;
     public MarketSystem ms;

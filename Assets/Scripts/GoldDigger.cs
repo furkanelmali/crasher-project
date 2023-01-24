@@ -5,38 +5,73 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
+using UnityEngine.Pool;
 
-
-public class GoldDigger : MonoBehaviour
+namespace DesignPatterns.ObjectPolling
 {
-    public int totalCoin = 0;
-    public int goldCoin = 0;
-
-    public GameObject[] goldTypes;
-    public int[] goldIncomes;
-    public Transform spoint;    
-
-    public TextMeshProUGUI coinCount;
-    // Start is called before the first frame update
-    void Start()
+    public class GoldDigger : MonoBehaviour
     {
+        public int totalCoin = 0;
+        public int goldCoin = 0;
+    
+        public Gold[] goldTypes;
+        public int[] goldIncomes;
+        public Transform spoint;    
+    
+        public TextMeshProUGUI coinCount;
+        private IObjectPool<Gold> GoldPool;
+    
+    
+        private void Awake()
+        {
+            GoldPool = new ObjectPool<Gold>(CreateGold, OnGetGold,OnReleaseGold,OnDestroyGold,true,10,20);
+        }
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        coinCount.text = goldCoin.ToString();
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Voxel")
+    
+        private Gold CreateGold()
         {
             int rand = Random.Range(0, 2);
-            goldCoin = goldCoin + goldIncomes[rand];
-            GameObject spawnedGold = Instantiate(goldTypes[rand],spoint.transform.position,Quaternion.identity);
-            Destroy(collision.gameObject);
+            Gold spawnedGold = Instantiate(goldTypes[rand],spoint.transform.position,Quaternion.identity);
+            spawnedGold.SetPool(GoldPool);
+            return spawnedGold;
+        }
+    
+        private void OnGetGold(Gold gold)
+        {
+            gold.transform.position = spoint.transform.position;
+            Rigidbody rb = gold.GetComponent<Rigidbody>();
+            rb.velocity = new Vector3(0,0,0);
+            gold.gameObject.SetActive(true);
+        }
+        private void OnReleaseGold(Gold gold)
+        {
+            gold.gameObject.SetActive(false);
+        }
+        
+        private void OnDestroyGold(Gold gold)
+        {
+            Destroy(gold.gameObject);
+        }
+    
+        
+    
+        // Update is called once per frame
+        void Update()
+        {
+            coinCount.text = goldCoin.ToString();
+        }
+    
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == "Voxel")
+            {
+                int rand = Random.Range(0, 2);
+                goldCoin += goldIncomes[rand];
+                GoldPool.Get();
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
+
+
