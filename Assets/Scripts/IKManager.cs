@@ -40,7 +40,7 @@ public class IKManager : MonoBehaviour
 
     float calculateSlope(Joint _joint)
     {
-        float deltaTheta = 0.001f;
+        float deltaTheta = 0.01f;
         float distance1 = getDistance(end.transform.position,Target.transform.position);
         
         _joint.rotate(deltaTheta);

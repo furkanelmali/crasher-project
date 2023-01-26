@@ -13,10 +13,16 @@ public class Controller : MonoBehaviour
     
     [SerializeField] float speedY = 6f;
     [SerializeField] float speedZ = 6f;
+    [SerializeField] private float speedCh = 3f;
     public Transform point; // The point to which the object should be kept within a certain distance
     public float maxDistance = 5f; // The maximum distance the object can be from the point
 
     public UIManager uı;
+
+    public Rigidbody character;
+    
+    
+    
     void Start()
     {
 
@@ -39,6 +45,11 @@ public class Controller : MonoBehaviour
             {
                 _rigidbody.velocity =
                     new Vector3(_rigidbody.velocity.x, joystick.Vertical * speedy, joystick.Horizontal * speedz * (-1));
+                character.velocity =
+                    new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
+                
+                
+                
                 var zValue = Input.GetAxis("Horizontal") * Time.deltaTime * speedy;
                 var yValue = Input.GetAxis("Vertical") * Time.deltaTime * speedz;
                 transform.Translate(zValue, 0, yValue);

@@ -21,6 +21,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        PlayerPrefs.SetFloat("Power",.5f);
         pw = FindObjectOfType<Power>();
     }
 
@@ -91,7 +92,7 @@ public class UIManager : MonoBehaviour
         if (gd.totalCoin >= ms.powerPrize && pw.maxPow > pw.power)
         {
             pw.power += 1;
-            PlayerPrefs.SetInt("Power",pw.power);
+            PlayerPrefs.SetFloat("Power",pw.power);
             ms.powerPrize = ms.prizeUpdater(ms.powerPrize);
             PlayerPrefs.SetInt("PowerPrize",ms.powerPrize);
             PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
