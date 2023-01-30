@@ -20,14 +20,18 @@ namespace DesignPatterns.ObjectPolling
     
         public TextMeshProUGUI coinCount;
         private IObjectPool<Gold> GoldPool;
-    
-    
+
+        private LevelSystem levelsystem;
         private void Awake()
         {
             GoldPool = new ObjectPool<Gold>(CreateGold, OnGetGold,OnReleaseGold,OnDestroyGold,true,10,20);
         }
-        
-    
+
+        private void Start()
+        {
+            levelsystem = FindObjectOfType<LevelSystem>();
+        }
+
         private Gold CreateGold()
         {
             int rand = Random.Range(0, 2);
@@ -69,6 +73,7 @@ namespace DesignPatterns.ObjectPolling
                 goldCoin += goldIncomes[rand];
                 GoldPool.Get();
                 Destroy(collision.gameObject);
+                
             }
         }
     }

@@ -22,7 +22,7 @@ public class CrasherRotater : MonoBehaviour
     void Update()
     {
         Vector3 rot = transform.eulerAngles;
-        transform.rotation= Quaternion.Euler(rot.x,rot.y,rot.z+ rotationSpeed*Time.deltaTime);
+        transform.rotation= Quaternion.Euler(rot.x,rot.y,rot.z + rotationSpeed*Time.deltaTime);
     }
     
 }

@@ -8,6 +8,8 @@ public class VoxelGravity : MonoBehaviour
     public Rigidbody rb;
     public float damageCount = 4;
     public Power power;
+
+    private LevelSystem levelsystem;
     
     
 
@@ -15,6 +17,7 @@ public class VoxelGravity : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         power = FindObjectOfType<Power>();
+        levelsystem = FindObjectOfType<LevelSystem>();
         rb.isKinematic = true;
         rb.useGravity = false;
     }
@@ -33,7 +36,9 @@ public class VoxelGravity : MonoBehaviour
             rb.isKinematic = false;
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezePositionX;
-            rb.useGravity = true; 
+            rb.useGravity = true;
+            transform.parent = null;
+            levelsystem.currentVNumChanger();
         }
     }
 
