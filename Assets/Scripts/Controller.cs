@@ -20,6 +20,8 @@ public class Controller : MonoBehaviour
     public UIManager uı;
 
     public Rigidbody character;
+
+    public Animator animator;
     
     
     
@@ -32,6 +34,7 @@ public class Controller : MonoBehaviour
     void Update()
     { 
         PositionHandler();
+        animationHandler();
         MovePlayer(speedY,speedZ);
     }
 
@@ -47,7 +50,7 @@ public class Controller : MonoBehaviour
                     new Vector3(_rigidbody.velocity.x, joystick.Vertical * speedy, joystick.Horizontal * speedz * (-1));
                 character.velocity =
                     new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
-                
+
                 
                 
                 var zValue = Input.GetAxis("Horizontal") * Time.deltaTime * speedy;
@@ -55,6 +58,7 @@ public class Controller : MonoBehaviour
                 transform.Translate(zValue, 0, yValue);
                 fuel.fuelDown();
             }  
+            
         }
         else
         {
@@ -77,6 +81,18 @@ public class Controller : MonoBehaviour
 
             // Set the position of the object to be at the maximum distance from the point in the calculated direction
             transform.position = point.position - direction * maxDistance;
+        }
+    }
+
+    void animationHandler()
+    {
+        if (character.velocity.y != 0)
+        {
+            animator.enabled = true;
+        }
+        else
+        {
+            animator.enabled = false;
         }
     }
     
