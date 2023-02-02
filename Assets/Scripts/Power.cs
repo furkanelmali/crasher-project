@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Power : MonoBehaviour
 {
+    UIManager ui;
     public float power = 1;
 
     public float maxPow = 5;
     // Start is called before the first frame update
     void Start()
     {
-        power = PlayerPrefs.GetFloat("Power");
+        
+        ui = FindObjectOfType<UIManager>();
+        power= ui.PlayerPrefsFloatKey("Power", .5f);
+
     }
 
     // Update is called once per frame

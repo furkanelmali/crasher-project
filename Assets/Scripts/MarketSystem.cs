@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MarketSystem : MonoBehaviour
 {
+
+    UIManager ui;
+
     public int fuelPrize=110;
 
     public int scalePrize=200;
@@ -12,8 +15,11 @@ public class MarketSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       fuelPrize = PlayerPrefs.GetInt("FuelPrize");
-       powerPrize = PlayerPrefs.GetInt("PowerPrize");
+        ui = FindObjectOfType<UIManager>();
+        fuelPrize = ui.PlayerPrefsIntKey("FuelPrize", 110);
+        scalePrize= ui.PlayerPrefsIntKey("ScalePrize", 200);
+        powerPrize= ui.PlayerPrefsIntKey("PowerPrize", 250);
+
     }
 
     // Update is called once per frame

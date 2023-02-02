@@ -21,7 +21,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.SetFloat("Power",.5f);
+        
         pw = FindObjectOfType<Power>();
     }
 
@@ -98,10 +98,35 @@ public class UIManager : MonoBehaviour
             PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
             gd.totalCoin -= ms.powerPrize;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
-
         }
-
     }
-    
-    
+
+    public float PlayerPrefsFloatKey (string key, float defValue)
+    {
+        if (PlayerPrefs.HasKey(key))
+        {
+            return PlayerPrefs.GetFloat(key);
+        }
+        else
+        {   
+            PlayerPrefs.SetFloat(key, defValue);
+            return (float)defValue;
+        }
+    }
+
+
+    public int PlayerPrefsIntKey (string key,float defValue)
+    {
+        if (PlayerPrefs.HasKey(key))
+        {
+            return PlayerPrefs.GetInt(key);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(key, (int)defValue);
+            return (int)defValue;
+        }
+    }
+
+
 }
