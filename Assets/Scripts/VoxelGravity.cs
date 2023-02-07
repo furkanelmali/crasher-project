@@ -25,28 +25,32 @@ public class VoxelGravity : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {      
-        
+        if(other.gameObject.tag == "Destroyer")
+        {
+            Destroy(this.gameObject);
+            levelsystem.currentVNumChanger();
+        }
+       
     }
 
     public void damageCheck()
     {
         if (damageCount <= 0)
         {
-            Debug.Log("Crash Detected");
             rb.isKinematic = false;
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezePositionX;
             rb.useGravity = true;
-            transform.parent = null;
-            levelsystem.currentVNumChanger();
+            //transform.parent = null;
+            
         }
     }
 
     private void OnCollisionStay(Collision collisionInfo)
     {
-        if (collisionInfo.gameObject.tag == "Crasher")
+        if (collisionInfo.gameObject.tag == "Crasher" && damageCount >= 0)
         {
-            damageCount-= power.power;
+            damageCount -= power.power;
             damageCheck();
         }
     }

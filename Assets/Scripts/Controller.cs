@@ -1,3 +1,4 @@
+using System.Runtime.ExceptionServices;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,8 +15,12 @@ public class Controller : MonoBehaviour
     [SerializeField] float speedY = 6f;
     [SerializeField] float speedZ = 6f;
     [SerializeField] private float speedCh = 3f;
+
+    [SerializeField] [Range(0,1)] Transform movementFactor;
+    
     public Transform point; // The point to which the object should be kept within a certain distance
     public float maxDistance = 5f; // The maximum distance the object can be from the point
+    
 
     public UIManager uı;
 
@@ -23,17 +28,19 @@ public class Controller : MonoBehaviour
 
     public Animator animator;
     
+    Vector3 firstpos;
     
     
     void Start()
     {
-
+      firstpos = new Vector3(character.transform.position.x,character.transform.position.y,character.transform.position.z);
     }
 
     // Update is called once per frame
     void Update()
     { 
         PositionHandler();
+        
         animationHandler();
         MovePlayer(speedY,speedZ);
     }
@@ -47,12 +54,8 @@ public class Controller : MonoBehaviour
             if(Input.touchCount > 0 || Input.GetMouseButton(0))
             {
                 _rigidbody.velocity =
-                    new Vector3(_rigidbody.velocity.x, joystick.Vertical * speedy, joystick.Horizontal * speedz * (-1));
-                character.velocity =
-                    new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
-
-                
-                
+                    new Vector3(_rigidbody.velocity.x, (joystick.Vertical*speedY)-(joystick.Vertical*speedCh), joystick.Horizontal * speedz * (-1));
+                characterMover();
                 var zValue = Input.GetAxis("Horizontal") * Time.deltaTime * speedy;
                 var yValue = Input.GetAxis("Vertical") * Time.deltaTime * speedz;
                 transform.Translate(zValue, 0, yValue);
@@ -95,6 +98,44 @@ public class Controller : MonoBehaviour
             animator.enabled = false;
         }
     }
+
+    void characterMover()
+    {
+        if(joystick.Vertical > 0)
+        {
+            if(firstpos.y - character.transform.position.y >= -5f)
+                {
+                    character.velocity =
+                    new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
+                    Debug.Log(firstpos.y - character.transform.position.y );
+                }
+                else
+                {
+                    character.velocity =
+                    new Vector3(character.velocity.x, 0, character.velocity.z);
+                    Debug.Log("stop");
+                }
+        }
+        else if(joystick.Vertical < 0)
+        {
+             if(firstpos.y - character.transform.position.y <= 5f)
+                {
+                    character.velocity =
+                    new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
+                    Debug.Log(firstpos.y - character.transform.position.y );
+                }
+                else
+                {
+                    character.velocity =
+                    new Vector3(character.velocity.x, 0, character.velocity.z);
+                    Debug.Log("stop");
+                }
+        }
+        
+    }
+
+
+   
     
     
 }

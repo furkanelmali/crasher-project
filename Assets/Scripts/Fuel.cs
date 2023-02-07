@@ -33,7 +33,7 @@ public class Fuel : MonoBehaviour
     public void fuelDown()
     {
         currentFuel = currentFuel - Time.deltaTime;
-        Debug.Log(currentFuel);
+        
     }
     
     
