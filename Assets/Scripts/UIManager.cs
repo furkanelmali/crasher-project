@@ -18,10 +18,12 @@ public class UIManager : MonoBehaviour
     private Power pw;
     public MarketSystem ms;
 
+    Length length;
+
 
     private void Start()
     {
-        
+        length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
     }
 
@@ -38,6 +40,7 @@ public class UIManager : MonoBehaviour
             TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
             FuelPrize.text = PlayerPrefs.GetInt("FuelPrize").ToString();
             PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
+            ScalePrize.text = PlayerPrefs.GetInt("ScalePrize").ToString();
             Pause();
         }
         else if(GameMenu.gameObject.activeSelf)
@@ -98,6 +101,19 @@ public class UIManager : MonoBehaviour
             PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
             gd.totalCoin -= ms.powerPrize;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        }
+    }
+    
+    public void LengthUpgrade()
+    {
+        if(gd.totalCoin >= ms.scalePrize)
+        {
+            length.armNum++;
+            length.armChanger();
+            ms.prizeUpdater(ms.scalePrize);
+            
+            PlayerPrefs.SetInt("scalePrize",ms.scalePrize);
+            
         }
     }
 

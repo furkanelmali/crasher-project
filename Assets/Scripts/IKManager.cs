@@ -5,17 +5,18 @@ using UnityEngine;
 public class IKManager : MonoBehaviour
 {
     //Root of arm
-    public Joint root;
+    public Joint[] root;
     
     //End 
-    public Joint end;
+    public Joint[] end;
 
-    public GameObject Target;
+    public GameObject[] Target;
     
     public float threasold= 0.05f;
     public float rate = 20f;
 
     public Fuel fuel;
+    public Length length;
    
   
 
@@ -24,9 +25,9 @@ public class IKManager : MonoBehaviour
     {
         if (fuel.currentFuel > 0)
         {
-            if (getDistance(end.transform.position, Target.transform.position) > threasold)
+            if (getDistance(end[length.armNum].transform.position, Target[length.armNum].transform.position) > threasold)
             {
-                Joint current = root;
+                Joint current = root[length.armNum];
                 while (current != null)
                 {
                     float slope = calculateSlope(current);
@@ -41,11 +42,11 @@ public class IKManager : MonoBehaviour
     float calculateSlope(Joint _joint)
     {
         float deltaTheta = 0.01f;
-        float distance1 = getDistance(end.transform.position,Target.transform.position);
+        float distance1 = getDistance(end[length.armNum].transform.position,Target[length.armNum].transform.position);
         
         _joint.rotate(deltaTheta);
         
-        float distance2 = getDistance(end.transform.position,Target.transform.position);
+        float distance2 = getDistance(end[length.armNum].transform.position,Target[length.armNum].transform.position);
         
         _joint.rotate(-deltaTheta);
         

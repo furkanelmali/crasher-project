@@ -6,18 +6,21 @@ public class MarketSystem : MonoBehaviour
 {
 
     UIManager ui;
-
+    Length length;
     public int fuelPrize=110;
 
     public int scalePrize=200;
 
     public int powerPrize=250;
+
+    
     // Start is called before the first frame update
     void Start()
     {
         ui = FindObjectOfType<UIManager>();
+        length = FindObjectOfType<Length>();
         fuelPrize = ui.PlayerPrefsIntKey("FuelPrize", 110);
-        scalePrize= ui.PlayerPrefsIntKey("ScalePrize", 200);
+        scalePrize= ui.PlayerPrefsIntKey("ScalePrize", 500);
         powerPrize= ui.PlayerPrefsIntKey("PowerPrize", 250);
 
     }
