@@ -7,11 +7,18 @@ public class Length : MonoBehaviour
     public GameObject[] arms;
     public int armNum = 0;
 
+    UIManager uıManager;
+
     // Start is called before the first frame update
+    
+    
     void Start()
     {
-        armNum = 0;
-        PlayerPrefs.SetInt("ArmNum", armNum);
+        
+        uıManager = FindObjectOfType<UIManager>();
+        armNum = uıManager.PlayerPrefsIntKey("ArmNum", 0);
+        startArmActiver();
+        
     }
 
     // Update is called once per frame
@@ -24,6 +31,15 @@ public class Length : MonoBehaviour
     {
         arms[armNum-1].SetActive(false);
         arms[armNum].SetActive(true);
-        PlayerPrefs.SetInt("ArmNum", armNum);
+        
+    }
+
+    public void startArmActiver()
+    {   
+        
+        arms[0].SetActive(false);
+        
+        arms[armNum].SetActive(true);
+        Debug.Log("There is something wrong");
     }
 }

@@ -9,7 +9,7 @@ public class MarketSystem : MonoBehaviour
     Length length;
     public int fuelPrize=110;
 
-    public int scalePrize=200;
+    public int scalePrize=500;
 
     public int powerPrize=250;
 

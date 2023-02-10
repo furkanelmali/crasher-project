@@ -10,7 +10,6 @@ public class Controller : MonoBehaviour
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private DynamicJoystick joystick;
 
-    public Fuel fuel;
     
     [SerializeField] float speedY = 6f;
     [SerializeField] float speedZ = 6f;
@@ -20,14 +19,13 @@ public class Controller : MonoBehaviour
     
     public Transform point; // The point to which the object should be kept within a certain distance
     public float maxDistance = 5f; // The maximum distance the object can be from the point
+    public GameObject JoystickBackground;
     
-
+    public Fuel fuel;
     public UIManager uı;
-
     public Rigidbody character;
-
     public Animator animator;
-    
+
     Vector3 firstpos;
     
     
@@ -43,6 +41,7 @@ public class Controller : MonoBehaviour
         
         animationHandler();
         MovePlayer(speedY,speedZ);
+        MovementStopping();
     }
 
 
@@ -122,16 +121,28 @@ public class Controller : MonoBehaviour
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
-                    Debug.Log(firstpos.y - character.transform.position.y );
+                    //Debug.Log(firstpos.y - character.transform.position.y );
                 }
                 else
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, 0, character.velocity.z);
-                    Debug.Log("stop");
+                    //Debug.Log("stop");
                 }
         }
         
+        
+    }
+
+
+    void MovementStopping()
+    {
+        if(JoystickBackground.activeSelf == false)
+        {
+            Debug.Log("stop");
+            character.velocity =
+            new Vector3(character.velocity.x, 0, character.velocity.z);
+        }
     }
 
 
