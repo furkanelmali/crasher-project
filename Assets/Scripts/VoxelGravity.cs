@@ -2,6 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+
+
 
 public class VoxelGravity : MonoBehaviour
 { 
@@ -10,11 +13,13 @@ public class VoxelGravity : MonoBehaviour
     public Power power;
 
     private LevelSystem levelsystem;
-    
-    
+
+   
+
 
     private void Start()
     {
+       
         rb = GetComponent<Rigidbody>();
         power = FindObjectOfType<Power>();
         levelsystem = FindObjectOfType<LevelSystem>();
@@ -38,10 +43,10 @@ public class VoxelGravity : MonoBehaviour
         if (damageCount <= 0)
         {
             rb.isKinematic = false;
-            rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezePositionX;
             rb.useGravity = true;
-            //transform.parent = null;
+            
+            
             
         }
     }
@@ -54,5 +59,7 @@ public class VoxelGravity : MonoBehaviour
             damageCheck();
         }
     }
+
+    
 }
     

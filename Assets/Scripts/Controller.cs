@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody), typeof(BoxCollider))]
+[RequireComponent(typeof(Rigidbody), typeof(MeshCollider))]
 public class Controller : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
@@ -26,34 +26,36 @@ public class Controller : MonoBehaviour
     public Rigidbody character;
     public Animator animator;
 
+    
+
     Vector3 firstpos;
     
     
     void Start()
     {
       firstpos = new Vector3(character.transform.position.x,character.transform.position.y,character.transform.position.z);
+      
     }
 
-    // Update is called once per frame
-    void Update()
-    { 
+    
+    
+
+    void FixedUpdate()
+    {
         PositionHandler();
-        
         animationHandler();
         MovePlayer(speedY,speedZ);
         MovementStopping();
     }
-
-
-    
     public void MovePlayer(float speedy,float speedz)
     {
         if (fuel.currentFuel > 0)
         {
             if(Input.touchCount > 0 || Input.GetMouseButton(0))
-            {
+            {      
+               
                 _rigidbody.velocity =
-                    new Vector3(_rigidbody.velocity.x, (joystick.Vertical*speedY)-(joystick.Vertical*speedCh), joystick.Horizontal * speedz * (-1));
+                    new Vector3(_rigidbody.velocity.x, (joystick.Vertical*speedY), joystick.Horizontal * speedz * (-1));
                 characterMover();
                 var zValue = Input.GetAxis("Horizontal") * Time.deltaTime * speedy;
                 var yValue = Input.GetAxis("Vertical") * Time.deltaTime * speedz;
@@ -106,13 +108,13 @@ public class Controller : MonoBehaviour
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
-                    Debug.Log(firstpos.y - character.transform.position.y );
+                    
                 }
                 else
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, 0, character.velocity.z);
-                    Debug.Log("stop");
+                    
                 }
         }
         else if(joystick.Vertical < 0)
@@ -121,13 +123,13 @@ public class Controller : MonoBehaviour
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
-                    //Debug.Log(firstpos.y - character.transform.position.y );
+                    
                 }
                 else
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, 0, character.velocity.z);
-                    //Debug.Log("stop");
+                    
                 }
         }
         
@@ -139,7 +141,6 @@ public class Controller : MonoBehaviour
     {
         if(JoystickBackground.activeSelf == false)
         {
-            Debug.Log("stop");
             character.velocity =
             new Vector3(character.velocity.x, 0, character.velocity.z);
         }

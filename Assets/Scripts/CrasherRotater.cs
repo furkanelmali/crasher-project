@@ -10,7 +10,7 @@ public class CrasherRotater : MonoBehaviour
     private Rigidbody rb;
     
 
-    public Transform point;
+    
     // Start is called before the first frame update
     void Start()
     {
