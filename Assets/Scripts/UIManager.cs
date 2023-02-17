@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainMenu,GameMenu,GameOverMenu,LevelUpMenu;
+    public GameObject MainMenu,GameMenu;
     public TextMeshProUGUI TotalGoldText;
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
@@ -17,7 +17,6 @@ public class UIManager : MonoBehaviour
     public Fuel fuel;
     private Power pw;
     public MarketSystem ms;
-    LevelSystem ls;
 
     Length length;
     
@@ -29,7 +28,7 @@ public class UIManager : MonoBehaviour
         length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
 
-        ls = FindObjectOfType<LevelSystem>();
+        
     
     }
 
@@ -76,11 +75,10 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         GameMenu.SetActive(false);
-        GameOverMenu.SetActive(true);
+        MainMenu.SetActive(true);
         gd.totalCoin +=  gd.goldCoin;
         PlayerPrefs.SetInt("Gold",gd.totalCoin);
-        //SceneManager.LoadScene(0);
-        Pause();
+        SceneManager.LoadScene(0);
     }
 
     public void startingFuelUp()
@@ -125,19 +123,10 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
             PlayerPrefs.SetInt("ArmNum", length.armNum);
             ScalePrize.text = PlayerPrefs.GetInt("ScalePrize").ToString();
+
+            
         }
     }
-
-    public void LevelUpScene()
-    {
-        GameMenu.SetActive(false);
-        LevelUpMenu.SetActive(true);
-        gd.totalCoin +=  gd.goldCoin;
-        PlayerPrefs.SetInt("Gold",gd.totalCoin);
-        Pause();
-    }
-
-  
 
     public float PlayerPrefsFloatKey (string key, float defValue)
     {
@@ -164,18 +153,6 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt(key, (int)defValue);
             return (int)defValue;
         }
-    }
-
-
-    public void returnMainMenu()
-    {
-        SceneManager.LoadScene(ls.currentLevelNum);
-    }
-
-    public void retry()
-    {
-        SceneManager.LoadScene(ls.currentLevelNum);
-        PlayBtn();
     }
 
 
