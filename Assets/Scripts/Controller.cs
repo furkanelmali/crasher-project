@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody), typeof(BoxCollider))]
+[RequireComponent(typeof(Rigidbody))]
 public class Controller : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
@@ -15,7 +15,7 @@ public class Controller : MonoBehaviour
     [SerializeField] float speedZ = 6f;
     [SerializeField] private float speedCh = 3f;
 
-    [SerializeField] [Range(0,1)] Transform movementFactor;
+    
     
     public Transform point; // The point to which the object should be kept within a certain distance
     public float maxDistance = 5f; // The maximum distance the object can be from the point
@@ -53,11 +53,8 @@ public class Controller : MonoBehaviour
             if(Input.touchCount > 0 || Input.GetMouseButton(0))
             {
                 _rigidbody.velocity =
-                    new Vector3(_rigidbody.velocity.x, (joystick.Vertical*speedY)-(joystick.Vertical*speedCh), joystick.Horizontal * speedz * (-1));
+                    new Vector3(_rigidbody.velocity.x, (joystick.Vertical*speedY), joystick.Horizontal * speedz * (-1));
                 characterMover();
-                var zValue = Input.GetAxis("Horizontal") * Time.deltaTime * speedy;
-                var yValue = Input.GetAxis("Vertical") * Time.deltaTime * speedz;
-                transform.Translate(zValue, 0, yValue);
                 fuel.fuelDown();
             }  
             
