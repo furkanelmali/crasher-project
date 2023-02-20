@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainMenu,GameMenu;
+    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu;
     public TextMeshProUGUI TotalGoldText;
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     private Power pw;
     public MarketSystem ms;
 
+    LevelSystem LevelSystem;
+
     Length length;
     
 
@@ -25,6 +27,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         
+        LevelSystem = FindObjectOfType<LevelSystem>();
         length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
 
@@ -43,9 +46,9 @@ public class UIManager : MonoBehaviour
         {
             gd.totalCoin = PlayerPrefs.GetInt("Gold");
             TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
-            FuelPrize.text = PlayerPrefs.GetInt("FuelPrize").ToString();
-            PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString(); 
-            ScalePrize.text = PlayerPrefs.GetInt("ScalePrize").ToString();
+            FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
+            PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
+            ScalePrize.text = prizeTextChangerInt(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
             
             Pause();
         }
@@ -75,10 +78,20 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         GameMenu.SetActive(false);
-        MainMenu.SetActive(true);
+        GameOverMenu.SetActive(true);
         gd.totalCoin +=  gd.goldCoin;
         PlayerPrefs.SetInt("Gold",gd.totalCoin);
-        SceneManager.LoadScene(0);
+        Pause();
+        
+    }
+
+    public void LevelUp()
+    {   
+        GameMenu.SetActive(false);
+        FinishMenu.SetActive(true);
+        gd.totalCoin +=  gd.goldCoin;
+        PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        Pause();
     }
 
     public void startingFuelUp()
@@ -89,7 +102,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetFloat("Fuel",fuel.currentFuel);
             ms.fuelPrize = ms.prizeUpdater(ms.fuelPrize);
             PlayerPrefs.SetInt("FuelPrize", ms.fuelPrize);
-            FuelPrize.text = PlayerPrefs.GetInt("FuelPrize").ToString();
+            FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
             gd.totalCoin -= ms.fuelPrize;
             PlayerPrefs.SetInt("Gold", gd.totalCoin);
         }
@@ -104,7 +117,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetFloat("Power",pw.power);
             ms.powerPrize = ms.prizeUpdater(ms.powerPrize);
             PlayerPrefs.SetInt("PowerPrize",ms.powerPrize);
-            PowerPrize.text = PlayerPrefs.GetInt("PowerPrize").ToString();
+            PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
             gd.totalCoin -= ms.powerPrize;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
         }
@@ -122,7 +135,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("ScalePrize",ms.scalePrize);
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
             PlayerPrefs.SetInt("ArmNum", length.armNum);
-            ScalePrize.text = PlayerPrefs.GetInt("ScalePrize").ToString();
+            ScalePrize.text = prizeTextChangerFloat(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
 
             
         }
@@ -152,6 +165,37 @@ public class UIManager : MonoBehaviour
         {
             PlayerPrefs.SetInt(key, (int)defValue);
             return (int)defValue;
+        }
+    }
+
+    public void MainMenuBtn()
+    {
+        SceneManager.LoadScene(LevelSystem.currentLevelNum);
+    }
+
+    public string prizeTextChangerFloat(float max, float current, int prize)
+    {
+        if (max > current)
+        {
+           string prizet = prize.ToString();
+           return prizet;
+        }
+        else
+        {
+            return "MAX";
+        }
+    }
+
+    public string prizeTextChangerInt(int max, int current, int prize)
+    {
+        if (max > current)
+        {
+            string prizet = prize.ToString();
+            return prizet;
+        }
+        else
+        {
+            return "MAX";
         }
     }
 

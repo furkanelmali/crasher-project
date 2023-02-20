@@ -13,9 +13,12 @@ public class LevelSystem : MonoBehaviour
     public int currentLevelNum = 0;
 
     public Slider levelBar;
+
+    UIManager uıManager;
     // Start is called before the first frame update
     void Start()
     {
+        uıManager = FindObjectOfType<UIManager>();
         firstVoxelNum = transform.childCount;
         currentVoxelNum = transform.childCount;
 
@@ -35,10 +38,15 @@ public class LevelSystem : MonoBehaviour
     public void levelChange()
     {
         currentLevelNum ++;
+        uıManager.LevelUp();    
     }
 
     void levelBarChanger()
     {
+        if(currentVoxelNum <= 10)
+        {
+            levelChange();
+        }
         destroyedVoxelNum = firstVoxelNum - currentVoxelNum;
         levelBar.value = destroyedVoxelNum;
     }
