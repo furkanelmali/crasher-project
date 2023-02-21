@@ -135,7 +135,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("ScalePrize",ms.scalePrize);
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
             PlayerPrefs.SetInt("ArmNum", length.armNum);
-            ScalePrize.text = prizeTextChangerFloat(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
+            ScalePrize.text = prizeTextChangerInt(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
 
             
         }
