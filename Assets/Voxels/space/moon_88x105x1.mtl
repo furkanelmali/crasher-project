@@ -1,0 +1,12859 @@
+newmtl RGB_007EA6
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2898B2
+	Ka 0.0 0.0 0.0
+	Kd .1569 .5961 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_329FB8
+	Ka 0.0 0.0 0.0
+	Kd .1961 .6235 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_26ACC5
+	Ka 0.0 0.0 0.0
+	Kd .149 .6745 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1B9DB9
+	Ka 0.0 0.0 0.0
+	Kd .1059 .6157 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1088A4
+	Ka 0.0 0.0 0.0
+	Kd .0627 .5333 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3F95AC
+	Ka 0.0 0.0 0.0
+	Kd .2471 .5843 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2FB5CB
+	Ka 0.0 0.0 0.0
+	Kd .1843 .7098 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2EB4CA
+	Ka 0.0 0.0 0.0
+	Kd .1804 .7059 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0281A4
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5059 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007AA0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007B9F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_018AA6
+	Ka 0.0 0.0 0.0
+	Kd .0039 .5412 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_37A6B9
+	Ka 0.0 0.0 0.0
+	Kd .2157 .651 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3497AF
+	Ka 0.0 0.0 0.0
+	Kd .2039 .5922 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3C7588
+	Ka 0.0 0.0 0.0
+	Kd .2353 .4588 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30B6CB
+	Ka 0.0 0.0 0.0
+	Kd .1882 .7137 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30B7CA
+	Ka 0.0 0.0 0.0
+	Kd .1882 .7176 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1193B4
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5765 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_108FB2
+	Ka 0.0 0.0 0.0
+	Kd .0627 .5608 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00769D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4627 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007BA2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_148EAB
+	Ka 0.0 0.0 0.0
+	Kd .0784 .5569 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_178DA6
+	Ka 0.0 0.0 0.0
+	Kd .0902 .5529 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_23A5C0
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6471 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007B9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_32B8CC
+	Ka 0.0 0.0 0.0
+	Kd .1961 .7216 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007A9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1595B7
+	Ka 0.0 0.0 0.0
+	Kd .0824 .5843 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1293B4
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5765 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1091B3
+	Ka 0.0 0.0 0.0
+	Kd .0627 .5686 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0586AD
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5255 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0384AB
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5176 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006D97
+	Ka 0.0 0.0 0.0
+	Kd 0 .4275 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2295AC
+	Ka 0.0 0.0 0.0
+	Kd .1333 .5843 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2995B0
+	Ka 0.0 0.0 0.0
+	Kd .1608 .5843 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E89AA
+	Ka 0.0 0.0 0.0
+	Kd .0549 .5373 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0384A9
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5176 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007B9D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34BBCC
+	Ka 0.0 0.0 0.0
+	Kd .2039 .7333 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33B9CD
+	Ka 0.0 0.0 0.0
+	Kd .2 .7255 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1099B6
+	Ka 0.0 0.0 0.0
+	Kd .0627 .6 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1596B6
+	Ka 0.0 0.0 0.0
+	Kd .0824 .5882 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1293B3
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5765 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00678F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4039 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0688AC
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5333 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0484AB
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5176 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006892
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0072A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4471 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006A95
+	Ka 0.0 0.0 0.0
+	Kd 0 .4157 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F89B9
+	Ka 0.0 0.0 0.0
+	Kd .0588 .5373 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_218FAF
+	Ka 0.0 0.0 0.0
+	Kd .1294 .5608 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_088FAD
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5608 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_35BCCD
+	Ka 0.0 0.0 0.0
+	Kd .2078 .7373 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34BBCD
+	Ka 0.0 0.0 0.0
+	Kd .2039 .7333 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2CB3C9
+	Ka 0.0 0.0 0.0
+	Kd .1725 .702 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1EA2BE
+	Ka 0.0 0.0 0.0
+	Kd .1176 .6353 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0482A7
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5098 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A8BB0
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5451 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0788AD
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5333 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007AA5
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0074A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4549 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006891
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006696
+	Ka 0.0 0.0 0.0
+	Kd 0 .4 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1F99B9
+	Ka 0.0 0.0 0.0
+	Kd .1216 .6 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_298AA3
+	Ka 0.0 0.0 0.0
+	Kd .1608 .5412 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1888AE
+	Ka 0.0 0.0 0.0
+	Kd .0941 .5333 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0288A8
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5333 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_47C1D3
+	Ka 0.0 0.0 0.0
+	Kd .2784 .7569 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_209FC5
+	Ka 0.0 0.0 0.0
+	Kd .1255 .6235 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0886B9
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5255 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2FB5CA
+	Ka 0.0 0.0 0.0
+	Kd .1843 .7098 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_21A8C3
+	Ka 0.0 0.0 0.0
+	Kd .1294 .6588 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8CAF
+	Ka 0.0 0.0 0.0
+	Kd .0431 .549 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007DA7
+	Ka 0.0 0.0 0.0
+	Kd 0 .4902 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007AA4
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006896
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00679A
+	Ka 0.0 0.0 0.0
+	Kd 0 .4039 .6039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006597
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006495
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006C96
+	Ka 0.0 0.0 0.0
+	Kd 0 .4235 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_269CB9
+	Ka 0.0 0.0 0.0
+	Kd .149 .6118 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_168CB0
+	Ka 0.0 0.0 0.0
+	Kd .0863 .549 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5BC8D9
+	Ka 0.0 0.0 0.0
+	Kd .3569 .7843 .851
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_56C6D7
+	Ka 0.0 0.0 0.0
+	Kd .3373 .7765 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_43C0D3
+	Ka 0.0 0.0 0.0
+	Kd .2627 .7529 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A89BA
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5373 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25AFC6
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6863 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1292B4
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5725 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007099
+	Ka 0.0 0.0 0.0
+	Kd 0 .4392 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0281A9
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5059 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0079A4
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006A9C
+	Ka 0.0 0.0 0.0
+	Kd 0 .4157 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00608F
+	Ka 0.0 0.0 0.0
+	Kd 0 .3765 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005B8C
+	Ka 0.0 0.0 0.0
+	Kd 0 .3569 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005A8A
+	Ka 0.0 0.0 0.0
+	Kd 0 .3529 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1F8EAB
+	Ka 0.0 0.0 0.0
+	Kd .1216 .5569 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3B9DB8
+	Ka 0.0 0.0 0.0
+	Kd .2314 .6157 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2591AC
+	Ka 0.0 0.0 0.0
+	Kd .1451 .5686 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2592AE
+	Ka 0.0 0.0 0.0
+	Kd .1451 .5725 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_60CBDA
+	Ka 0.0 0.0 0.0
+	Kd .3765 .7961 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_54C7D6
+	Ka 0.0 0.0 0.0
+	Kd .3294 .7804 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_48C1D4
+	Ka 0.0 0.0 0.0
+	Kd .2824 .7569 .8314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34BACE
+	Ka 0.0 0.0 0.0
+	Kd .2039 .7294 .8078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0989BA
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5373 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0682B7
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5098 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_23ABC4
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6706 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0483AA
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5137 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007EA7
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0072A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4471 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00689B
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005F91
+	Ka 0.0 0.0 0.0
+	Kd 0 .3725 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005C8D
+	Ka 0.0 0.0 0.0
+	Kd 0 .3608 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00598A
+	Ka 0.0 0.0 0.0
+	Kd 0 .349 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005081
+	Ka 0.0 0.0 0.0
+	Kd 0 .3137 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005785
+	Ka 0.0 0.0 0.0
+	Kd 0 .3412 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1189AA
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5373 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_198DA7
+	Ka 0.0 0.0 0.0
+	Kd .098 .5529 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0680A5
+	Ka 0.0 0.0 0.0
+	Kd .0235 .502 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6CCEDD
+	Ka 0.0 0.0 0.0
+	Kd .4235 .8078 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_62CADB
+	Ka 0.0 0.0 0.0
+	Kd .3843 .7922 .8588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_57C7D7
+	Ka 0.0 0.0 0.0
+	Kd .3412 .7804 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_38BCCE
+	Ka 0.0 0.0 0.0
+	Kd .2196 .7373 .8078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_27B0C8
+	Ka 0.0 0.0 0.0
+	Kd .1529 .6902 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_23AAC5
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6667 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0064A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0280A8
+	Ka 0.0 0.0 0.0
+	Kd .0078 .502 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0077A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4667 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0073A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .451 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006C9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4235 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006596
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006393
+	Ka 0.0 0.0 0.0
+	Kd 0 .3882 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006192
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00618E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005484
+	Ka 0.0 0.0 0.0
+	Kd 0 .3294 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005181
+	Ka 0.0 0.0 0.0
+	Kd 0 .3176 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006893
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004271
+	Ka 0.0 0.0 0.0
+	Kd 0 .2588 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00799F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A88A3
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5333 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1684B0
+	Ka 0.0 0.0 0.0
+	Kd .0863 .5176 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0885A7
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5216 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_76D1E0
+	Ka 0.0 0.0 0.0
+	Kd .4627 .8196 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_71D0DF
+	Ka 0.0 0.0 0.0
+	Kd .4431 .8157 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_41BFD1
+	Ka 0.0 0.0 0.0
+	Kd .2549 .749 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_29B2C9
+	Ka 0.0 0.0 0.0
+	Kd .1608 .698 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D8EB0
+	Ka 0.0 0.0 0.0
+	Kd .051 .5569 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_098AAF
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5412 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0889AE
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5373 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005896
+	Ka 0.0 0.0 0.0
+	Kd 0 .3451 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0078A4
+	Ka 0.0 0.0 0.0
+	Kd 0 .4706 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006791
+	Ka 0.0 0.0 0.0
+	Kd 0 .4039 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006394
+	Ka 0.0 0.0 0.0
+	Kd 0 .3882 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006092
+	Ka 0.0 0.0 0.0
+	Kd 0 .3765 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005889
+	Ka 0.0 0.0 0.0
+	Kd 0 .3451 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005485
+	Ka 0.0 0.0 0.0
+	Kd 0 .3294 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00668F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004979
+	Ka 0.0 0.0 0.0
+	Kd 0 .2863 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004574
+	Ka 0.0 0.0 0.0
+	Kd 0 .2706 .4549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003B69
+	Ka 0.0 0.0 0.0
+	Kd 0 .2314 .4118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1689A9
+	Ka 0.0 0.0 0.0
+	Kd .0863 .5373 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1A88A5
+	Ka 0.0 0.0 0.0
+	Kd .102 .5333 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0082A5
+	Ka 0.0 0.0 0.0
+	Kd 0 .5098 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_158BAA
+	Ka 0.0 0.0 0.0
+	Kd .0824 .5451 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_397994
+	Ka 0.0 0.0 0.0
+	Kd .2235 .4745 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7BD4E2
+	Ka 0.0 0.0 0.0
+	Kd .4824 .8314 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_70CFDF
+	Ka 0.0 0.0 0.0
+	Kd .4392 .8118 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5DC7D9
+	Ka 0.0 0.0 0.0
+	Kd .3647 .7804 .851
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_28B2C9
+	Ka 0.0 0.0 0.0
+	Kd .1569 .698 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1EA7C3
+	Ka 0.0 0.0 0.0
+	Kd .1176 .6549 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8CB0
+	Ka 0.0 0.0 0.0
+	Kd .0431 .549 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0789AD
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5373 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005A98
+	Ka 0.0 0.0 0.0
+	Kd 0 .3529 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0073A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .451 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006494
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005482
+	Ka 0.0 0.0 0.0
+	Kd 0 .3294 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004675
+	Ka 0.0 0.0 0.0
+	Kd 0 .2745 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004776
+	Ka 0.0 0.0 0.0
+	Kd 0 .2784 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006993
+	Ka 0.0 0.0 0.0
+	Kd 0 .4118 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1F92AB
+	Ka 0.0 0.0 0.0
+	Kd .1216 .5725 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007DA2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4902 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88D8E7
+	Ka 0.0 0.0 0.0
+	Kd .5333 .8471 .9059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7DD5E4
+	Ka 0.0 0.0 0.0
+	Kd .4902 .8353 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_54C6D7
+	Ka 0.0 0.0 0.0
+	Kd .3294 .7765 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_42BFD3
+	Ka 0.0 0.0 0.0
+	Kd .2588 .749 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A8FAD
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5608 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30B6CA
+	Ka 0.0 0.0 0.0
+	Kd .1882 .7137 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1FA8C0
+	Ka 0.0 0.0 0.0
+	Kd .1216 .6588 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_23ABC5
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6706 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1FA7C3
+	Ka 0.0 0.0 0.0
+	Kd .1216 .6549 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080A9
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007CA6
+	Ka 0.0 0.0 0.0
+	Kd 0 .4863 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0078A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4706 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004F91
+	Ka 0.0 0.0 0.0
+	Kd 0 .3098 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004C8C
+	Ka 0.0 0.0 0.0
+	Kd 0 .298 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006091
+	Ka 0.0 0.0 0.0
+	Kd 0 .3765 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005B8B
+	Ka 0.0 0.0 0.0
+	Kd 0 .3569 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004C7C
+	Ka 0.0 0.0 0.0
+	Kd 0 .298 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003C6A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2353 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005B85
+	Ka 0.0 0.0 0.0
+	Kd 0 .3569 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D84A8
+	Ka 0.0 0.0 0.0
+	Kd .051 .5176 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_118BA7
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5451 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_138AAA
+	Ka 0.0 0.0 0.0
+	Kd .0745 .5412 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006295
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_95DCEB
+	Ka 0.0 0.0 0.0
+	Kd .5843 .8627 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_38A4D5
+	Ka 0.0 0.0 0.0
+	Kd .2196 .6431 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1081B5
+	Ka 0.0 0.0 0.0
+	Kd .0627 .5059 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_63CBDC
+	Ka 0.0 0.0 0.0
+	Kd .3882 .7961 .8627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_51C5D6
+	Ka 0.0 0.0 0.0
+	Kd .3176 .7725 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_35BBCD
+	Ka 0.0 0.0 0.0
+	Kd .2078 .7333 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_28B0C8
+	Ka 0.0 0.0 0.0
+	Kd .1569 .6902 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25ABC6
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6706 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1FA8C3
+	Ka 0.0 0.0 0.0
+	Kd .1216 .6588 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0586AE
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5255 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081AA
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00779F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4667 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006B9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4196 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004687
+	Ka 0.0 0.0 0.0
+	Kd 0 .2745 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004D88
+	Ka 0.0 0.0 0.0
+	Kd 0 .302 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005483
+	Ka 0.0 0.0 0.0
+	Kd 0 .3294 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004C7D
+	Ka 0.0 0.0 0.0
+	Kd 0 .298 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004573
+	Ka 0.0 0.0 0.0
+	Kd 0 .2706 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003F6B
+	Ka 0.0 0.0 0.0
+	Kd 0 .2471 .4196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B86A5
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5255 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0783A7
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5137 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0986A7
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5255 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1A94B2
+	Ka 0.0 0.0 0.0
+	Kd .102 .5804 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_198FAE
+	Ka 0.0 0.0 0.0
+	Kd .098 .5608 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9EDFEB
+	Ka 0.0 0.0 0.0
+	Kd .6196 .8745 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_98DEEB
+	Ka 0.0 0.0 0.0
+	Kd .5961 .8706 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_78D1E0
+	Ka 0.0 0.0 0.0
+	Kd .4706 .8196 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3EAAD1
+	Ka 0.0 0.0 0.0
+	Kd .2431 .6667 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_259BC8
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6078 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33BACC
+	Ka 0.0 0.0 0.0
+	Kd .2 .7294 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_29B2C8
+	Ka 0.0 0.0 0.0
+	Kd .1608 .698 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_26B0C7
+	Ka 0.0 0.0 0.0
+	Kd .149 .6902 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25AEC6
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6824 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_169CBC
+	Ka 0.0 0.0 0.0
+	Kd .0863 .6118 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0485AC
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5216 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006A9D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4157 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006293
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004384
+	Ka 0.0 0.0 0.0
+	Kd 0 .2627 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003C7B
+	Ka 0.0 0.0 0.0
+	Kd 0 .2353 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004F80
+	Ka 0.0 0.0 0.0
+	Kd 0 .3098 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004878
+	Ka 0.0 0.0 0.0
+	Kd 0 .2824 .4706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00416E
+	Ka 0.0 0.0 0.0
+	Kd 0 .2549 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00628B
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0382A5
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5098 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D85AB
+	Ka 0.0 0.0 0.0
+	Kd .051 .5216 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9E4F0
+	Ka 0.0 0.0 0.0
+	Kd .6627 .8941 .9412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4E1ED
+	Ka 0.0 0.0 0.0
+	Kd .6431 .8824 .9294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_97DDEA
+	Ka 0.0 0.0 0.0
+	Kd .5922 .8667 .9176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7CD4E2
+	Ka 0.0 0.0 0.0
+	Kd .4863 .8314 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_71CFDF
+	Ka 0.0 0.0 0.0
+	Kd .4431 .8118 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2295C8
+	Ka 0.0 0.0 0.0
+	Kd .1333 .5843 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_128FC0
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5608 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34BACC
+	Ka 0.0 0.0 0.0
+	Kd .2039 .7294 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2AB0C8
+	Ka 0.0 0.0 0.0
+	Kd .1647 .6902 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_28B2C8
+	Ka 0.0 0.0 0.0
+	Kd .1569 .698 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0086A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .5255 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0586AB
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5255 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006E9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4314 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006496
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006294
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003E7C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2431 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A79
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00406C
+	Ka 0.0 0.0 0.0
+	Kd 0 .251 .4235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004471
+	Ka 0.0 0.0 0.0
+	Kd 0 .2667 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00628C
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007DA0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4902 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B2E7F2
+	Ka 0.0 0.0 0.0
+	Kd .698 .9059 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFE6F2
+	Ka 0.0 0.0 0.0
+	Kd .6863 .902 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5E2EF
+	Ka 0.0 0.0 0.0
+	Kd .6471 .8863 .9373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89D8E7
+	Ka 0.0 0.0 0.0
+	Kd .5373 .8471 .9059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7ED5E2
+	Ka 0.0 0.0 0.0
+	Kd .4941 .8353 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6CCDDE
+	Ka 0.0 0.0 0.0
+	Kd .4235 .8039 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4FC4D5
+	Ka 0.0 0.0 0.0
+	Kd .3098 .7686 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D8BBD
+	Ka 0.0 0.0 0.0
+	Kd .051 .5451 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007A9D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1DA5C1
+	Ka 0.0 0.0 0.0
+	Kd .1137 .6471 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_098BAF
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5451 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005586
+	Ka 0.0 0.0 0.0
+	Kd 0 .3333 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003F76
+	Ka 0.0 0.0 0.0
+	Kd 0 .2471 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003471
+	Ka 0.0 0.0 0.0
+	Kd 0 .2039 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00799E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBEAF5
+	Ka 0.0 0.0 0.0
+	Kd .7333 .9176 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7E9F5
+	Ka 0.0 0.0 0.0
+	Kd .7176 .9137 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B3E7F2
+	Ka 0.0 0.0 0.0
+	Kd .702 .9059 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_92DBE9
+	Ka 0.0 0.0 0.0
+	Kd .5725 .8588 .9137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_87D8E6
+	Ka 0.0 0.0 0.0
+	Kd .5294 .8471 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E8BAA
+	Ka 0.0 0.0 0.0
+	Kd .0549 .5451 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5DC9DA
+	Ka 0.0 0.0 0.0
+	Kd .3647 .7882 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_40BFD1
+	Ka 0.0 0.0 0.0
+	Kd .251 .749 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25AAC7
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6667 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0987BB
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5294 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005991
+	Ka 0.0 0.0 0.0
+	Kd 0 .349 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_22A9C5
+	Ka 0.0 0.0 0.0
+	Kd .1333 .6627 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1EA6C3
+	Ka 0.0 0.0 0.0
+	Kd .1176 .651 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007BA6
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00709E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4392 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006B9C
+	Ka 0.0 0.0 0.0
+	Kd 0 .4196 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006799
+	Ka 0.0 0.0 0.0
+	Kd 0 .4039 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005080
+	Ka 0.0 0.0 0.0
+	Kd 0 .3137 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002C65
+	Ka 0.0 0.0 0.0
+	Kd 0 .1725 .3961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_015870
+	Ka 0.0 0.0 0.0
+	Kd .0039 .3451 .4392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6EDF8
+	Ka 0.0 0.0 0.0
+	Kd .7765 .9294 .9725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCEAF6
+	Ka 0.0 0.0 0.0
+	Kd .7373 .9176 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B2E6F2
+	Ka 0.0 0.0 0.0
+	Kd .698 .902 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8BD9E8
+	Ka 0.0 0.0 0.0
+	Kd .5451 .851 .9098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5CC8D9
+	Ka 0.0 0.0 0.0
+	Kd .3608 .7843 .851
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_50C4D5
+	Ka 0.0 0.0 0.0
+	Kd .3137 .7686 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_45C0D1
+	Ka 0.0 0.0 0.0
+	Kd .2706 .7529 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8ABA
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5412 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0682B6
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5098 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B92B5
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5725 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0280A9
+	Ka 0.0 0.0 0.0
+	Kd .0078 .502 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005F8E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3725 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005C8C
+	Ka 0.0 0.0 0.0
+	Kd 0 .3608 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00658F
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002962
+	Ka 0.0 0.0 0.0
+	Kd 0 .1608 .3843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A68
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .4078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0284A8
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5176 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_77B0C5
+	Ka 0.0 0.0 0.0
+	Kd .4667 .6902 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D5F2FD
+	Ka 0.0 0.0 0.0
+	Kd .8353 .949 .9922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CAEFFB
+	Ka 0.0 0.0 0.0
+	Kd .7922 .9373 .9843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4E1EE
+	Ka 0.0 0.0 0.0
+	Kd .6431 .8824 .9333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_99DEEB
+	Ka 0.0 0.0 0.0
+	Kd .6 .8706 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0082A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .5098 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_69CDDD
+	Ka 0.0 0.0 0.0
+	Kd .4118 .8039 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_60CADA
+	Ka 0.0 0.0 0.0
+	Kd .3765 .7922 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4BBFD3
+	Ka 0.0 0.0 0.0
+	Kd .2941 .749 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2BB2C8
+	Ka 0.0 0.0 0.0
+	Kd .1686 .698 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_27AFC7
+	Ka 0.0 0.0 0.0
+	Kd .1529 .6863 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_047DB5
+	Ka 0.0 0.0 0.0
+	Kd .0157 .4902 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0078AF
+	Ka 0.0 0.0 0.0
+	Kd 0 .4706 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_119ABA
+	Ka 0.0 0.0 0.0
+	Kd .0667 .6039 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006595
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004D7E
+	Ka 0.0 0.0 0.0
+	Kd 0 .302 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004373
+	Ka 0.0 0.0 0.0
+	Kd 0 .2627 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00638C
+	Ka 0.0 0.0 0.0
+	Kd 0 .3882 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002761
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003667
+	Ka 0.0 0.0 0.0
+	Kd 0 .2118 .4039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081A4
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3F8EA6
+	Ka 0.0 0.0 0.0
+	Kd .2471 .5569 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E4F7FF
+	Ka 0.0 0.0 0.0
+	Kd .8941 .9686 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D3F2FC
+	Ka 0.0 0.0 0.0
+	Kd .8275 .949 .9882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_74BED4
+	Ka 0.0 0.0 0.0
+	Kd .4549 .7451 .8314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADE5F2
+	Ka 0.0 0.0 0.0
+	Kd .6784 .898 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A2E1ED
+	Ka 0.0 0.0 0.0
+	Kd .6353 .8824 .9294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_80D5E4
+	Ka 0.0 0.0 0.0
+	Kd .502 .8353 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6BCEDD
+	Ka 0.0 0.0 0.0
+	Kd .4196 .8078 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00799D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007EA2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1AA4BF
+	Ka 0.0 0.0 0.0
+	Kd .102 .6431 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_18A0BF
+	Ka 0.0 0.0 0.0
+	Kd .0941 .6275 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00619D
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005786
+	Ka 0.0 0.0 0.0
+	Kd 0 .3412 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005381
+	Ka 0.0 0.0 0.0
+	Kd 0 .3255 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004877
+	Ka 0.0 0.0 0.0
+	Kd 0 .2824 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004371
+	Ka 0.0 0.0 0.0
+	Kd 0 .2627 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_076880
+	Ka 0.0 0.0 0.0
+	Kd .0275 .4078 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E2F7FF
+	Ka 0.0 0.0 0.0
+	Kd .8863 .9686 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D6F5FE
+	Ka 0.0 0.0 0.0
+	Kd .8392 .9608 .9961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1E91AE
+	Ka 0.0 0.0 0.0
+	Kd .1176 .5686 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6E1EF
+	Ka 0.0 0.0 0.0
+	Kd .651 .8824 .9373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_84D7E5
+	Ka 0.0 0.0 0.0
+	Kd .5176 .8431 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6BCEDE
+	Ka 0.0 0.0 0.0
+	Kd .4196 .8078 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_028CAC
+	Ka 0.0 0.0 0.0
+	Kd .0078 .549 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1DA6C1
+	Ka 0.0 0.0 0.0
+	Kd .1137 .651 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0074AE
+	Ka 0.0 0.0 0.0
+	Kd 0 .4549 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005997
+	Ka 0.0 0.0 0.0
+	Kd 0 .349 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00719F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4431 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00658E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A69
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .4118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003B6A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2314 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1F91AD
+	Ka 0.0 0.0 0.0
+	Kd .1216 .5686 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8C9D4
+	Ka 0.0 0.0 0.0
+	Kd .6588 .7882 .8314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_206078
+	Ka 0.0 0.0 0.0
+	Kd .1255 .3765 .4706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_275668
+	Ka 0.0 0.0 0.0
+	Kd .1529 .3373 .4078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_133F55
+	Ka 0.0 0.0 0.0
+	Kd .0745 .2471 .3333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_376977
+	Ka 0.0 0.0 0.0
+	Kd .2157 .4118 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002740
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .251
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_184459
+	Ka 0.0 0.0 0.0
+	Kd .0941 .2667 .349
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_174258
+	Ka 0.0 0.0 0.0
+	Kd .0902 .2588 .3451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_173C52
+	Ka 0.0 0.0 0.0
+	Kd .0902 .2353 .3216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_204653
+	Ka 0.0 0.0 0.0
+	Kd .1255 .2745 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E9FAFF
+	Ka 0.0 0.0 0.0
+	Kd .9137 .9804 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7E2FA
+	Ka 0.0 0.0 0.0
+	Kd .7176 .8863 .9804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_53B3E6
+	Ka 0.0 0.0 0.0
+	Kd .3255 .702 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEEBF7
+	Ka 0.0 0.0 0.0
+	Kd .7451 .9216 .9686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B4E7F4
+	Ka 0.0 0.0 0.0
+	Kd .7059 .9059 .9569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_85D7E5
+	Ka 0.0 0.0 0.0
+	Kd .5216 .8431 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7AD3E1
+	Ka 0.0 0.0 0.0
+	Kd .4784 .8275 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_47B9CD
+	Ka 0.0 0.0 0.0
+	Kd .2784 .7255 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0185A6
+	Ka 0.0 0.0 0.0
+	Kd .0039 .5216 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2FB5C9
+	Ka 0.0 0.0 0.0
+	Kd .1843 .7098 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_19A2BE
+	Ka 0.0 0.0 0.0
+	Kd .098 .6353 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A96B9
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5882 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B86
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005793
+	Ka 0.0 0.0 0.0
+	Kd 0 .3412 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B7B
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004978
+	Ka 0.0 0.0 0.0
+	Kd 0 .2863 .4706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00406E
+	Ka 0.0 0.0 0.0
+	Kd 0 .251 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006E98
+	Ka 0.0 0.0 0.0
+	Kd 0 .4314 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0280A3
+	Ka 0.0 0.0 0.0
+	Kd .0078 .502 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_989898
+	Ka 0.0 0.0 0.0
+	Kd .5961 .5961 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A29F9F
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6235 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8C4C5
+	Ka 0.0 0.0 0.0
+	Kd .7843 .7686 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBDBD
+	Ka 0.0 0.0 0.0
+	Kd .7451 .7412 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A3F55
+	Ka 0.0 0.0 0.0
+	Kd .0392 .2471 .3333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003149
+	Ka 0.0 0.0 0.0
+	Kd 0 .1922 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003146
+	Ka 0.0 0.0 0.0
+	Kd 0 .1922 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003048
+	Ka 0.0 0.0 0.0
+	Kd 0 .1882 .2824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003249
+	Ka 0.0 0.0 0.0
+	Kd 0 .1961 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002E45
+	Ka 0.0 0.0 0.0
+	Kd 0 .1804 .2706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002B44
+	Ka 0.0 0.0 0.0
+	Kd 0 .1686 .2667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8E8F5
+	Ka 0.0 0.0 0.0
+	Kd .7843 .9098 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E9F9FF
+	Ka 0.0 0.0 0.0
+	Kd .9137 .9765 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D7F5FD
+	Ka 0.0 0.0 0.0
+	Kd .8431 .9608 .9922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CCF0FB
+	Ka 0.0 0.0 0.0
+	Kd .8 .9412 .9843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C0ECF6
+	Ka 0.0 0.0 0.0
+	Kd .7529 .9255 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3FA7DA
+	Ka 0.0 0.0 0.0
+	Kd .2471 .6549 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_93DCEA
+	Ka 0.0 0.0 0.0
+	Kd .5765 .8627 .9176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_87D7E6
+	Ka 0.0 0.0 0.0
+	Kd .5294 .8431 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5FC9DA
+	Ka 0.0 0.0 0.0
+	Kd .3725 .7882 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_31B7CB
+	Ka 0.0 0.0 0.0
+	Kd .1922 .7176 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_29B0C7
+	Ka 0.0 0.0 0.0
+	Kd .1608 .6902 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_27AEC7
+	Ka 0.0 0.0 0.0
+	Kd .1529 .6824 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_22AAC5
+	Ka 0.0 0.0 0.0
+	Kd .1333 .6667 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_129BBC
+	Ka 0.0 0.0 0.0
+	Kd .0706 .6078 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B97BA
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5922 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006B9D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4196 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B8D
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004686
+	Ka 0.0 0.0 0.0
+	Kd 0 .2745 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004673
+	Ka 0.0 0.0 0.0
+	Kd 0 .2745 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8E8D8D
+	Ka 0.0 0.0 0.0
+	Kd .5569 .5529 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_878787
+	Ka 0.0 0.0 0.0
+	Kd .5294 .5294 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C0BEBE
+	Ka 0.0 0.0 0.0
+	Kd .7529 .7451 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBCBD
+	Ka 0.0 0.0 0.0
+	Kd .7451 .7373 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_074964
+	Ka 0.0 0.0 0.0
+	Kd .0275 .2863 .3922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A536E
+	Ka 0.0 0.0 0.0
+	Kd .0392 .3255 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A516E
+	Ka 0.0 0.0 0.0
+	Kd .0392 .3176 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_084F6B
+	Ka 0.0 0.0 0.0
+	Kd .0314 .3098 .4196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D4F2FD
+	Ka 0.0 0.0 0.0
+	Kd .8314 .949 .9922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C9EFFA
+	Ka 0.0 0.0 0.0
+	Kd .7882 .9373 .9804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7E2F0
+	Ka 0.0 0.0 0.0
+	Kd .6549 .8863 .9412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A0E0EC
+	Ka 0.0 0.0 0.0
+	Kd .6275 .8784 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_37A2D5
+	Ka 0.0 0.0 0.0
+	Kd .2157 .6353 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_73CFDF
+	Ka 0.0 0.0 0.0
+	Kd .451 .8118 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_37B8CC
+	Ka 0.0 0.0 0.0
+	Kd .2157 .7216 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_169FBE
+	Ka 0.0 0.0 0.0
+	Kd .0863 .6235 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_149DBD
+	Ka 0.0 0.0 0.0
+	Kd .0784 .6157 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0181AA
+	Ka 0.0 0.0 0.0
+	Kd .0039 .5059 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0074A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4549 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004586
+	Ka 0.0 0.0 0.0
+	Kd 0 .2706 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004585
+	Ka 0.0 0.0 0.0
+	Kd 0 .2706 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005787
+	Ka 0.0 0.0 0.0
+	Kd 0 .3412 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005282
+	Ka 0.0 0.0 0.0
+	Kd 0 .3216 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004F7E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3098 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004C79
+	Ka 0.0 0.0 0.0
+	Kd 0 .298 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004372
+	Ka 0.0 0.0 0.0
+	Kd 0 .2627 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004F7A
+	Ka 0.0 0.0 0.0
+	Kd 0 .3098 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9F9F9F
+	Ka 0.0 0.0 0.0
+	Kd .6235 .6235 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBCBD
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7373 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BFBDBE
+	Ka 0.0 0.0 0.0
+	Kd .749 .7412 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ECE6E6
+	Ka 0.0 0.0 0.0
+	Kd .9255 .902 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B5874
+	Ka 0.0 0.0 0.0
+	Kd .0431 .3451 .4549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5572
+	Ka 0.0 0.0 0.0
+	Kd .051 .3333 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B5371
+	Ka 0.0 0.0 0.0
+	Kd .0431 .3255 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E5F7FF
+	Ka 0.0 0.0 0.0
+	Kd .898 .9686 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D8F5FD
+	Ka 0.0 0.0 0.0
+	Kd .8471 .9608 .9922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CEF0FB
+	Ka 0.0 0.0 0.0
+	Kd .8078 .9412 .9843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ABE4F1
+	Ka 0.0 0.0 0.0
+	Kd .6706 .8941 .9451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A0DFED
+	Ka 0.0 0.0 0.0
+	Kd .6275 .8745 .9294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_47ABDA
+	Ka 0.0 0.0 0.0
+	Kd .2784 .6706 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2B9BCF
+	Ka 0.0 0.0 0.0
+	Kd .1686 .6078 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2AB2C8
+	Ka 0.0 0.0 0.0
+	Kd .1647 .698 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_26AFC7
+	Ka 0.0 0.0 0.0
+	Kd .149 .6863 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0083A5
+	Ka 0.0 0.0 0.0
+	Kd 0 .5137 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_139CBD
+	Ka 0.0 0.0 0.0
+	Kd .0745 .6118 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0079A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0075A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4588 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004485
+	Ka 0.0 0.0 0.0
+	Kd 0 .2667 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005283
+	Ka 0.0 0.0 0.0
+	Kd 0 .3216 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5975
+	Ka 0.0 0.0 0.0
+	Kd .051 .349 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5874
+	Ka 0.0 0.0 0.0
+	Kd .051 .3451 .4549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5672
+	Ka 0.0 0.0 0.0
+	Kd .051 .3373 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E8FAFF
+	Ka 0.0 0.0 0.0
+	Kd .9098 .9804 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_188BAB
+	Ka 0.0 0.0 0.0
+	Kd .0941 .5451 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E7F9FF
+	Ka 0.0 0.0 0.0
+	Kd .9059 .9765 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DBF5FE
+	Ka 0.0 0.0 0.0
+	Kd .8588 .9608 .9961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7E8F5
+	Ka 0.0 0.0 0.0
+	Kd .7176 .9098 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_84D6E5
+	Ka 0.0 0.0 0.0
+	Kd .5176 .8392 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_79D1E0
+	Ka 0.0 0.0 0.0
+	Kd .4745 .8196 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5CC0DA
+	Ka 0.0 0.0 0.0
+	Kd .3608 .7529 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1992C5
+	Ka 0.0 0.0 0.0
+	Kd .098 .5725 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0794B8
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5804 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007AA6
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0076A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4627 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006898
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006492
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005887
+	Ka 0.0 0.0 0.0
+	Kd 0 .3451 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B85
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A74
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .4549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_105C77
+	Ka 0.0 0.0 0.0
+	Kd .0627 .3608 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_99D1E1
+	Ka 0.0 0.0 0.0
+	Kd .6 .8196 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C1ECF7
+	Ka 0.0 0.0 0.0
+	Kd .7569 .9255 .9686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBEAF6
+	Ka 0.0 0.0 0.0
+	Kd .7333 .9176 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFE6F0
+	Ka 0.0 0.0 0.0
+	Kd .6863 .902 .9412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8DDAE9
+	Ka 0.0 0.0 0.0
+	Kd .5529 .8549 .9137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_58C7D7
+	Ka 0.0 0.0 0.0
+	Kd .3451 .7804 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_52C5D6
+	Ka 0.0 0.0 0.0
+	Kd .3216 .7725 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_118EBF
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5569 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1494BE
+	Ka 0.0 0.0 0.0
+	Kd .0784 .5804 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30B6CC
+	Ka 0.0 0.0 0.0
+	Kd .1882 .7137 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_24ABC6
+	Ka 0.0 0.0 0.0
+	Kd .1412 .6706 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_20A8C4
+	Ka 0.0 0.0 0.0
+	Kd .1255 .6588 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_109ABA
+	Ka 0.0 0.0 0.0
+	Kd .0627 .6039 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0995B9
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5843 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006698
+	Ka 0.0 0.0 0.0
+	Kd 0 .4 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006497
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005F8B
+	Ka 0.0 0.0 0.0
+	Kd 0 .3725 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003B6C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2314 .4235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAFAFF
+	Ka 0.0 0.0 0.0
+	Kd .9176 .9804 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5EEF9
+	Ka 0.0 0.0 0.0
+	Kd .7725 .9333 .9765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAEAF6
+	Ka 0.0 0.0 0.0
+	Kd .7294 .9176 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_86D7E6
+	Ka 0.0 0.0 0.0
+	Kd .5255 .8431 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00629A
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .6039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8ABB
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5412 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F99BA
+	Ka 0.0 0.0 0.0
+	Kd .0588 .6 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0995B8
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5843 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007BA5
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00608E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3765 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00427B
+	Ka 0.0 0.0 0.0
+	Kd 0 .2588 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002B65
+	Ka 0.0 0.0 0.0
+	Kd 0 .1686 .3961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007C9F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4863 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8EEF9
+	Ka 0.0 0.0 0.0
+	Kd .7843 .9333 .9765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_97D8E8
+	Ka 0.0 0.0 0.0
+	Kd .5922 .8471 .9098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9FDFED
+	Ka 0.0 0.0 0.0
+	Kd .6235 .8745 .9294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_94DCEA
+	Ka 0.0 0.0 0.0
+	Kd .5804 .8627 .9176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6ACEDE
+	Ka 0.0 0.0 0.0
+	Kd .4157 .8078 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1191BC
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5686 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0883B8
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5137 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_23AAC6
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6667 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_159EBD
+	Ka 0.0 0.0 0.0
+	Kd .0824 .6196 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_109ABB
+	Ka 0.0 0.0 0.0
+	Kd .0627 .6039 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005D8E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3647 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004473
+	Ka 0.0 0.0 0.0
+	Kd 0 .2667 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002A63
+	Ka 0.0 0.0 0.0
+	Kd 0 .1647 .3882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AEE6F2
+	Ka 0.0 0.0 0.0
+	Kd .6824 .902 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_79D3E1
+	Ka 0.0 0.0 0.0
+	Kd .4745 .8275 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3CBDCF
+	Ka 0.0 0.0 0.0
+	Kd .2353 .7412 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2EB4C9
+	Ka 0.0 0.0 0.0
+	Kd .1804 .7059 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_20A6C3
+	Ka 0.0 0.0 0.0
+	Kd .1255 .651 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0079B0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_028BAC
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5451 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_028EB4
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5569 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0085AD
+	Ka 0.0 0.0 0.0
+	Kd 0 .5216 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0071A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4431 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00648D
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_172C37
+	Ka 0.0 0.0 0.0
+	Kd .0902 .1725 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_83D6E4
+	Ka 0.0 0.0 0.0
+	Kd .5137 .8392 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_82D6E4
+	Ka 0.0 0.0 0.0
+	Kd .5098 .8392 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7BD3E2
+	Ka 0.0 0.0 0.0
+	Kd .4824 .8275 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3BBCCF
+	Ka 0.0 0.0 0.0
+	Kd .2314 .7373 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0078B2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4706 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005A92
+	Ka 0.0 0.0 0.0
+	Kd 0 .3529 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0793B7
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5765 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008DB5
+	Ka 0.0 0.0 0.0
+	Kd 0 .5529 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0074A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4549 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006895
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006493
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005686
+	Ka 0.0 0.0 0.0
+	Kd 0 .3373 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00779B
+	Ka 0.0 0.0 0.0
+	Kd 0 .4667 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_57C6D7
+	Ka 0.0 0.0 0.0
+	Kd .3412 .7765 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4BC3D5
+	Ka 0.0 0.0 0.0
+	Kd .2941 .7647 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3FBFD1
+	Ka 0.0 0.0 0.0
+	Kd .2471 .749 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1FA7BF
+	Ka 0.0 0.0 0.0
+	Kd .1216 .6549 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0087A7
+	Ka 0.0 0.0 0.0
+	Kd 0 .5294 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_20A8C3
+	Ka 0.0 0.0 0.0
+	Kd .1255 .6588 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1BA5C0
+	Ka 0.0 0.0 0.0
+	Kd .1059 .6471 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006DA8
+	Ka 0.0 0.0 0.0
+	Kd 0 .4275 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_038FB5
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5608 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008AB0
+	Ka 0.0 0.0 0.0
+	Kd 0 .5412 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005888
+	Ka 0.0 0.0 0.0
+	Kd 0 .3451 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1A89A8
+	Ka 0.0 0.0 0.0
+	Kd .102 .5373 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F9F8F5
+	Ka 0.0 0.0 0.0
+	Kd .9765 .9725 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7C80
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4863 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_737679
+	Ka 0.0 0.0 0.0
+	Kd .451 .4627 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_59C7D8
+	Ka 0.0 0.0 0.0
+	Kd .349 .7804 .8471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4DC4D5
+	Ka 0.0 0.0 0.0
+	Kd .302 .7686 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_24ADC6
+	Ka 0.0 0.0 0.0
+	Kd .1412 .6784 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_20A9C4
+	Ka 0.0 0.0 0.0
+	Kd .1255 .6627 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006093
+	Ka 0.0 0.0 0.0
+	Kd 0 .3765 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0060A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .3765 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005A8B
+	Ka 0.0 0.0 0.0
+	Kd 0 .3529 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EEEAE9
+	Ka 0.0 0.0 0.0
+	Kd .9333 .9176 .9137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F9F8F6
+	Ka 0.0 0.0 0.0
+	Kd .9765 .9725 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_58585A
+	Ka 0.0 0.0 0.0
+	Kd .3451 .3451 .3529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7C8083
+	Ka 0.0 0.0 0.0
+	Kd .4863 .502 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_727679
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4627 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_73777A
+	Ka 0.0 0.0 0.0
+	Kd .451 .4667 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2C3134
+	Ka 0.0 0.0 0.0
+	Kd .1725 .1922 .2039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008CB4
+	Ka 0.0 0.0 0.0
+	Kd 0 .549 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008AB2
+	Ka 0.0 0.0 0.0
+	Kd 0 .5412 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006E9F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4314 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005384
+	Ka 0.0 0.0 0.0
+	Kd 0 .3255 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EDE8E8
+	Ka 0.0 0.0 0.0
+	Kd .9294 .9098 .9098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_666667
+	Ka 0.0 0.0 0.0
+	Kd .4 .4 .4039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7A7E83
+	Ka 0.0 0.0 0.0
+	Kd .4784 .4941 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CCCDCF
+	Ka 0.0 0.0 0.0
+	Kd .8 .8039 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2B3033
+	Ka 0.0 0.0 0.0
+	Kd .1686 .1882 .2
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_119BBC
+	Ka 0.0 0.0 0.0
+	Kd .0667 .6078 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0084A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .5176 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0089B2
+	Ka 0.0 0.0 0.0
+	Kd 0 .5373 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0084B0
+	Ka 0.0 0.0 0.0
+	Kd 0 .5176 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004A8A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2902 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004788
+	Ka 0.0 0.0 0.0
+	Kd 0 .2784 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00688F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005284
+	Ka 0.0 0.0 0.0
+	Kd 0 .3216 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E4E1E0
+	Ka 0.0 0.0 0.0
+	Kd .8941 .8824 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F8F7F6
+	Ka 0.0 0.0 0.0
+	Kd .9725 .9686 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_808487
+	Ka 0.0 0.0 0.0
+	Kd .502 .5176 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_28B2C7
+	Ka 0.0 0.0 0.0
+	Kd .1569 .698 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0895B8
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5843 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_038FB4
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5608 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004382
+	Ka 0.0 0.0 0.0
+	Kd 0 .2627 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004080
+	Ka 0.0 0.0 0.0
+	Kd 0 .251 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_14657E
+	Ka 0.0 0.0 0.0
+	Kd .0784 .3961 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F0EDEC
+	Ka 0.0 0.0 0.0
+	Kd .9412 .9294 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CCCCCF
+	Ka 0.0 0.0 0.0
+	Kd .8 .8 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4A7784
+	Ka 0.0 0.0 0.0
+	Kd .2902 .4667 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_119ABB
+	Ka 0.0 0.0 0.0
+	Kd .0667 .6039 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A95B8
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5843 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0491B5
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5686 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081AE
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007399
+	Ka 0.0 0.0 0.0
+	Kd 0 .451 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_13657E
+	Ka 0.0 0.0 0.0
+	Kd .0745 .3961 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_116E87
+	Ka 0.0 0.0 0.0
+	Kd .0667 .4314 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6D6D77
+	Ka 0.0 0.0 0.0
+	Kd .4275 .4275 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_149DBC
+	Ka 0.0 0.0 0.0
+	Kd .0784 .6157 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_109BBC
+	Ka 0.0 0.0 0.0
+	Kd .0627 .6078 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0085AF
+	Ka 0.0 0.0 0.0
+	Kd 0 .5216 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080AC
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0076A5
+	Ka 0.0 0.0 0.0
+	Kd 0 .4627 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6DDE4
+	Ka 0.0 0.0 0.0
+	Kd .7765 .8667 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BED1D7
+	Ka 0.0 0.0 0.0
+	Kd .7451 .8196 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D7289
+	Ka 0.0 0.0 0.0
+	Kd .051 .4471 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EBE6E6
+	Ka 0.0 0.0 0.0
+	Kd .9216 .902 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7E8387
+	Ka 0.0 0.0 0.0
+	Kd .4941 .5137 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9AB9C3
+	Ka 0.0 0.0 0.0
+	Kd .6039 .7255 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_119BBB
+	Ka 0.0 0.0 0.0
+	Kd .0667 .6078 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0087B2
+	Ka 0.0 0.0 0.0
+	Kd 0 .5294 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0082AE
+	Ka 0.0 0.0 0.0
+	Kd 0 .5098 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F8F6F6
+	Ka 0.0 0.0 0.0
+	Kd .9725 .9647 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_106E86
+	Ka 0.0 0.0 0.0
+	Kd .0627 .4314 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B748B
+	Ka 0.0 0.0 0.0
+	Kd .0431 .4549 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_888C8E
+	Ka 0.0 0.0 0.0
+	Kd .5333 .549 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2A2F32
+	Ka 0.0 0.0 0.0
+	Kd .1647 .1843 .1961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A0C5CF
+	Ka 0.0 0.0 0.0
+	Kd .6275 .7725 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F7F6F5
+	Ka 0.0 0.0 0.0
+	Kd .9686 .9647 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_106C86
+	Ka 0.0 0.0 0.0
+	Kd .0627 .4235 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D738A
+	Ka 0.0 0.0 0.0
+	Kd .051 .451 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E2E1E1
+	Ka 0.0 0.0 0.0
+	Kd .8863 .8824 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_FFFFFF
+	Ka 0.0 0.0 0.0
+	Kd 1 1 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CCCCCD
+	Ka 0.0 0.0 0.0
+	Kd .8 .8 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_73777B
+	Ka 0.0 0.0 0.0
+	Kd .451 .4667 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5C6C8
+	Ka 0.0 0.0 0.0
+	Kd .7725 .7765 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C7C9
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7804 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_44484B
+	Ka 0.0 0.0 0.0
+	Kd .2667 .2824 .2941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007BA9
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EBE7E5
+	Ka 0.0 0.0 0.0
+	Kd .9216 .9059 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F6E87
+	Ka 0.0 0.0 0.0
+	Kd .0588 .4314 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_787C80
+	Ka 0.0 0.0 0.0
+	Kd .4706 .4863 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_74787B
+	Ka 0.0 0.0 0.0
+	Kd .4549 .4706 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5C6C9
+	Ka 0.0 0.0 0.0
+	Kd .7725 .7765 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B4B5B8
+	Ka 0.0 0.0 0.0
+	Kd .7059 .7098 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006D9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4275 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E7087
+	Ka 0.0 0.0 0.0
+	Kd .0549 .4392 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B758D
+	Ka 0.0 0.0 0.0
+	Kd .0431 .4588 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_777B7E
+	Ka 0.0 0.0 0.0
+	Kd .4667 .4824 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_75797C
+	Ka 0.0 0.0 0.0
+	Kd .4588 .4745 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C4C5C8
+	Ka 0.0 0.0 0.0
+	Kd .7686 .7725 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2E3235
+	Ka 0.0 0.0 0.0
+	Kd .1804 .1961 .2078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADAEB3
+	Ka 0.0 0.0 0.0
+	Kd .6784 .6824 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_87888C
+	Ka 0.0 0.0 0.0
+	Kd .5294 .5333 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_838488
+	Ka 0.0 0.0 0.0
+	Kd .5137 .5176 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EEE9E8
+	Ka 0.0 0.0 0.0
+	Kd .9333 .9137 .9098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_F8F8F9
+	Ka 0.0 0.0 0.0
+	Kd .9725 .9725 .9765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00799C
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_528F9F
+	Ka 0.0 0.0 0.0
+	Kd .3216 .5608 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E7288
+	Ka 0.0 0.0 0.0
+	Kd .0549 .4471 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A768D
+	Ka 0.0 0.0 0.0
+	Kd .0392 .4627 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAEBEB
+	Ka 0.0 0.0 0.0
+	Kd .9176 .9216 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B8D8F
+	Ka 0.0 0.0 0.0
+	Kd .5451 .5529 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D6DADB
+	Ka 0.0 0.0 0.0
+	Kd .8392 .8549 .8588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8C9CA
+	Ka 0.0 0.0 0.0
+	Kd .7843 .7882 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8E9397
+	Ka 0.0 0.0 0.0
+	Kd .5569 .5765 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_939497
+	Ka 0.0 0.0 0.0
+	Kd .5765 .5804 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_848589
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5216 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_FDFDFD
+	Ka 0.0 0.0 0.0
+	Kd .9922 .9922 .9922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_FAFAFA
+	Ka 0.0 0.0 0.0
+	Kd .9804 .9804 .9804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBEC0
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7451 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_106B85
+	Ka 0.0 0.0 0.0
+	Kd .0627 .4196 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E7089
+	Ka 0.0 0.0 0.0
+	Kd .0549 .4392 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E7E8E9
+	Ka 0.0 0.0 0.0
+	Kd .9059 .9098 .9137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E4DEDD
+	Ka 0.0 0.0 0.0
+	Kd .8941 .8706 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CACACB
+	Ka 0.0 0.0 0.0
+	Kd .7922 .7922 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CDCDCE
+	Ka 0.0 0.0 0.0
+	Kd .8039 .8039 .8078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5C7C9
+	Ka 0.0 0.0 0.0
+	Kd .7725 .7804 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_898A8E
+	Ka 0.0 0.0 0.0
+	Kd .5373 .5412 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ECE6E5
+	Ka 0.0 0.0 0.0
+	Kd .9255 .902 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_949699
+	Ka 0.0 0.0 0.0
+	Kd .5804 .5882 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_126882
+	Ka 0.0 0.0 0.0
+	Kd .0706 .4078 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EBE5E5
+	Ka 0.0 0.0 0.0
+	Kd .9216 .898 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_343536
+	Ka 0.0 0.0 0.0
+	Kd .2039 .2078 .2118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B8D8E
+	Ka 0.0 0.0 0.0
+	Kd .5451 .5529 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8D8D8E
+	Ka 0.0 0.0 0.0
+	Kd .5529 .5529 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8D8F92
+	Ka 0.0 0.0 0.0
+	Kd .5529 .5608 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_FEFEFF
+	Ka 0.0 0.0 0.0
+	Kd .9961 .9961 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B8C8F
+	Ka 0.0 0.0 0.0
+	Kd .5451 .549 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ECE5E5
+	Ka 0.0 0.0 0.0
+	Kd .9255 .898 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_116A83
+	Ka 0.0 0.0 0.0
+	Kd .0667 .4157 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EBE6E5
+	Ka 0.0 0.0 0.0
+	Kd .9216 .902 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3E4244
+	Ka 0.0 0.0 0.0
+	Kd .2431 .2588 .2667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B0D10
+	Ka 0.0 0.0 0.0
+	Kd .0431 .051 .0627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A5A8
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6471 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADAEB0
+	Ka 0.0 0.0 0.0
+	Kd .6784 .6824 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2A2F31
+	Ka 0.0 0.0 0.0
+	Kd .1647 .1843 .1922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EDE8E7
+	Ka 0.0 0.0 0.0
+	Kd .9294 .9098 .9059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_13647D
+	Ka 0.0 0.0 0.0
+	Kd .0745 .3922 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_126780
+	Ka 0.0 0.0 0.0
+	Kd .0706 .4039 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAE6E2
+	Ka 0.0 0.0 0.0
+	Kd .9176 .902 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E9E5E4
+	Ka 0.0 0.0 0.0
+	Kd .9137 .898 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8C8C8D
+	Ka 0.0 0.0 0.0
+	Kd .549 .549 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3E4246
+	Ka 0.0 0.0 0.0
+	Kd .2431 .2588 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D0E11
+	Ka 0.0 0.0 0.0
+	Kd .051 .0549 .0667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_999A9E
+	Ka 0.0 0.0 0.0
+	Kd .6 .6039 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CBCCCE
+	Ka 0.0 0.0 0.0
+	Kd .7961 .8 .8078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_12617A
+	Ka 0.0 0.0 0.0
+	Kd .0706 .3804 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_12627B
+	Ka 0.0 0.0 0.0
+	Kd .0706 .3843 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAE5E5
+	Ka 0.0 0.0 0.0
+	Kd .9176 .898 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E9E5E2
+	Ka 0.0 0.0 0.0
+	Kd .9137 .898 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CAC8C7
+	Ka 0.0 0.0 0.0
+	Kd .7922 .7843 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_474C50
+	Ka 0.0 0.0 0.0
+	Kd .2784 .298 .3137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CACCCD
+	Ka 0.0 0.0 0.0
+	Kd .7922 .8 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_115F78
+	Ka 0.0 0.0 0.0
+	Kd .0667 .3725 .4706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_13627B
+	Ka 0.0 0.0 0.0
+	Kd .0745 .3843 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_799FAD
+	Ka 0.0 0.0 0.0
+	Kd .4745 .6235 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EBE7E6
+	Ka 0.0 0.0 0.0
+	Kd .9216 .9059 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BABAB8
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7294 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB9B9
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7255 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E5A76
+	Ka 0.0 0.0 0.0
+	Kd .0549 .3529 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_105D77
+	Ka 0.0 0.0 0.0
+	Kd .0627 .3647 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DEDBD8
+	Ka 0.0 0.0 0.0
+	Kd .8706 .8588 .8471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBB9BA
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7255 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBBAB8
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7294 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B8B7
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7216 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB9B7
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7255 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B7B8
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7176 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_898C8F
+	Ka 0.0 0.0 0.0
+	Kd .5373 .549 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BFC0C1
+	Ka 0.0 0.0 0.0
+	Kd .749 .7529 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_72777A
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4667 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B5471
+	Ka 0.0 0.0 0.0
+	Kd .0431 .3294 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DBD7D6
+	Ka 0.0 0.0 0.0
+	Kd .8588 .8431 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBBABB
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7294 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBB9B9
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7255 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B9B7
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7255 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B8B8
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7216 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B7B8
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7176 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5671
+	Ka 0.0 0.0 0.0
+	Kd .051 .3373 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E2DEDD
+	Ka 0.0 0.0 0.0
+	Kd .8863 .8706 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBABB
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7294 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBBB9
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7333 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB8B9
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7216 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B6B7
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7137 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9EA0A5
+	Ka 0.0 0.0 0.0
+	Kd .6196 .6275 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_424548
+	Ka 0.0 0.0 0.0
+	Kd .2588 .2706 .2824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_064C6A
+	Ka 0.0 0.0 0.0
+	Kd .0235 .298 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBBBC
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7333 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBBBC
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7333 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBAB9
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7294 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D7DDE1
+	Ka 0.0 0.0 0.0
+	Kd .8431 .8667 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_72767A
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4627 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_303236
+	Ka 0.0 0.0 0.0
+	Kd .1882 .1961 .2118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_292E31
+	Ka 0.0 0.0 0.0
+	Kd .1608 .1804 .1922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_044665
+	Ka 0.0 0.0 0.0
+	Kd .0157 .2745 .3961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_054766
+	Ka 0.0 0.0 0.0
+	Kd .0196 .2784 .4
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB9B8
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7255 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_536A7C
+	Ka 0.0 0.0 0.0
+	Kd .3255 .4157 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_404447
+	Ka 0.0 0.0 0.0
+	Kd .251 .2667 .2784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_838489
+	Ka 0.0 0.0 0.0
+	Kd .5137 .5176 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A5A9
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6471 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_024262
+	Ka 0.0 0.0 0.0
+	Kd .0078 .2588 .3843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CECECC
+	Ka 0.0 0.0 0.0
+	Kd .8078 .8078 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6C7175
+	Ka 0.0 0.0 0.0
+	Kd .4235 .4431 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_445F73
+	Ka 0.0 0.0 0.0
+	Kd .2667 .3725 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_72787A
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4706 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_87888B
+	Ka 0.0 0.0 0.0
+	Kd .5294 .5333 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_023F60
+	Ka 0.0 0.0 0.0
+	Kd .0078 .2471 .3765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004161
+	Ka 0.0 0.0 0.0
+	Kd 0 .2549 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B9B8
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7255 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5B6063
+	Ka 0.0 0.0 0.0
+	Kd .3569 .3765 .3882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2E3338
+	Ka 0.0 0.0 0.0
+	Kd .1804 .2 .2196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_313538
+	Ka 0.0 0.0 0.0
+	Kd .1922 .2078 .2196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBBAB9
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7294 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00385A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2196 .3529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB8B7
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7216 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_313437
+	Ka 0.0 0.0 0.0
+	Kd .1922 .2039 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C0BDBC
+	Ka 0.0 0.0 0.0
+	Kd .7529 .7412 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B5B6
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7098 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003153
+	Ka 0.0 0.0 0.0
+	Kd 0 .1922 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003457
+	Ka 0.0 0.0 0.0
+	Kd 0 .2039 .3412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B7B7
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7176 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B7B6
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7176 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_84878A
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5294 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_667786
+	Ka 0.0 0.0 0.0
+	Kd .4 .4667 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBBBB
+	Ka 0.0 0.0 0.0
+	Kd .7451 .7333 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6B4B5
+	Ka 0.0 0.0 0.0
+	Kd .7137 .7059 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B5B3B4
+	Ka 0.0 0.0 0.0
+	Kd .7098 .702 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30889E
+	Ka 0.0 0.0 0.0
+	Kd .1882 .5333 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_248FB0
+	Ka 0.0 0.0 0.0
+	Kd .1412 .5608 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0685A7
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5216 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_717679
+	Ka 0.0 0.0 0.0
+	Kd .4431 .4627 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3C4044
+	Ka 0.0 0.0 0.0
+	Kd .2353 .251 .2667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB8B8
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7216 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002F53
+	Ka 0.0 0.0 0.0
+	Kd 0 .1843 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003154
+	Ka 0.0 0.0 0.0
+	Kd 0 .1922 .3294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_506779
+	Ka 0.0 0.0 0.0
+	Kd .3137 .4039 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBBBB
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7333 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B6B6
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7137 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B3B2B2
+	Ka 0.0 0.0 0.0
+	Kd .702 .698 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25AAC3
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6667 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00789F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4706 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_53B2C0
+	Ka 0.0 0.0 0.0
+	Kd .3255 .698 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1D8EAD
+	Ka 0.0 0.0 0.0
+	Kd .1137 .5569 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1B91B0
+	Ka 0.0 0.0 0.0
+	Kd .1059 .5686 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5F5F61
+	Ka 0.0 0.0 0.0
+	Kd .3725 .3725 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_727578
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4588 .4706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C7C8
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7804 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_64686B
+	Ka 0.0 0.0 0.0
+	Kd .3922 .4078 .4196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00244A
+	Ka 0.0 0.0 0.0
+	Kd 0 .1412 .2902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00254B
+	Ka 0.0 0.0 0.0
+	Kd 0 .1451 .2941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_254966
+	Ka 0.0 0.0 0.0
+	Kd .1451 .2863 .4
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B7B4
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7176 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6B6B6
+	Ka 0.0 0.0 0.0
+	Kd .7137 .7137 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B2B0
+	Ka 0.0 0.0 0.0
+	Kd .6902 .698 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B6B7
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7137 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B4B2B3
+	Ka 0.0 0.0 0.0
+	Kd .7059 .698 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B0B0
+	Ka 0.0 0.0 0.0
+	Kd .6902 .6902 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AEADAF
+	Ka 0.0 0.0 0.0
+	Kd .6824 .6784 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_31B7CA
+	Ka 0.0 0.0 0.0
+	Kd .1922 .7176 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1899B7
+	Ka 0.0 0.0 0.0
+	Kd .0941 .6 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006C97
+	Ka 0.0 0.0 0.0
+	Kd 0 .4235 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3297B2
+	Ka 0.0 0.0 0.0
+	Kd .1961 .5922 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0184A6
+	Ka 0.0 0.0 0.0
+	Kd .0039 .5176 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_46A5BD
+	Ka 0.0 0.0 0.0
+	Kd .2745 .6471 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_46A3BE
+	Ka 0.0 0.0 0.0
+	Kd .2745 .6392 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_676C6E
+	Ka 0.0 0.0 0.0
+	Kd .4039 .4235 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3B4043
+	Ka 0.0 0.0 0.0
+	Kd .2314 .251 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B8B8
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7216 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001E42
+	Ka 0.0 0.0 0.0
+	Kd 0 .1176 .2588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001E45
+	Ka 0.0 0.0 0.0
+	Kd 0 .1176 .2706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B7B5
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7176 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CECECD
+	Ka 0.0 0.0 0.0
+	Kd .8078 .8078 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D6D7D9
+	Ka 0.0 0.0 0.0
+	Kd .8392 .8431 .851
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C4C3C4
+	Ka 0.0 0.0 0.0
+	Kd .7686 .7647 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_050505
+	Ka 0.0 0.0 0.0
+	Kd .0196 .0196 .0196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_218AA7
+	Ka 0.0 0.0 0.0
+	Kd .1294 .5412 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_31B8CB
+	Ka 0.0 0.0 0.0
+	Kd .1922 .7216 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1394B4
+	Ka 0.0 0.0 0.0
+	Kd .0745 .5804 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F8FB2
+	Ka 0.0 0.0 0.0
+	Kd .0588 .5608 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_38A0B5
+	Ka 0.0 0.0 0.0
+	Kd .2196 .6275 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_319DB2
+	Ka 0.0 0.0 0.0
+	Kd .1922 .6157 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D87A9
+	Ka 0.0 0.0 0.0
+	Kd .051 .5294 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3F4346
+	Ka 0.0 0.0 0.0
+	Kd .2471 .2627 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001939
+	Ka 0.0 0.0 0.0
+	Kd 0 .098 .2235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001D41
+	Ka 0.0 0.0 0.0
+	Kd 0 .1137 .2549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001D43
+	Ka 0.0 0.0 0.0
+	Kd 0 .1137 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_959595
+	Ka 0.0 0.0 0.0
+	Kd .5843 .5843 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_476276
+	Ka 0.0 0.0 0.0
+	Kd .2784 .3843 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B0B2
+	Ka 0.0 0.0 0.0
+	Kd .6902 .6902 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFAEAF
+	Ka 0.0 0.0 0.0
+	Kd .6863 .6824 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADABAD
+	Ka 0.0 0.0 0.0
+	Kd .6784 .6706 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_676566
+	Ka 0.0 0.0 0.0
+	Kd .4039 .3961 .4
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_052233
+	Ka 0.0 0.0 0.0
+	Kd .0196 .1333 .2
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E364D
+	Ka 0.0 0.0 0.0
+	Kd .0549 .2118 .302
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25475C
+	Ka 0.0 0.0 0.0
+	Kd .1451 .2784 .3608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001533
+	Ka 0.0 0.0 0.0
+	Kd 0 .0824 .2
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_042143
+	Ka 0.0 0.0 0.0
+	Kd .0157 .1294 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_244552
+	Ka 0.0 0.0 0.0
+	Kd .1412 .2706 .3216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1A3753
+	Ka 0.0 0.0 0.0
+	Kd .102 .2157 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_18364F
+	Ka 0.0 0.0 0.0
+	Kd .0941 .2118 .3098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_092942
+	Ka 0.0 0.0 0.0
+	Kd .0353 .1608 .2588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002A42
+	Ka 0.0 0.0 0.0
+	Kd 0 .1647 .2588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002942
+	Ka 0.0 0.0 0.0
+	Kd 0 .1608 .2588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00253E
+	Ka 0.0 0.0 0.0
+	Kd 0 .1451 .2431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00243E
+	Ka 0.0 0.0 0.0
+	Kd 0 .1412 .2431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00223A
+	Ka 0.0 0.0 0.0
+	Kd 0 .1333 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00213A
+	Ka 0.0 0.0 0.0
+	Kd 0 .1294 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001E37
+	Ka 0.0 0.0 0.0
+	Kd 0 .1176 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001937
+	Ka 0.0 0.0 0.0
+	Kd 0 .098 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B2A43
+	Ka 0.0 0.0 0.0
+	Kd .0431 .1647 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_16334A
+	Ka 0.0 0.0 0.0
+	Kd .0863 .2 .2902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D2B46
+	Ka 0.0 0.0 0.0
+	Kd .051 .1686 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_084C6A
+	Ka 0.0 0.0 0.0
+	Kd .0314 .298 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_064A68
+	Ka 0.0 0.0 0.0
+	Kd .0235 .2902 .4078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_054765
+	Ka 0.0 0.0 0.0
+	Kd .0196 .2784 .3961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_034564
+	Ka 0.0 0.0 0.0
+	Kd .0118 .2706 .3922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_024261
+	Ka 0.0 0.0 0.0
+	Kd .0078 .2588 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003C5D
+	Ka 0.0 0.0 0.0
+	Kd 0 .2353 .3647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00395B
+	Ka 0.0 0.0 0.0
+	Kd 0 .2235 .3569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003658
+	Ka 0.0 0.0 0.0
+	Kd 0 .2118 .3451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003255
+	Ka 0.0 0.0 0.0
+	Kd 0 .1961 .3333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00274D
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .302
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_033253
+	Ka 0.0 0.0 0.0
+	Kd .0118 .1961 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_02284F
+	Ka 0.0 0.0 0.0
+	Kd .0078 .1569 .3098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_042F53
+	Ka 0.0 0.0 0.0
+	Kd .0157 .1843 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_36383A
+	Ka 0.0 0.0 0.0
+	Kd .2118 .2196 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6A6C6E
+	Ka 0.0 0.0 0.0
+	Kd .4157 .4235 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_607173
+	Ka 0.0 0.0 0.0
+	Kd .3765 .4431 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_747678
+	Ka 0.0 0.0 0.0
+	Kd .4549 .4627 .4706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_556163
+	Ka 0.0 0.0 0.0
+	Kd .3333 .3804 .3882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A526E
+	Ka 0.0 0.0 0.0
+	Kd .0392 .3216 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_084B69
+	Ka 0.0 0.0 0.0
+	Kd .0314 .2941 .4118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004061
+	Ka 0.0 0.0 0.0
+	Kd 0 .251 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A5C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .3608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003558
+	Ka 0.0 0.0 0.0
+	Kd 0 .2078 .3451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002F51
+	Ka 0.0 0.0 0.0
+	Kd 0 .1843 .3176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002249
+	Ka 0.0 0.0 0.0
+	Kd 0 .1333 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002247
+	Ka 0.0 0.0 0.0
+	Kd 0 .1333 .2784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34393C
+	Ka 0.0 0.0 0.0
+	Kd .2039 .2235 .2353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4F5357
+	Ka 0.0 0.0 0.0
+	Kd .3098 .3255 .3412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4F5358
+	Ka 0.0 0.0 0.0
+	Kd .3098 .3255 .3451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_58595B
+	Ka 0.0 0.0 0.0
+	Kd .3451 .349 .3569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_626365
+	Ka 0.0 0.0 0.0
+	Kd .3843 .3882 .3961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_626469
+	Ka 0.0 0.0 0.0
+	Kd .3843 .3922 .4118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A516D
+	Ka 0.0 0.0 0.0
+	Kd .0392 .3176 .4275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_074D6A
+	Ka 0.0 0.0 0.0
+	Kd .0275 .302 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_074A68
+	Ka 0.0 0.0 0.0
+	Kd .0275 .2902 .4078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003859
+	Ka 0.0 0.0 0.0
+	Kd 0 .2196 .349
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003355
+	Ka 0.0 0.0 0.0
+	Kd 0 .2 .3333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002E52
+	Ka 0.0 0.0 0.0
+	Kd 0 .1804 .3216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002349
+	Ka 0.0 0.0 0.0
+	Kd 0 .1373 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33383B
+	Ka 0.0 0.0 0.0
+	Kd .2 .2196 .2314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4C5154
+	Ka 0.0 0.0 0.0
+	Kd .298 .3176 .3294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_515559
+	Ka 0.0 0.0 0.0
+	Kd .3176 .3333 .349
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_595D61
+	Ka 0.0 0.0 0.0
+	Kd .349 .3647 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6E7276
+	Ka 0.0 0.0 0.0
+	Kd .4314 .4471 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7D8184
+	Ka 0.0 0.0 0.0
+	Kd .4902 .5059 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E5975
+	Ka 0.0 0.0 0.0
+	Kd .0549 .349 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B5773
+	Ka 0.0 0.0 0.0
+	Kd .0431 .3412 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_034463
+	Ka 0.0 0.0 0.0
+	Kd .0118 .2667 .3882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_014061
+	Ka 0.0 0.0 0.0
+	Kd .0039 .251 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003B5D
+	Ka 0.0 0.0 0.0
+	Kd 0 .2314 .3647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002147
+	Ka 0.0 0.0 0.0
+	Kd 0 .1294 .2784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_73767A
+	Ka 0.0 0.0 0.0
+	Kd .451 .4627 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_13617A
+	Ka 0.0 0.0 0.0
+	Kd .0745 .3804 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F5A76
+	Ka 0.0 0.0 0.0
+	Kd .0588 .3529 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5773
+	Ka 0.0 0.0 0.0
+	Kd .051 .3412 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_09516D
+	Ka 0.0 0.0 0.0
+	Kd .0353 .3176 .4275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_044564
+	Ka 0.0 0.0 0.0
+	Kd .0157 .2706 .3922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002B50
+	Ka 0.0 0.0 0.0
+	Kd 0 .1686 .3137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002448
+	Ka 0.0 0.0 0.0
+	Kd 0 .1412 .2824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002046
+	Ka 0.0 0.0 0.0
+	Kd 0 .1255 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_116079
+	Ka 0.0 0.0 0.0
+	Kd .0667 .3765 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E5772
+	Ka 0.0 0.0 0.0
+	Kd .0549 .3412 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_09526E
+	Ka 0.0 0.0 0.0
+	Kd .0353 .3216 .4314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_094C6A
+	Ka 0.0 0.0 0.0
+	Kd .0353 .298 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_054866
+	Ka 0.0 0.0 0.0
+	Kd .0196 .2824 .4
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003357
+	Ka 0.0 0.0 0.0
+	Kd 0 .2 .3412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002549
+	Ka 0.0 0.0 0.0
+	Kd 0 .1451 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001F46
+	Ka 0.0 0.0 0.0
+	Kd 0 .1216 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B5C4CA
+	Ka 0.0 0.0 0.0
+	Kd .7098 .7686 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_115F79
+	Ka 0.0 0.0 0.0
+	Kd .0667 .3725 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_054867
+	Ka 0.0 0.0 0.0
+	Kd .0196 .2824 .4039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_024060
+	Ka 0.0 0.0 0.0
+	Kd .0078 .251 .3765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003759
+	Ka 0.0 0.0 0.0
+	Kd 0 .2157 .349
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003256
+	Ka 0.0 0.0 0.0
+	Kd 0 .1961 .3373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_778FA5
+	Ka 0.0 0.0 0.0
+	Kd .4667 .5608 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8498A9
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5961 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8496A9
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5882 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4D5256
+	Ka 0.0 0.0 0.0
+	Kd .302 .3216 .3373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_17627B
+	Ka 0.0 0.0 0.0
+	Kd .0902 .3843 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8DAFBC
+	Ka 0.0 0.0 0.0
+	Kd .5529 .6863 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8DADBB
+	Ka 0.0 0.0 0.0
+	Kd .5529 .6784 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8CABB9
+	Ka 0.0 0.0 0.0
+	Kd .549 .6706 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8BA9B8
+	Ka 0.0 0.0 0.0
+	Kd .5451 .6627 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89A7B6
+	Ka 0.0 0.0 0.0
+	Kd .5373 .6549 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89A5B4
+	Ka 0.0 0.0 0.0
+	Kd .5373 .6471 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89A2B2
+	Ka 0.0 0.0 0.0
+	Kd .5373 .6353 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88A0B2
+	Ka 0.0 0.0 0.0
+	Kd .5333 .6275 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_11405F
+	Ka 0.0 0.0 0.0
+	Kd .0667 .251 .3725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001D42
+	Ka 0.0 0.0 0.0
+	Kd 0 .1137 .2588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_75777A
+	Ka 0.0 0.0 0.0
+	Kd .4588 .4667 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_91B4C0
+	Ka 0.0 0.0 0.0
+	Kd .5686 .7059 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8EB2BE
+	Ka 0.0 0.0 0.0
+	Kd .5569 .698 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8EAEBC
+	Ka 0.0 0.0 0.0
+	Kd .5569 .6824 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8CAAB8
+	Ka 0.0 0.0 0.0
+	Kd .549 .6667 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002347
+	Ka 0.0 0.0 0.0
+	Kd 0 .1373 .2784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001E43
+	Ka 0.0 0.0 0.0
+	Kd 0 .1176 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001B40
+	Ka 0.0 0.0 0.0
+	Kd 0 .1059 .251
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CBDADE
+	Ka 0.0 0.0 0.0
+	Kd .7961 .8549 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_91B5C0
+	Ka 0.0 0.0 0.0
+	Kd .5686 .7098 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8FB2BE
+	Ka 0.0 0.0 0.0
+	Kd .5608 .698 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8EB0BC
+	Ka 0.0 0.0 0.0
+	Kd .5569 .6902 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8EAEBB
+	Ka 0.0 0.0 0.0
+	Kd .5569 .6824 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8DABB9
+	Ka 0.0 0.0 0.0
+	Kd .5529 .6706 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00294D
+	Ka 0.0 0.0 0.0
+	Kd 0 .1608 .302
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001E46
+	Ka 0.0 0.0 0.0
+	Kd 0 .1176 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4F5256
+	Ka 0.0 0.0 0.0
+	Kd .3098 .3216 .3373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8BB2BE
+	Ka 0.0 0.0 0.0
+	Kd .5451 .698 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_064D6A
+	Ka 0.0 0.0 0.0
+	Kd .0235 .302 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_034363
+	Ka 0.0 0.0 0.0
+	Kd .0118 .2627 .3882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00254A
+	Ka 0.0 0.0 0.0
+	Kd 0 .1451 .2902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001F45
+	Ka 0.0 0.0 0.0
+	Kd 0 .1216 .2706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001A40
+	Ka 0.0 0.0 0.0
+	Kd 0 .102 .251
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D5472
+	Ka 0.0 0.0 0.0
+	Kd .051 .3294 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002F52
+	Ka 0.0 0.0 0.0
+	Kd 0 .1843 .3216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00274C
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .298
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_62676B
+	Ka 0.0 0.0 0.0
+	Kd .3843 .4039 .4196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_09506C
+	Ka 0.0 0.0 0.0
+	Kd .0353 .3137 .4235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002E51
+	Ka 0.0 0.0 0.0
+	Kd 0 .1804 .3176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00264B
+	Ka 0.0 0.0 0.0
+	Kd 0 .149 .2941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001B42
+	Ka 0.0 0.0 0.0
+	Kd 0 .1059 .2588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_696D72
+	Ka 0.0 0.0 0.0
+	Kd .4118 .4275 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_52575A
+	Ka 0.0 0.0 0.0
+	Kd .3216 .3412 .3529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_52585B
+	Ka 0.0 0.0 0.0
+	Kd .3216 .3451 .3569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_024162
+	Ka 0.0 0.0 0.0
+	Kd .0078 .2549 .3843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00274B
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .2941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00112E
+	Ka 0.0 0.0 0.0
+	Kd 0 .0667 .1804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000D2A
+	Ka 0.0 0.0 0.0
+	Kd 0 .051 .1647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_454B52
+	Ka 0.0 0.0 0.0
+	Kd .2706 .2941 .3216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_505458
+	Ka 0.0 0.0 0.0
+	Kd .3137 .3294 .3451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_525659
+	Ka 0.0 0.0 0.0
+	Kd .3216 .3373 .349
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E5773
+	Ka 0.0 0.0 0.0
+	Kd .0549 .3412 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001732
+	Ka 0.0 0.0 0.0
+	Kd 0 .0902 .1961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00122E
+	Ka 0.0 0.0 0.0
+	Kd 0 .0706 .1804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000B27
+	Ka 0.0 0.0 0.0
+	Kd 0 .0431 .1529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_32373A
+	Ka 0.0 0.0 0.0
+	Kd .1961 .2157 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_575B5D
+	Ka 0.0 0.0 0.0
+	Kd .3412 .3569 .3647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_064967
+	Ka 0.0 0.0 0.0
+	Kd .0235 .2863 .4039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000E2E
+	Ka 0.0 0.0 0.0
+	Kd 0 .0549 .1804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000D27
+	Ka 0.0 0.0 0.0
+	Kd 0 .051 .1529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4D5255
+	Ka 0.0 0.0 0.0
+	Kd .302 .3216 .3333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_535659
+	Ka 0.0 0.0 0.0
+	Kd .3255 .3373 .349
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_105A76
+	Ka 0.0 0.0 0.0
+	Kd .0627 .3529 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001A35
+	Ka 0.0 0.0 0.0
+	Kd 0 .102 .2078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33383A
+	Ka 0.0 0.0 0.0
+	Kd .2 .2196 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_47494A
+	Ka 0.0 0.0 0.0
+	Kd .2784 .2863 .2902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A5572
+	Ka 0.0 0.0 0.0
+	Kd .0392 .3333 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_09506D
+	Ka 0.0 0.0 0.0
+	Kd .0353 .3137 .4275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_024161
+	Ka 0.0 0.0 0.0
+	Kd .0078 .2549 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001F38
+	Ka 0.0 0.0 0.0
+	Kd 0 .1216 .2196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001B34
+	Ka 0.0 0.0 0.0
+	Kd 0 .1059 .2039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001631
+	Ka 0.0 0.0 0.0
+	Kd 0 .0863 .1922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00122F
+	Ka 0.0 0.0 0.0
+	Kd 0 .0706 .1843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33373A
+	Ka 0.0 0.0 0.0
+	Kd .2 .2157 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_393F41
+	Ka 0.0 0.0 0.0
+	Kd .2235 .2471 .2549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DAD6D6
+	Ka 0.0 0.0 0.0
+	Kd .8549 .8392 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_013C5C
+	Ka 0.0 0.0 0.0
+	Kd .0039 .2353 .3608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00243B
+	Ka 0.0 0.0 0.0
+	Kd 0 .1412 .2314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001A34
+	Ka 0.0 0.0 0.0
+	Kd 0 .102 .2039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00112C
+	Ka 0.0 0.0 0.0
+	Kd 0 .0667 .1725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000A26
+	Ka 0.0 0.0 0.0
+	Kd 0 .0392 .149
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_013E5D
+	Ka 0.0 0.0 0.0
+	Kd .0039 .2431 .3647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001E39
+	Ka 0.0 0.0 0.0
+	Kd 0 .1176 .2235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001530
+	Ka 0.0 0.0 0.0
+	Kd 0 .0824 .1882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00122C
+	Ka 0.0 0.0 0.0
+	Kd 0 .0706 .1725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAE6E5
+	Ka 0.0 0.0 0.0
+	Kd .9176 .902 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E9E5E1
+	Ka 0.0 0.0 0.0
+	Kd .9137 .898 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_074B69
+	Ka 0.0 0.0 0.0
+	Kd .0275 .2941 .4118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002A41
+	Ka 0.0 0.0 0.0
+	Kd 0 .1647 .2549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002640
+	Ka 0.0 0.0 0.0
+	Kd 0 .149 .251
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00233C
+	Ka 0.0 0.0 0.0
+	Kd 0 .1373 .2353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001933
+	Ka 0.0 0.0 0.0
+	Kd 0 .098 .2
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00142F
+	Ka 0.0 0.0 0.0
+	Kd 0 .0784 .1843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00102B
+	Ka 0.0 0.0 0.0
+	Kd 0 .0627 .1686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000B26
+	Ka 0.0 0.0 0.0
+	Kd 0 .0431 .149
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000A25
+	Ka 0.0 0.0 0.0
+	Kd 0 .0392 .1451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAE6E4
+	Ka 0.0 0.0 0.0
+	Kd .9176 .902 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E8E4E2
+	Ka 0.0 0.0 0.0
+	Kd .9098 .8941 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E7E2E1
+	Ka 0.0 0.0 0.0
+	Kd .9059 .8863 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00344C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2039 .298
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002C44
+	Ka 0.0 0.0 0.0
+	Kd 0 .1725 .2667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002841
+	Ka 0.0 0.0 0.0
+	Kd 0 .1569 .2549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00253F
+	Ka 0.0 0.0 0.0
+	Kd 0 .1451 .2471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00223B
+	Ka 0.0 0.0 0.0
+	Kd 0 .1333 .2314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00132E
+	Ka 0.0 0.0 0.0
+	Kd 0 .0745 .1804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000D28
+	Ka 0.0 0.0 0.0
+	Kd 0 .051 .1569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E5E2E1
+	Ka 0.0 0.0 0.0
+	Kd .898 .8863 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E2DFDD
+	Ka 0.0 0.0 0.0
+	Kd .8863 .8745 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002E46
+	Ka 0.0 0.0 0.0
+	Kd 0 .1804 .2745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002741
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .2549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00213B
+	Ka 0.0 0.0 0.0
+	Kd 0 .1294 .2314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001936
+	Ka 0.0 0.0 0.0
+	Kd 0 .098 .2118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001832
+	Ka 0.0 0.0 0.0
+	Kd 0 .0941 .1961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000F2A
+	Ka 0.0 0.0 0.0
+	Kd 0 .0588 .1647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5C3C4
+	Ka 0.0 0.0 0.0
+	Kd .7725 .7647 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002B45
+	Ka 0.0 0.0 0.0
+	Kd 0 .1686 .2706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002A40
+	Ka 0.0 0.0 0.0
+	Kd 0 .1647 .251
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00102C
+	Ka 0.0 0.0 0.0
+	Kd 0 .0627 .1725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_000F2B
+	Ka 0.0 0.0 0.0
+	Kd 0 .0588 .1686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E7E4E2
+	Ka 0.0 0.0 0.0
+	Kd .9059 .8941 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002139
+	Ka 0.0 0.0 0.0
+	Kd 0 .1294 .2235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001D37
+	Ka 0.0 0.0 0.0
+	Kd 0 .1137 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001330
+	Ka 0.0 0.0 0.0
+	Kd 0 .0745 .1882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_223649
+	Ka 0.0 0.0 0.0
+	Kd .1333 .2118 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_012C43
+	Ka 0.0 0.0 0.0
+	Kd .0039 .1725 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_707E89
+	Ka 0.0 0.0 0.0
+	Kd .4392 .4941 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6A5A6
+	Ka 0.0 0.0 0.0
+	Kd .651 .6471 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001A37
+	Ka 0.0 0.0 0.0
+	Kd 0 .102 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_08243C
+	Ka 0.0 0.0 0.0
+	Kd .0314 .1412 .2353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8295A9
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5843 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_889299
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5725 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_435D72
+	Ka 0.0 0.0 0.0
+	Kd .2627 .3647 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AEACAE
+	Ka 0.0 0.0 0.0
+	Kd .6824 .6745 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9A8A9
+	Ka 0.0 0.0 0.0
+	Kd .6627 .6588 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6A6A6
+	Ka 0.0 0.0 0.0
+	Kd .651 .651 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A29FA2
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6235 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9E9E9F
+	Ka 0.0 0.0 0.0
+	Kd .6196 .6196 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9BADC5
+	Ka 0.0 0.0 0.0
+	Kd .6078 .6784 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_869AAC
+	Ka 0.0 0.0 0.0
+	Kd .5255 .6039 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_445D73
+	Ka 0.0 0.0 0.0
+	Kd .2667 .3647 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B2B0B2
+	Ka 0.0 0.0 0.0
+	Kd .698 .6902 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AAA8AA
+	Ka 0.0 0.0 0.0
+	Kd .6667 .6588 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7A6A8
+	Ka 0.0 0.0 0.0
+	Kd .6549 .651 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A3A5
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6392 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A09FA0
+	Ka 0.0 0.0 0.0
+	Kd .6275 .6235 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9B9B9D
+	Ka 0.0 0.0 0.0
+	Kd .6078 .6078 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_98989A
+	Ka 0.0 0.0 0.0
+	Kd .5961 .5961 .6039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_969698
+	Ka 0.0 0.0 0.0
+	Kd .5882 .5882 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B9AA4
+	Ka 0.0 0.0 0.0
+	Kd .5451 .6039 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6B7B6
+	Ka 0.0 0.0 0.0
+	Kd .7137 .7176 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AEADB0
+	Ka 0.0 0.0 0.0
+	Kd .6824 .6784 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ACAAAC
+	Ka 0.0 0.0 0.0
+	Kd .6745 .6667 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7A5A8
+	Ka 0.0 0.0 0.0
+	Kd .6549 .6471 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6A5A5
+	Ka 0.0 0.0 0.0
+	Kd .651 .6471 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9D9D9E
+	Ka 0.0 0.0 0.0
+	Kd .6157 .6157 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9A9A9A
+	Ka 0.0 0.0 0.0
+	Kd .6039 .6039 .6039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_949496
+	Ka 0.0 0.0 0.0
+	Kd .5804 .5804 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_919193
+	Ka 0.0 0.0 0.0
+	Kd .5686 .5686 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_939395
+	Ka 0.0 0.0 0.0
+	Kd .5765 .5765 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B8B8E
+	Ka 0.0 0.0 0.0
+	Kd .5451 .5451 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B6B6
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7137 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFAFB0
+	Ka 0.0 0.0 0.0
+	Kd .6863 .6863 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ABA9AB
+	Ka 0.0 0.0 0.0
+	Kd .6706 .6627 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7A6A7
+	Ka 0.0 0.0 0.0
+	Kd .6549 .651 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A3A5
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6392 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_99999B
+	Ka 0.0 0.0 0.0
+	Kd .6 .6 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8E8E91
+	Ka 0.0 0.0 0.0
+	Kd .5569 .5569 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B8B8D
+	Ka 0.0 0.0 0.0
+	Kd .5451 .5451 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89898B
+	Ka 0.0 0.0 0.0
+	Kd .5373 .5373 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8A898D
+	Ka 0.0 0.0 0.0
+	Kd .5412 .5373 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_949CA4
+	Ka 0.0 0.0 0.0
+	Kd .5804 .6118 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0AFB0
+	Ka 0.0 0.0 0.0
+	Kd .6902 .6863 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ABA9AA
+	Ka 0.0 0.0 0.0
+	Kd .6706 .6627 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8A6A7
+	Ka 0.0 0.0 0.0
+	Kd .6588 .651 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A3A4
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6392 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A0A0A0
+	Ka 0.0 0.0 0.0
+	Kd .6275 .6275 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9E9EA0
+	Ka 0.0 0.0 0.0
+	Kd .6196 .6196 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9A9A9C
+	Ka 0.0 0.0 0.0
+	Kd .6039 .6039 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8F8F92
+	Ka 0.0 0.0 0.0
+	Kd .5608 .5608 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBFC1
+	Ka 0.0 0.0 0.0
+	Kd .7451 .749 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_898A8C
+	Ka 0.0 0.0 0.0
+	Kd .5373 .5412 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADABAE
+	Ka 0.0 0.0 0.0
+	Kd .6784 .6706 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AAA8A9
+	Ka 0.0 0.0 0.0
+	Kd .6667 .6588 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9D9D9F
+	Ka 0.0 0.0 0.0
+	Kd .6157 .6157 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_979799
+	Ka 0.0 0.0 0.0
+	Kd .5922 .5922 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8C8C8E
+	Ka 0.0 0.0 0.0
+	Kd .549 .549 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BABABC
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7294 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8E8E93
+	Ka 0.0 0.0 0.0
+	Kd .5569 .5569 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B0B5
+	Ka 0.0 0.0 0.0
+	Kd .6902 .6902 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A2A0A4
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6275 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9C9C9E
+	Ka 0.0 0.0 0.0
+	Kd .6118 .6118 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_99989B
+	Ka 0.0 0.0 0.0
+	Kd .6 .5961 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_959597
+	Ka 0.0 0.0 0.0
+	Kd .5843 .5843 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C0C0C1
+	Ka 0.0 0.0 0.0
+	Kd .7529 .7529 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BFBFBF
+	Ka 0.0 0.0 0.0
+	Kd .749 .749 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBDBD
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7412 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B7B9
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7176 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DFE1E5
+	Ka 0.0 0.0 0.0
+	Kd .8745 .8824 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A3A3A4
+	Ka 0.0 0.0 0.0
+	Kd .6392 .6392 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A09FA3
+	Ka 0.0 0.0 0.0
+	Kd .6275 .6235 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C3C3C5
+	Ka 0.0 0.0 0.0
+	Kd .7647 .7647 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBEBF
+	Ka 0.0 0.0 0.0
+	Kd .7451 .7451 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBCBD
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7373 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D5D6D8
+	Ka 0.0 0.0 0.0
+	Kd .8353 .8392 .8471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B9BB
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7255 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6B6B8
+	Ka 0.0 0.0 0.0
+	Kd .7137 .7137 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E0DFE7
+	Ka 0.0 0.0 0.0
+	Kd .8784 .8745 .9059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFAEB0
+	Ka 0.0 0.0 0.0
+	Kd .6863 .6824 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A5A5
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6471 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A3A2A5
+	Ka 0.0 0.0 0.0
+	Kd .6392 .6353 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9F9FA0
+	Ka 0.0 0.0 0.0
+	Kd .6235 .6235 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C7C7C9
+	Ka 0.0 0.0 0.0
+	Kd .7804 .7804 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C6C7
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7765 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C4C4C6
+	Ka 0.0 0.0 0.0
+	Kd .7686 .7686 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBDBF
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7412 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B2B6
+	Ka 0.0 0.0 0.0
+	Kd .6902 .698 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C1C1C9
+	Ka 0.0 0.0 0.0
+	Kd .7569 .7569 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AAA9AA
+	Ka 0.0 0.0 0.0
+	Kd .6667 .6627 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6A4A6
+	Ka 0.0 0.0 0.0
+	Kd .651 .6431 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A3A0A3
+	Ka 0.0 0.0 0.0
+	Kd .6392 .6275 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C9C8C9
+	Ka 0.0 0.0 0.0
+	Kd .7882 .7843 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8C8C8
+	Ka 0.0 0.0 0.0
+	Kd .7843 .7843 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C5C6
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7725 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C4C4C5
+	Ka 0.0 0.0 0.0
+	Kd .7686 .7686 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C3C1C4
+	Ka 0.0 0.0 0.0
+	Kd .7647 .7569 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBEC0
+	Ka 0.0 0.0 0.0
+	Kd .7451 .7451 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBBBBC
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7333 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B3B4B7
+	Ka 0.0 0.0 0.0
+	Kd .702 .7059 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9ABB0
+	Ka 0.0 0.0 0.0
+	Kd .6627 .6706 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D3D4DB
+	Ka 0.0 0.0 0.0
+	Kd .8275 .8314 .8588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8A7A8
+	Ka 0.0 0.0 0.0
+	Kd .6588 .6549 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6A5A7
+	Ka 0.0 0.0 0.0
+	Kd .651 .6471 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CACACA
+	Ka 0.0 0.0 0.0
+	Kd .7922 .7922 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C9C9C9
+	Ka 0.0 0.0 0.0
+	Kd .7882 .7882 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C7C7C7
+	Ka 0.0 0.0 0.0
+	Kd .7804 .7804 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C6C6
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7765 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C3C3C4
+	Ka 0.0 0.0 0.0
+	Kd .7647 .7647 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C0C0C3
+	Ka 0.0 0.0 0.0
+	Kd .7529 .7529 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBCBC
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7373 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9ACB2
+	Ka 0.0 0.0 0.0
+	Kd .6627 .6745 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CDCED6
+	Ka 0.0 0.0 0.0
+	Kd .8039 .8078 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ABAAAC
+	Ka 0.0 0.0 0.0
+	Kd .6706 .6667 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CBCBCB
+	Ka 0.0 0.0 0.0
+	Kd .7961 .7961 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8C7C8
+	Ka 0.0 0.0 0.0
+	Kd .7843 .7804 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B9BA
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7255 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C0BFBF
+	Ka 0.0 0.0 0.0
+	Kd .7529 .749 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BCBCBE
+	Ka 0.0 0.0 0.0
+	Kd .7373 .7373 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CACACC
+	Ka 0.0 0.0 0.0
+	Kd .7922 .7922 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6B7B9
+	Ka 0.0 0.0 0.0
+	Kd .7137 .7176 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFB2B6
+	Ka 0.0 0.0 0.0
+	Kd .6863 .698 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8ABB2
+	Ka 0.0 0.0 0.0
+	Kd .6588 .6706 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A5AC
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6471 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9BAC0
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7294 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CCCBCC
+	Ka 0.0 0.0 0.0
+	Kd .8 .7961 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A2A2A4
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6353 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9F9FA2
+	Ka 0.0 0.0 0.0
+	Kd .6235 .6235 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_929294
+	Ka 0.0 0.0 0.0
+	Kd .5725 .5725 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8C8B8E
+	Ka 0.0 0.0 0.0
+	Kd .549 .5451 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_87868A
+	Ka 0.0 0.0 0.0
+	Kd .5294 .5255 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_838286
+	Ka 0.0 0.0 0.0
+	Kd .5137 .5098 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7C7C81
+	Ka 0.0 0.0 0.0
+	Kd .4863 .4863 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_797A7E
+	Ka 0.0 0.0 0.0
+	Kd .4745 .4784 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_78797D
+	Ka 0.0 0.0 0.0
+	Kd .4706 .4745 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A5AD
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6471 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C7CD
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7804 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A2A0A3
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6275 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9E9E9E
+	Ka 0.0 0.0 0.0
+	Kd .6196 .6196 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9B9A9C
+	Ka 0.0 0.0 0.0
+	Kd .6078 .6039 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_949395
+	Ka 0.0 0.0 0.0
+	Kd .5804 .5765 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_878689
+	Ka 0.0 0.0 0.0
+	Kd .5294 .5255 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_848487
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5176 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_808084
+	Ka 0.0 0.0 0.0
+	Kd .502 .502 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7A7A80
+	Ka 0.0 0.0 0.0
+	Kd .4784 .4784 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_77787C
+	Ka 0.0 0.0 0.0
+	Kd .4667 .4706 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8F8F95
+	Ka 0.0 0.0 0.0
+	Kd .5608 .5608 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_17859F
+	Ka 0.0 0.0 0.0
+	Kd .0902 .5216 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33B9CC
+	Ka 0.0 0.0 0.0
+	Kd .2 .7255 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1191B3
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5686 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007098
+	Ka 0.0 0.0 0.0
+	Kd 0 .4392 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0283AA
+	Ka 0.0 0.0 0.0
+	Kd .0078 .5137 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1E8FAC
+	Ka 0.0 0.0 0.0
+	Kd .1176 .5608 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_52AABA
+	Ka 0.0 0.0 0.0
+	Kd .3216 .6667 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_73787A
+	Ka 0.0 0.0 0.0
+	Kd .451 .4706 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_737779
+	Ka 0.0 0.0 0.0
+	Kd .451 .4667 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C6C7CA
+	Ka 0.0 0.0 0.0
+	Kd .7765 .7804 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_424648
+	Ka 0.0 0.0 0.0
+	Kd .2588 .2745 .2824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_373737
+	Ka 0.0 0.0 0.0
+	Kd .2157 .2157 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B8B6
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7216 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_001737
+	Ka 0.0 0.0 0.0
+	Kd 0 .0902 .2157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00183A
+	Ka 0.0 0.0 0.0
+	Kd 0 .0941 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1D404C
+	Ka 0.0 0.0 0.0
+	Kd .1137 .251 .298
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_333F45
+	Ka 0.0 0.0 0.0
+	Kd .2 .2471 .2706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B5B4B5
+	Ka 0.0 0.0 0.0
+	Kd .7098 .7059 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ACAAAD
+	Ka 0.0 0.0 0.0
+	Kd .6745 .6667 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_545253
+	Ka 0.0 0.0 0.0
+	Kd .3294 .3216 .3255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0084A5
+	Ka 0.0 0.0 0.0
+	Kd 0 .5176 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_50ADBB
+	Ka 0.0 0.0 0.0
+	Kd .3137 .6784 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_747474
+	Ka 0.0 0.0 0.0
+	Kd .4549 .4549 .4549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4B4B4B
+	Ka 0.0 0.0 0.0
+	Kd .2941 .2941 .2941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2B3234
+	Ka 0.0 0.0 0.0
+	Kd .1686 .1961 .2039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_32383A
+	Ka 0.0 0.0 0.0
+	Kd .1961 .2196 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B6B8
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7137 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ABABAB
+	Ka 0.0 0.0 0.0
+	Kd .6706 .6706 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_626262
+	Ka 0.0 0.0 0.0
+	Kd .3843 .3843 .3843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_414955
+	Ka 0.0 0.0 0.0
+	Kd .2549 .2863 .3333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_466075
+	Ka 0.0 0.0 0.0
+	Kd .2745 .3765 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9A7A9
+	Ka 0.0 0.0 0.0
+	Kd .6627 .6549 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_888789
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5294 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A09FA2
+	Ka 0.0 0.0 0.0
+	Kd .6275 .6235 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_37BDCE
+	Ka 0.0 0.0 0.0
+	Kd .2157 .7412 .8078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2CB5C7
+	Ka 0.0 0.0 0.0
+	Kd .1725 .7098 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_29B2C7
+	Ka 0.0 0.0 0.0
+	Kd .1608 .698 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_017BA2
+	Ka 0.0 0.0 0.0
+	Kd .0039 .4824 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D8DB0
+	Ka 0.0 0.0 0.0
+	Kd .051 .5529 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00709F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4392 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007E9F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4BA8C4
+	Ka 0.0 0.0 0.0
+	Kd .2941 .6588 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_339AB6
+	Ka 0.0 0.0 0.0
+	Kd .2 .6039 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1F92AD
+	Ka 0.0 0.0 0.0
+	Kd .1216 .5725 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2B3135
+	Ka 0.0 0.0 0.0
+	Kd .1686 .1922 .2078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_36373B
+	Ka 0.0 0.0 0.0
+	Kd .2118 .2157 .2314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B9B6
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7255 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B9B6B8
+	Ka 0.0 0.0 0.0
+	Kd .7255 .7137 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_939393
+	Ka 0.0 0.0 0.0
+	Kd .5765 .5765 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_808CA0
+	Ka 0.0 0.0 0.0
+	Kd .502 .549 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7A7A7
+	Ka 0.0 0.0 0.0
+	Kd .6549 .6549 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A5A6
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6471 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CCCCCC
+	Ka 0.0 0.0 0.0
+	Kd .8 .8 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_128BBD
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5451 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_108DBE
+	Ka 0.0 0.0 0.0
+	Kd .0627 .5529 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E8DAF
+	Ka 0.0 0.0 0.0
+	Kd .0549 .5529 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006C94
+	Ka 0.0 0.0 0.0
+	Kd 0 .4235 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006392
+	Ka 0.0 0.0 0.0
+	Kd 0 .3882 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3095B2
+	Ka 0.0 0.0 0.0
+	Kd .1882 .5843 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_32363A
+	Ka 0.0 0.0 0.0
+	Kd .1961 .2118 .2275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_71767A
+	Ka 0.0 0.0 0.0
+	Kd .4431 .4627 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_727779
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4667 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_757A7D
+	Ka 0.0 0.0 0.0
+	Kd .4588 .4784 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BAB8B6
+	Ka 0.0 0.0 0.0
+	Kd .7294 .7216 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEBEBE
+	Ka 0.0 0.0 0.0
+	Kd .7451 .7451 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E141A
+	Ka 0.0 0.0 0.0
+	Kd .0549 .0784 .102
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_456075
+	Ka 0.0 0.0 0.0
+	Kd .2706 .3765 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AEADAE
+	Ka 0.0 0.0 0.0
+	Kd .6824 .6784 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6A4A5
+	Ka 0.0 0.0 0.0
+	Kd .651 .6431 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A09EA2
+	Ka 0.0 0.0 0.0
+	Kd .6275 .6196 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A2A2A3
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6353 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_50C5D5
+	Ka 0.0 0.0 0.0
+	Kd .3137 .7725 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4BC4D6
+	Ka 0.0 0.0 0.0
+	Kd .2941 .7686 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1899C0
+	Ka 0.0 0.0 0.0
+	Kd .0941 .6 .7529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8DB0
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5529 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006593
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007299
+	Ka 0.0 0.0 0.0
+	Kd 0 .4471 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B88A9
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5333 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_168CAD
+	Ka 0.0 0.0 0.0
+	Kd .0863 .549 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3E9DB8
+	Ka 0.0 0.0 0.0
+	Kd .2431 .6157 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_353535
+	Ka 0.0 0.0 0.0
+	Kd .2078 .2078 .2078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_71777A
+	Ka 0.0 0.0 0.0
+	Kd .4431 .4667 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_707577
+	Ka 0.0 0.0 0.0
+	Kd .4392 .4588 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_828285
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5098 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4D677B
+	Ka 0.0 0.0 0.0
+	Kd .302 .4039 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9A8A8
+	Ka 0.0 0.0 0.0
+	Kd .6627 .6588 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A4A6
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6431 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A2A5
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6353 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CBCBCC
+	Ka 0.0 0.0 0.0
+	Kd .7961 .7961 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C8C8C9
+	Ka 0.0 0.0 0.0
+	Kd .7843 .7843 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5AC7D8
+	Ka 0.0 0.0 0.0
+	Kd .3529 .7804 .8471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4DC4D4
+	Ka 0.0 0.0 0.0
+	Kd .302 .7686 .8314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0683B8
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5137 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0581B6
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5059 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006D9D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4275 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2394B0
+	Ka 0.0 0.0 0.0
+	Kd .1373 .5804 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2893B2
+	Ka 0.0 0.0 0.0
+	Kd .1569 .5765 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1188A9
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5333 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_455D73
+	Ka 0.0 0.0 0.0
+	Kd .2706 .3647 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A3A3A5
+	Ka 0.0 0.0 0.0
+	Kd .6392 .6392 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C7C7C8
+	Ka 0.0 0.0 0.0
+	Kd .7804 .7804 .7843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_979698
+	Ka 0.0 0.0 0.0
+	Kd .5922 .5882 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_63CADC
+	Ka 0.0 0.0 0.0
+	Kd .3882 .7922 .8627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_61CADB
+	Ka 0.0 0.0 0.0
+	Kd .3804 .7922 .8588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007C9E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4863 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34BACD
+	Ka 0.0 0.0 0.0
+	Kd .2039 .7294 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_32B8CB
+	Ka 0.0 0.0 0.0
+	Kd .1961 .7216 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1B9FC1
+	Ka 0.0 0.0 0.0
+	Kd .1059 .6235 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0065A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00649E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00729F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4471 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005F8D
+	Ka 0.0 0.0 0.0
+	Kd 0 .3725 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007CA2
+	Ka 0.0 0.0 0.0
+	Kd 0 .4863 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_369BB9
+	Ka 0.0 0.0 0.0
+	Kd .2118 .6078 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_128BA9
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5451 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2A96B5
+	Ka 0.0 0.0 0.0
+	Kd .1647 .5882 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1D2327
+	Ka 0.0 0.0 0.0
+	Kd .1137 .1373 .1529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A2A3
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6353 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5C4C5
+	Ka 0.0 0.0 0.0
+	Kd .7725 .7686 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6CCFDE
+	Ka 0.0 0.0 0.0
+	Kd .4235 .8118 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_65CCDC
+	Ka 0.0 0.0 0.0
+	Kd .3961 .8 .8627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3EBECF
+	Ka 0.0 0.0 0.0
+	Kd .2431 .7451 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_28AFC6
+	Ka 0.0 0.0 0.0
+	Kd .1569 .6863 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2CB4CA
+	Ka 0.0 0.0 0.0
+	Kd .1725 .7059 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8BAF
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5451 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00649F
+	Ka 0.0 0.0 0.0
+	Kd 0 .3922 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_027EA9
+	Ka 0.0 0.0 0.0
+	Kd .0078 .4941 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003F6D
+	Ka 0.0 0.0 0.0
+	Kd 0 .2471 .4275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007CA0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4863 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1489A8
+	Ka 0.0 0.0 0.0
+	Kd .0784 .5373 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2294AC
+	Ka 0.0 0.0 0.0
+	Kd .1333 .5804 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0484A4
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5176 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_455F73
+	Ka 0.0 0.0 0.0
+	Kd .2706 .3725 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A3A2A2
+	Ka 0.0 0.0 0.0
+	Kd .6392 .6353 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_72B2C3
+	Ka 0.0 0.0 0.0
+	Kd .4471 .698 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_76D3E0
+	Ka 0.0 0.0 0.0
+	Kd .4627 .8275 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_74D0E0
+	Ka 0.0 0.0 0.0
+	Kd .4549 .8157 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30A6BF
+	Ka 0.0 0.0 0.0
+	Kd .1882 .651 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4BC4D5
+	Ka 0.0 0.0 0.0
+	Kd .2941 .7686 .8353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3FBED0
+	Ka 0.0 0.0 0.0
+	Kd .2471 .7451 .8157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00668E
+	Ka 0.0 0.0 0.0
+	Kd 0 .4 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00497A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2863 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005985
+	Ka 0.0 0.0 0.0
+	Kd 0 .349 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006B95
+	Ka 0.0 0.0 0.0
+	Kd 0 .4196 .5843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2093AD
+	Ka 0.0 0.0 0.0
+	Kd .1255 .5765 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3F9AB7
+	Ka 0.0 0.0 0.0
+	Kd .2471 .6039 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_369CB8
+	Ka 0.0 0.0 0.0
+	Kd .2118 .6118 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_607180
+	Ka 0.0 0.0 0.0
+	Kd .3765 .4431 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5C5C5
+	Ka 0.0 0.0 0.0
+	Kd .7725 .7725 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C3C1C3
+	Ka 0.0 0.0 0.0
+	Kd .7647 .7569 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C1C1C1
+	Ka 0.0 0.0 0.0
+	Kd .7569 .7569 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8D8D8F
+	Ka 0.0 0.0 0.0
+	Kd .5529 .5529 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3A94AE
+	Ka 0.0 0.0 0.0
+	Kd .2275 .5804 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_81D5E2
+	Ka 0.0 0.0 0.0
+	Kd .5059 .8353 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5AC8D8
+	Ka 0.0 0.0 0.0
+	Kd .3529 .7843 .8471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00689A
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .6039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005692
+	Ka 0.0 0.0 0.0
+	Kd 0 .3373 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005B87
+	Ka 0.0 0.0 0.0
+	Kd 0 .3569 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004F7D
+	Ka 0.0 0.0 0.0
+	Kd 0 .3098 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_188CAB
+	Ka 0.0 0.0 0.0
+	Kd .0941 .549 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3CA4B7
+	Ka 0.0 0.0 0.0
+	Kd .2353 .6431 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9C9C9D
+	Ka 0.0 0.0 0.0
+	Kd .6118 .6118 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C1C0C1
+	Ka 0.0 0.0 0.0
+	Kd .7569 .7529 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BFBFC1
+	Ka 0.0 0.0 0.0
+	Kd .749 .749 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8A8A8C
+	Ka 0.0 0.0 0.0
+	Kd .5412 .5412 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88878B
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5294 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89D9E6
+	Ka 0.0 0.0 0.0
+	Kd .5373 .851 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30B7C9
+	Ka 0.0 0.0 0.0
+	Kd .1882 .7176 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0089A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .5373 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_25ADC6
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6784 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E8EB2
+	Ka 0.0 0.0 0.0
+	Kd .0549 .5569 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B8E
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .5569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004A7A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2902 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1189A7
+	Ka 0.0 0.0 0.0
+	Kd .0667 .5373 .6549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_198EAB
+	Ka 0.0 0.0 0.0
+	Kd .098 .5569 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_389BB7
+	Ka 0.0 0.0 0.0
+	Kd .2196 .6078 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_262B2B
+	Ka 0.0 0.0 0.0
+	Kd .149 .1686 .1686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8B8A8D
+	Ka 0.0 0.0 0.0
+	Kd .5451 .5412 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88898B
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5373 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_858489
+	Ka 0.0 0.0 0.0
+	Kd .5216 .5176 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9ADEEB
+	Ka 0.0 0.0 0.0
+	Kd .6039 .8706 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2697CB
+	Ka 0.0 0.0 0.0
+	Kd .149 .5922 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2599CB
+	Ka 0.0 0.0 0.0
+	Kd .1451 .6 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_22A9C4
+	Ka 0.0 0.0 0.0
+	Kd .1333 .6627 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0383AA
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5137 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006D96
+	Ka 0.0 0.0 0.0
+	Kd 0 .4275 .5882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00699C
+	Ka 0.0 0.0 0.0
+	Kd 0 .4118 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004283
+	Ka 0.0 0.0 0.0
+	Kd 0 .2588 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005A85
+	Ka 0.0 0.0 0.0
+	Kd 0 .3529 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007199
+	Ka 0.0 0.0 0.0
+	Kd 0 .4431 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0385A8
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5216 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2493AF
+	Ka 0.0 0.0 0.0
+	Kd .1412 .5765 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2296B3
+	Ka 0.0 0.0 0.0
+	Kd .1333 .5882 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D1318
+	Ka 0.0 0.0 0.0
+	Kd .051 .0745 .0941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDBDBE
+	Ka 0.0 0.0 0.0
+	Kd .7412 .7412 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_868689
+	Ka 0.0 0.0 0.0
+	Kd .5255 .5255 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_838387
+	Ka 0.0 0.0 0.0
+	Kd .5137 .5137 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_828284
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5098 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_808184
+	Ka 0.0 0.0 0.0
+	Kd .502 .5059 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8BCFE0
+	Ka 0.0 0.0 0.0
+	Kd .5451 .8118 .8784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6E1F0
+	Ka 0.0 0.0 0.0
+	Kd .651 .8824 .9412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9BDEEC
+	Ka 0.0 0.0 0.0
+	Kd .6078 .8706 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_81D5E4
+	Ka 0.0 0.0 0.0
+	Kd .5059 .8353 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_75D1E1
+	Ka 0.0 0.0 0.0
+	Kd .4588 .8196 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_148FC1
+	Ka 0.0 0.0 0.0
+	Kd .0784 .5608 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1393BF
+	Ka 0.0 0.0 0.0
+	Kd .0745 .5765 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006594
+	Ka 0.0 0.0 0.0
+	Kd 0 .3961 .5804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A77
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .4667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004272
+	Ka 0.0 0.0 0.0
+	Kd 0 .2588 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005D88
+	Ka 0.0 0.0 0.0
+	Kd 0 .3647 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005C87
+	Ka 0.0 0.0 0.0
+	Kd 0 .3608 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081A5
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_435C72
+	Ka 0.0 0.0 0.0
+	Kd .2627 .3608 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8C8C8F
+	Ka 0.0 0.0 0.0
+	Kd .549 .549 .5608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBBCBE
+	Ka 0.0 0.0 0.0
+	Kd .7333 .7373 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_838385
+	Ka 0.0 0.0 0.0
+	Kd .5137 .5137 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_828185
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5059 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7E8083
+	Ka 0.0 0.0 0.0
+	Kd .4941 .502 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7D7C80
+	Ka 0.0 0.0 0.0
+	Kd .4902 .4863 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7C81
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4863 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BBEAF4
+	Ka 0.0 0.0 0.0
+	Kd .7333 .9176 .9569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6E8F4
+	Ka 0.0 0.0 0.0
+	Kd .7137 .9098 .9569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_83D7E5
+	Ka 0.0 0.0 0.0
+	Kd .5137 .8431 .898
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4DC4D6
+	Ka 0.0 0.0 0.0
+	Kd .302 .7686 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_41BFD3
+	Ka 0.0 0.0 0.0
+	Kd .2549 .749 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_32B2CB
+	Ka 0.0 0.0 0.0
+	Kd .1961 .698 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1EA7C1
+	Ka 0.0 0.0 0.0
+	Kd .1176 .6549 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0888AE
+	Ka 0.0 0.0 0.0
+	Kd .0314 .5333 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005F8A
+	Ka 0.0 0.0 0.0
+	Kd 0 .3725 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006D98
+	Ka 0.0 0.0 0.0
+	Kd 0 .4275 .5961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_435D71
+	Ka 0.0 0.0 0.0
+	Kd .2627 .3647 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B9BA
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7255 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_818183
+	Ka 0.0 0.0 0.0
+	Kd .5059 .5059 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_808082
+	Ka 0.0 0.0 0.0
+	Kd .502 .502 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7E8082
+	Ka 0.0 0.0 0.0
+	Kd .4941 .502 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7C7D80
+	Ka 0.0 0.0 0.0
+	Kd .4863 .4902 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B5E8F5
+	Ka 0.0 0.0 0.0
+	Kd .7098 .9098 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8E4F0
+	Ka 0.0 0.0 0.0
+	Kd .6588 .8941 .9412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_52C5D7
+	Ka 0.0 0.0 0.0
+	Kd .3216 .7725 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_47C1D4
+	Ka 0.0 0.0 0.0
+	Kd .2784 .7569 .8314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3BBDCF
+	Ka 0.0 0.0 0.0
+	Kd .2314 .7412 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A89BB
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5373 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0988B9
+	Ka 0.0 0.0 0.0
+	Kd .0353 .5333 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007EA0
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1AA3BF
+	Ka 0.0 0.0 0.0
+	Kd .102 .6392 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0381AA
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5059 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003A73
+	Ka 0.0 0.0 0.0
+	Kd 0 .2275 .451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00336C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2 .4235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003E6B
+	Ka 0.0 0.0 0.0
+	Kd 0 .2431 .4196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007DA3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4902 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4A6375
+	Ka 0.0 0.0 0.0
+	Kd .2902 .3882 .4588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88888B
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5333 .5451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B8BA
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7216 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7E7E81
+	Ka 0.0 0.0 0.0
+	Kd .4941 .4941 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7D7E82
+	Ka 0.0 0.0 0.0
+	Kd .4902 .4941 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A6DEEC
+	Ka 0.0 0.0 0.0
+	Kd .651 .8706 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9BDFEC
+	Ka 0.0 0.0 0.0
+	Kd .6078 .8745 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8FDAE8
+	Ka 0.0 0.0 0.0
+	Kd .5608 .8549 .9098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_54C6D6
+	Ka 0.0 0.0 0.0
+	Kd .3294 .7765 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_49C1D4
+	Ka 0.0 0.0 0.0
+	Kd .2863 .7569 .8314
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0582B7
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5098 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_149DBE
+	Ka 0.0 0.0 0.0
+	Kd .0784 .6157 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006797
+	Ka 0.0 0.0 0.0
+	Kd 0 .4039 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005182
+	Ka 0.0 0.0 0.0
+	Kd 0 .3176 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002B64
+	Ka 0.0 0.0 0.0
+	Kd 0 .1686 .3922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080A4
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B8B8BA
+	Ka 0.0 0.0 0.0
+	Kd .7216 .7216 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B5B5B7
+	Ka 0.0 0.0 0.0
+	Kd .7098 .7098 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B2B2B7
+	Ka 0.0 0.0 0.0
+	Kd .698 .698 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFB0B6
+	Ka 0.0 0.0 0.0
+	Kd .6863 .6902 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ACADB4
+	Ka 0.0 0.0 0.0
+	Kd .6745 .6784 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7A7B80
+	Ka 0.0 0.0 0.0
+	Kd .4784 .4824 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D6F2FD
+	Ka 0.0 0.0 0.0
+	Kd .8392 .949 .9922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CEF1FA
+	Ka 0.0 0.0 0.0
+	Kd .8078 .9451 .9804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9BD9EA
+	Ka 0.0 0.0 0.0
+	Kd .6078 .851 .9176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9DDFEC
+	Ka 0.0 0.0 0.0
+	Kd .6157 .8745 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0080A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .502 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6ECFDF
+	Ka 0.0 0.0 0.0
+	Kd .4314 .8118 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5FC9D9
+	Ka 0.0 0.0 0.0
+	Kd .3725 .7882 .851
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_39BDCF
+	Ka 0.0 0.0 0.0
+	Kd .2235 .7412 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_037DB5
+	Ka 0.0 0.0 0.0
+	Kd .0118 .4902 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_139DBC
+	Ka 0.0 0.0 0.0
+	Kd .0745 .6157 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003565
+	Ka 0.0 0.0 0.0
+	Kd 0 .2078 .3961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002762
+	Ka 0.0 0.0 0.0
+	Kd 0 .1529 .3843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002861
+	Ka 0.0 0.0 0.0
+	Kd 0 .1569 .3804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_238B9E
+	Ka 0.0 0.0 0.0
+	Kd .1373 .5451 .6196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7B7BA
+	Ka 0.0 0.0 0.0
+	Kd .7176 .7176 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B2B7
+	Ka 0.0 0.0 0.0
+	Kd .6902 .698 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AEAFB6
+	Ka 0.0 0.0 0.0
+	Kd .6824 .6863 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ABACB5
+	Ka 0.0 0.0 0.0
+	Kd .6706 .6745 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A9ABB2
+	Ka 0.0 0.0 0.0
+	Kd .6627 .6706 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8A8AF
+	Ka 0.0 0.0 0.0
+	Kd .6588 .6588 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A6AC
+	Ka 0.0 0.0 0.0
+	Kd .6471 .651 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D9F4FE
+	Ka 0.0 0.0 0.0
+	Kd .851 .9569 .9961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CDF0FB
+	Ka 0.0 0.0 0.0
+	Kd .8039 .9412 .9843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7E2EF
+	Ka 0.0 0.0 0.0
+	Kd .6549 .8863 .9373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6ECEDF
+	Ka 0.0 0.0 0.0
+	Kd .4314 .8078 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_229CB8
+	Ka 0.0 0.0 0.0
+	Kd .1333 .6118 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0077AF
+	Ka 0.0 0.0 0.0
+	Kd 0 .4667 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00618C
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1289AA
+	Ka 0.0 0.0 0.0
+	Kd .0706 .5373 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B0B3B7
+	Ka 0.0 0.0 0.0
+	Kd .6902 .702 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AFAFB7
+	Ka 0.0 0.0 0.0
+	Kd .6863 .6863 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADADB4
+	Ka 0.0 0.0 0.0
+	Kd .6784 .6784 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A7A9AF
+	Ka 0.0 0.0 0.0
+	Kd .6549 .6627 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A6AD
+	Ka 0.0 0.0 0.0
+	Kd .6471 .651 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A5AE
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6471 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_77B2C5
+	Ka 0.0 0.0 0.0
+	Kd .4667 .698 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_63BDF2
+	Ka 0.0 0.0 0.0
+	Kd .3882 .7412 .949
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DCF6FF
+	Ka 0.0 0.0 0.0
+	Kd .8627 .9647 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_70BED3
+	Ka 0.0 0.0 0.0
+	Kd .4392 .7451 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B6E8F5
+	Ka 0.0 0.0 0.0
+	Kd .7137 .9098 .9608
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_AAE5F1
+	Ka 0.0 0.0 0.0
+	Kd .6667 .898 .9451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_148CAC
+	Ka 0.0 0.0 0.0
+	Kd .0784 .549 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_72CFDF
+	Ka 0.0 0.0 0.0
+	Kd .4471 .8118 .8745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_39BDCE
+	Ka 0.0 0.0 0.0
+	Kd .2235 .7412 .8078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007D9F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4902 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005B99
+	Ka 0.0 0.0 0.0
+	Kd 0 .3569 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0075A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4588 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00588A
+	Ka 0.0 0.0 0.0
+	Kd 0 .3451 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00527E
+	Ka 0.0 0.0 0.0
+	Kd 0 .3216 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0085A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .5216 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A8A9AF
+	Ka 0.0 0.0 0.0
+	Kd .6588 .6627 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5A8AC
+	Ka 0.0 0.0 0.0
+	Kd .6471 .6588 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_98999B
+	Ka 0.0 0.0 0.0
+	Kd .5961 .6 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007B9C
+	Ka 0.0 0.0 0.0
+	Kd 0 .4824 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E8F9FF
+	Ka 0.0 0.0 0.0
+	Kd .9098 .9765 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDEBF6
+	Ka 0.0 0.0 0.0
+	Kd .7412 .9216 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_95DCEA
+	Ka 0.0 0.0 0.0
+	Kd .5843 .8627 .9176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8AD8E7
+	Ka 0.0 0.0 0.0
+	Kd .5412 .8471 .9059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F98B9
+	Ka 0.0 0.0 0.0
+	Kd .0588 .5961 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006C9D
+	Ka 0.0 0.0 0.0
+	Kd 0 .4235 .6157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B88
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003B68
+	Ka 0.0 0.0 0.0
+	Kd 0 .2314 .4078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005084
+	Ka 0.0 0.0 0.0
+	Kd 0 .3137 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0083A8
+	Ka 0.0 0.0 0.0
+	Kd 0 .5137 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1E252B
+	Ka 0.0 0.0 0.0
+	Kd .1176 .1451 .1686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A4A4AC
+	Ka 0.0 0.0 0.0
+	Kd .6431 .6431 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A2A3AB
+	Ka 0.0 0.0 0.0
+	Kd .6353 .6392 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_77787B
+	Ka 0.0 0.0 0.0
+	Kd .4667 .4706 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7DC7ED
+	Ka 0.0 0.0 0.0
+	Kd .4902 .7804 .9294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_50B0E4
+	Ka 0.0 0.0 0.0
+	Kd .3137 .6902 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7DD4E2
+	Ka 0.0 0.0 0.0
+	Kd .4902 .8314 .8863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_60C9DA
+	Ka 0.0 0.0 0.0
+	Kd .3765 .7882 .8549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_53C6D6
+	Ka 0.0 0.0 0.0
+	Kd .3255 .7765 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_23AAC4
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6667 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D98B9
+	Ka 0.0 0.0 0.0
+	Kd .051 .5961 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006197
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .5922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004071
+	Ka 0.0 0.0 0.0
+	Kd 0 .251 .4431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2893AD
+	Ka 0.0 0.0 0.0
+	Kd .1569 .5765 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_76787C
+	Ka 0.0 0.0 0.0
+	Kd .4627 .4706 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_B7DEEC
+	Ka 0.0 0.0 0.0
+	Kd .7176 .8706 .9255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DBF5FF
+	Ka 0.0 0.0 0.0
+	Kd .8588 .9608 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CFF1FB
+	Ka 0.0 0.0 0.0
+	Kd .8118 .9451 .9843
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C5EDF8
+	Ka 0.0 0.0 0.0
+	Kd .7725 .9294 .9725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A0DFEE
+	Ka 0.0 0.0 0.0
+	Kd .6275 .8745 .9333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3AA4D7
+	Ka 0.0 0.0 0.0
+	Kd .2275 .6431 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6DCEDE
+	Ka 0.0 0.0 0.0
+	Kd .4275 .8078 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_56C7D7
+	Ka 0.0 0.0 0.0
+	Kd .3373 .7804 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_068BAA
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5451 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2BB2C9
+	Ka 0.0 0.0 0.0
+	Kd .1686 .698 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_24ABC5
+	Ka 0.0 0.0 0.0
+	Kd .1412 .6706 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0E99BA
+	Ka 0.0 0.0 0.0
+	Kd .0549 .6 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006899
+	Ka 0.0 0.0 0.0
+	Kd 0 .4078 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003E6D
+	Ka 0.0 0.0 0.0
+	Kd 0 .2431 .4275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0785A6
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5216 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A3A4AA
+	Ka 0.0 0.0 0.0
+	Kd .6392 .6431 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_757679
+	Ka 0.0 0.0 0.0
+	Kd .4588 .4627 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7B7B
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4824 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_EAF9FF
+	Ka 0.0 0.0 0.0
+	Kd .9176 .9765 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DDF6FF
+	Ka 0.0 0.0 0.0
+	Kd .8667 .9647 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D1F2FC
+	Ka 0.0 0.0 0.0
+	Kd .8196 .949 .9882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_98DDEB
+	Ka 0.0 0.0 0.0
+	Kd .5961 .8667 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_309DD0
+	Ka 0.0 0.0 0.0
+	Kd .1882 .6157 .8157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_289ACD
+	Ka 0.0 0.0 0.0
+	Kd .1569 .6039 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_64CCDD
+	Ka 0.0 0.0 0.0
+	Kd .3922 .8 .8667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_39BCCF
+	Ka 0.0 0.0 0.0
+	Kd .2235 .7373 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_129CB9
+	Ka 0.0 0.0 0.0
+	Kd .0706 .6118 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_19A2BF
+	Ka 0.0 0.0 0.0
+	Kd .098 .6353 .749
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0079A5
+	Ka 0.0 0.0 0.0
+	Kd 0 .4745 .6471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00407D
+	Ka 0.0 0.0 0.0
+	Kd 0 .251 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005784
+	Ka 0.0 0.0 0.0
+	Kd 0 .3412 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E7F8FF
+	Ka 0.0 0.0 0.0
+	Kd .9059 .9725 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_E1F7FF
+	Ka 0.0 0.0 0.0
+	Kd .8824 .9686 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BDE9F6
+	Ka 0.0 0.0 0.0
+	Kd .7412 .9137 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ACE5F1
+	Ka 0.0 0.0 0.0
+	Kd .6745 .898 .9451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89D8E6
+	Ka 0.0 0.0 0.0
+	Kd .5373 .8471 .902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_36A5CF
+	Ka 0.0 0.0 0.0
+	Kd .2118 .6471 .8118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005992
+	Ka 0.0 0.0 0.0
+	Kd 0 .349 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_42BFD1
+	Ka 0.0 0.0 0.0
+	Kd .2588 .749 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_36BBCD
+	Ka 0.0 0.0 0.0
+	Kd .2118 .7333 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_21A9C4
+	Ka 0.0 0.0 0.0
+	Kd .1294 .6627 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_18A0BE
+	Ka 0.0 0.0 0.0
+	Kd .0941 .6275 .7451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006699
+	Ka 0.0 0.0 0.0
+	Kd 0 .4 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003B7A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2314 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004879
+	Ka 0.0 0.0 0.0
+	Kd 0 .2824 .4745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004676
+	Ka 0.0 0.0 0.0
+	Kd 0 .2745 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3198BD
+	Ka 0.0 0.0 0.0
+	Kd .1922 .5961 .7412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_DFF7FF
+	Ka 0.0 0.0 0.0
+	Kd .8745 .9686 1
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C3ECF7
+	Ka 0.0 0.0 0.0
+	Kd .7647 .9255 .9686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_49ABC4
+	Ka 0.0 0.0 0.0
+	Kd .2863 .6706 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7DD4E4
+	Ka 0.0 0.0 0.0
+	Kd .4902 .8314 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_35A9CC
+	Ka 0.0 0.0 0.0
+	Kd .2078 .6627 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_158FC1
+	Ka 0.0 0.0 0.0
+	Kd .0824 .5608 .7569
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003572
+	Ka 0.0 0.0 0.0
+	Kd 0 .2078 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004376
+	Ka 0.0 0.0 0.0
+	Kd 0 .2627 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1D91AB
+	Ka 0.0 0.0 0.0
+	Kd .1137 .5686 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_54ABC6
+	Ka 0.0 0.0 0.0
+	Kd .3294 .6706 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6BB9D1
+	Ka 0.0 0.0 0.0
+	Kd .4196 .7255 .8196
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CFF1FC
+	Ka 0.0 0.0 0.0
+	Kd .8118 .9451 .9882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_BEEBF6
+	Ka 0.0 0.0 0.0
+	Kd .7451 .9216 .9647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_96DCEB
+	Ka 0.0 0.0 0.0
+	Kd .5882 .8627 .9216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_54C6D8
+	Ka 0.0 0.0 0.0
+	Kd .3294 .7765 .8471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0B8BBC
+	Ka 0.0 0.0 0.0
+	Kd .0431 .5451 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1099BA
+	Ka 0.0 0.0 0.0
+	Kd .0627 .6 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0492B6
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5725 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002C66
+	Ka 0.0 0.0 0.0
+	Kd 0 .1725 .4
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_002A64
+	Ka 0.0 0.0 0.0
+	Kd 0 .1647 .3922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D9F5FE
+	Ka 0.0 0.0 0.0
+	Kd .851 .9608 .9961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CBEFFA
+	Ka 0.0 0.0 0.0
+	Kd .7961 .9373 .9804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_70C3D6
+	Ka 0.0 0.0 0.0
+	Kd .4392 .7647 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_A5E1EE
+	Ka 0.0 0.0 0.0
+	Kd .6471 .8824 .9333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2FA0BA
+	Ka 0.0 0.0 0.0
+	Kd .1843 .6275 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_71CFDE
+	Ka 0.0 0.0 0.0
+	Kd .4431 .8118 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D8FAE
+	Ka 0.0 0.0 0.0
+	Kd .051 .5608 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0683B7
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5137 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_22AAC6
+	Ka 0.0 0.0 0.0
+	Kd .1333 .6667 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0D98BB
+	Ka 0.0 0.0 0.0
+	Kd .051 .5961 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008BB2
+	Ka 0.0 0.0 0.0
+	Kd 0 .5451 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005788
+	Ka 0.0 0.0 0.0
+	Kd 0 .3412 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00628D
+	Ka 0.0 0.0 0.0
+	Kd 0 .3843 .5529
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003E6C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2431 .4235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007A9F
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6235
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_329EBB
+	Ka 0.0 0.0 0.0
+	Kd .1961 .6196 .7333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_ADE4F1
+	Ka 0.0 0.0 0.0
+	Kd .6784 .8941 .9451
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_97DEEA
+	Ka 0.0 0.0 0.0
+	Kd .5922 .8706 .9176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_70CFDE
+	Ka 0.0 0.0 0.0
+	Kd .4392 .8118 .8706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_28B0C6
+	Ka 0.0 0.0 0.0
+	Kd .1569 .6902 .7765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0784B8
+	Ka 0.0 0.0 0.0
+	Kd .0275 .5176 .7216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005F89
+	Ka 0.0 0.0 0.0
+	Kd 0 .3725 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3E4040
+	Ka 0.0 0.0 0.0
+	Kd .2431 .251 .251
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_94D8E7
+	Ka 0.0 0.0 0.0
+	Kd .5804 .8471 .9059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1E94B2
+	Ka 0.0 0.0 0.0
+	Kd .1176 .5804 .698
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_299CB7
+	Ka 0.0 0.0 0.0
+	Kd .1608 .6118 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7CD4E4
+	Ka 0.0 0.0 0.0
+	Kd .4863 .8314 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_239DB9
+	Ka 0.0 0.0 0.0
+	Kd .1373 .6157 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0F92BA
+	Ka 0.0 0.0 0.0
+	Kd .0588 .5725 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0491B6
+	Ka 0.0 0.0 0.0
+	Kd .0157 .5686 .7137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008BB3
+	Ka 0.0 0.0 0.0
+	Kd 0 .5451 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_138BAC
+	Ka 0.0 0.0 0.0
+	Kd .0745 .5451 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A86A8
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5255 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_40AAC3
+	Ka 0.0 0.0 0.0
+	Kd .251 .6667 .7647
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_80D4E4
+	Ka 0.0 0.0 0.0
+	Kd .502 .8314 .8941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1996B3
+	Ka 0.0 0.0 0.0
+	Kd .098 .5882 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_50C5D6
+	Ka 0.0 0.0 0.0
+	Kd .3137 .7725 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_42C0D3
+	Ka 0.0 0.0 0.0
+	Kd .2588 .7529 .8275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_33BACB
+	Ka 0.0 0.0 0.0
+	Kd .2 .7294 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006EA9
+	Ka 0.0 0.0 0.0
+	Kd 0 .4314 .6627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006AA8
+	Ka 0.0 0.0 0.0
+	Kd 0 .4157 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7BD4E1
+	Ka 0.0 0.0 0.0
+	Kd .4824 .8314 .8824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_5FC8D9
+	Ka 0.0 0.0 0.0
+	Kd .3725 .7843 .851
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_24ADC5
+	Ka 0.0 0.0 0.0
+	Kd .1412 .6784 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A95B9
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5843 .7255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0693B7
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5765 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005385
+	Ka 0.0 0.0 0.0
+	Kd 0 .3255 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007EA3
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_51C6D6
+	Ka 0.0 0.0 0.0
+	Kd .3176 .7765 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_34BCCC
+	Ka 0.0 0.0 0.0
+	Kd .2039 .7373 .8
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0082A4
+	Ka 0.0 0.0 0.0
+	Kd 0 .5098 .6431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0061A2
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .6353
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004B7C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2941 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2A92B0
+	Ka 0.0 0.0 0.0
+	Kd .1647 .5725 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_30B7CB
+	Ka 0.0 0.0 0.0
+	Kd .1882 .7176 .7961
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2CB4C9
+	Ka 0.0 0.0 0.0
+	Kd .1725 .7059 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_139CBC
+	Ka 0.0 0.0 0.0
+	Kd .0745 .6118 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0391B5
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5686 .7098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008CB3
+	Ka 0.0 0.0 0.0
+	Kd 0 .549 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0086B0
+	Ka 0.0 0.0 0.0
+	Kd 0 .5255 .6902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00498A
+	Ka 0.0 0.0 0.0
+	Kd 0 .2863 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_005C8A
+	Ka 0.0 0.0 0.0
+	Kd 0 .3608 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0082A0
+	Ka 0.0 0.0 0.0
+	Kd 0 .5098 .6275
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_16A0BA
+	Ka 0.0 0.0 0.0
+	Kd .0863 .6275 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_2EB5C9
+	Ka 0.0 0.0 0.0
+	Kd .1804 .7098 .7882
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_22A8C5
+	Ka 0.0 0.0 0.0
+	Kd .1333 .6588 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0083A6
+	Ka 0.0 0.0 0.0
+	Kd 0 .5137 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_038EB4
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5569 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0084AB
+	Ka 0.0 0.0 0.0
+	Kd 0 .5176 .6706
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_004180
+	Ka 0.0 0.0 0.0
+	Kd 0 .2549 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_00749B
+	Ka 0.0 0.0 0.0
+	Kd 0 .4549 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_21A8C5
+	Ka 0.0 0.0 0.0
+	Kd .1294 .6588 .7725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0A97BA
+	Ka 0.0 0.0 0.0
+	Kd .0392 .5922 .7294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_003F7C
+	Ka 0.0 0.0 0.0
+	Kd 0 .2471 .4863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4CAECA
+	Ka 0.0 0.0 0.0
+	Kd .298 .6824 .7922
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_21A8C4
+	Ka 0.0 0.0 0.0
+	Kd .1294 .6588 .7686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_038FAF
+	Ka 0.0 0.0 0.0
+	Kd .0118 .5608 .6863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0692B7
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5725 .7176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0086AE
+	Ka 0.0 0.0 0.0
+	Kd 0 .5255 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007DAA
+	Ka 0.0 0.0 0.0
+	Kd 0 .4902 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_1E8EAD
+	Ka 0.0 0.0 0.0
+	Kd .1176 .5569 .6784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_129CBC
+	Ka 0.0 0.0 0.0
+	Kd .0706 .6118 .7373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008AAC
+	Ka 0.0 0.0 0.0
+	Kd 0 .5412 .6745
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0083AE
+	Ka 0.0 0.0 0.0
+	Kd 0 .5137 .6824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007EAA
+	Ka 0.0 0.0 0.0
+	Kd 0 .4941 .6667
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0685A6
+	Ka 0.0 0.0 0.0
+	Kd .0235 .5216 .651
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0593B4
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5765 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0081A3
+	Ka 0.0 0.0 0.0
+	Kd 0 .5059 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008DB4
+	Ka 0.0 0.0 0.0
+	Kd 0 .5529 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_008AB3
+	Ka 0.0 0.0 0.0
+	Kd 0 .5412 .702
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_007AA8
+	Ka 0.0 0.0 0.0
+	Kd 0 .4784 .6588
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006193
+	Ka 0.0 0.0 0.0
+	Kd 0 .3804 .5765
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_3B98B4
+	Ka 0.0 0.0 0.0
+	Kd .2314 .5961 .7059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_006691
+	Ka 0.0 0.0 0.0
+	Kd 0 .4 .5686
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_0582A3
+	Ka 0.0 0.0 0.0
+	Kd .0196 .5098 .6392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9A999C
+	Ka 0.0 0.0 0.0
+	Kd .6039 .6 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_868588
+	Ka 0.0 0.0 0.0
+	Kd .5255 .5216 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_838486
+	Ka 0.0 0.0 0.0
+	Kd .5137 .5176 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7E7E83
+	Ka 0.0 0.0 0.0
+	Kd .4941 .4941 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D4D5D7
+	Ka 0.0 0.0 0.0
+	Kd .8314 .8353 .8431
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_85868A
+	Ka 0.0 0.0 0.0
+	Kd .5216 .5255 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9B9B9C
+	Ka 0.0 0.0 0.0
+	Kd .6078 .6078 .6118
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_9A999B
+	Ka 0.0 0.0 0.0
+	Kd .6039 .6 .6078
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8F8E92
+	Ka 0.0 0.0 0.0
+	Kd .5608 .5569 .5725
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_87878A
+	Ka 0.0 0.0 0.0
+	Kd .5294 .5294 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_858488
+	Ka 0.0 0.0 0.0
+	Kd .5216 .5176 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_77797D
+	Ka 0.0 0.0 0.0
+	Kd .4667 .4745 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7A7C80
+	Ka 0.0 0.0 0.0
+	Kd .4784 .4863 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_989899
+	Ka 0.0 0.0 0.0
+	Kd .5961 .5961 .6
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_848388
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5137 .5333
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7B81
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4824 .5059
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_868589
+	Ka 0.0 0.0 0.0
+	Kd .5255 .5216 .5373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_848387
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5137 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_818184
+	Ka 0.0 0.0 0.0
+	Kd .5059 .5059 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7B80
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4824 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_D3D4D6
+	Ka 0.0 0.0 0.0
+	Kd .8275 .8314 .8392
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_89898C
+	Ka 0.0 0.0 0.0
+	Kd .5373 .5373 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_828385
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5137 .5216
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_808083
+	Ka 0.0 0.0 0.0
+	Kd .502 .502 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7C7C7D
+	Ka 0.0 0.0 0.0
+	Kd .4863 .4863 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88888A
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5333 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_828186
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5059 .5255
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_76777B
+	Ka 0.0 0.0 0.0
+	Kd .4627 .4667 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_CACBCD
+	Ka 0.0 0.0 0.0
+	Kd .7922 .7961 .8039
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7A80
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4784 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_797A7D
+	Ka 0.0 0.0 0.0
+	Kd .4745 .4784 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_78787B
+	Ka 0.0 0.0 0.0
+	Kd .4706 .4706 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_8A898C
+	Ka 0.0 0.0 0.0
+	Kd .5412 .5373 .549
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7D7D82
+	Ka 0.0 0.0 0.0
+	Kd .4902 .4902 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7C7C80
+	Ka 0.0 0.0 0.0
+	Kd .4863 .4863 .502
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_88878A
+	Ka 0.0 0.0 0.0
+	Kd .5333 .5294 .5412
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_828184
+	Ka 0.0 0.0 0.0
+	Kd .5098 .5059 .5176
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7C7C7E
+	Ka 0.0 0.0 0.0
+	Kd .4863 .4863 .4941
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_42474A
+	Ka 0.0 0.0 0.0
+	Kd .2588 .2784 .2902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_474B4F
+	Ka 0.0 0.0 0.0
+	Kd .2784 .2941 .3098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_77797B
+	Ka 0.0 0.0 0.0
+	Kd .4667 .4745 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_848587
+	Ka 0.0 0.0 0.0
+	Kd .5176 .5216 .5294
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7E7E82
+	Ka 0.0 0.0 0.0
+	Kd .4941 .4941 .5098
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_464A4D
+	Ka 0.0 0.0 0.0
+	Kd .2745 .2902 .302
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_474B50
+	Ka 0.0 0.0 0.0
+	Kd .2784 .2941 .3137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_76777A
+	Ka 0.0 0.0 0.0
+	Kd .4627 .4667 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_434649
+	Ka 0.0 0.0 0.0
+	Kd .2627 .2745 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_434849
+	Ka 0.0 0.0 0.0
+	Kd .2627 .2824 .2863
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4B4F50
+	Ka 0.0 0.0 0.0
+	Kd .2941 .3098 .3137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_4F5156
+	Ka 0.0 0.0 0.0
+	Kd .3098 .3176 .3373
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_303043
+	Ka 0.0 0.0 0.0
+	Kd .1882 .1882 .2627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_747676
+	Ka 0.0 0.0 0.0
+	Kd .4549 .4627 .4627
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_76787B
+	Ka 0.0 0.0 0.0
+	Kd .4627 .4706 .4824
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7B7B83
+	Ka 0.0 0.0 0.0
+	Kd .4824 .4824 .5137
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6A6A6A
+	Ka 0.0 0.0 0.0
+	Kd .4157 .4157 .4157
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_C4C5C7
+	Ka 0.0 0.0 0.0
+	Kd .7686 .7725 .7804
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_6D6D72
+	Ka 0.0 0.0 0.0
+	Kd .4275 .4275 .4471
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7D7D7D
+	Ka 0.0 0.0 0.0
+	Kd .4902 .4902 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_7A7A7A
+	Ka 0.0 0.0 0.0
+	Kd .4784 .4784 .4784
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
+newmtl RGB_727D7D
+	Ka 0.0 0.0 0.0
+	Kd .4471 .4902 .4902
+	Ks 0.0 0.0 0.0
+	Ns 10.0
+	illum 2
+
