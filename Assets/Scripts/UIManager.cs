@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
 
     Length length;
     
-
+    public bool isGoldAdded = false;
     
     private void Start()
     {
@@ -79,8 +79,12 @@ public class UIManager : MonoBehaviour
     {
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
-        gd.totalCoin +=  gd.goldCoin;
-        PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        if(!isGoldAdded)
+        {
+            gd.totalCoin +=  gd.goldCoin;
+            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+            isGoldAdded = true;
+        }
         Pause();
         
     }
@@ -171,6 +175,7 @@ public class UIManager : MonoBehaviour
     public void MainMenuBtn()
     {
         SceneManager.LoadScene(LevelSystem.currentLevelNum);
+        isGoldAdded = false;
     }
 
     public string prizeTextChangerFloat(float max, float current, int prize)

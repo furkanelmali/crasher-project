@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody),typeof(BoxCollider))]
 public class VoxelGravity : MonoBehaviour
 { 
     public Rigidbody rb;
@@ -15,6 +16,7 @@ public class VoxelGravity : MonoBehaviour
 
     private void Start()
     {
+        this.gameObject.tag = "Voxel";
         rb = GetComponent<Rigidbody>();
         power = FindObjectOfType<Power>();
         levelsystem = FindObjectOfType<LevelSystem>();
