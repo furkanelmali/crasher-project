@@ -61,9 +61,8 @@ public class Controller : MonoBehaviour
         }
         else
         {
-            uı.GameOver();
             fuel.currentFuel = PlayerPrefs.GetFloat("Fuel");
-
+            uı.GameOver();
         }
     }
 

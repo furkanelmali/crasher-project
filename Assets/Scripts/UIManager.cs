@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
 
     Length length;
     
-    public bool isGoldAdded = false;
+    public bool isGoldAdded;
     
     private void Start()
     {
@@ -80,10 +80,10 @@ public class UIManager : MonoBehaviour
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
         if(!isGoldAdded)
-        {
+        {   
+            isGoldAdded = true;
             gd.totalCoin +=  gd.goldCoin;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
-            isGoldAdded = true;
         }
         Pause();
         
@@ -93,8 +93,12 @@ public class UIManager : MonoBehaviour
     {   
         GameMenu.SetActive(false);
         FinishMenu.SetActive(true);
-        gd.totalCoin +=  gd.goldCoin;
-        PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        if(!isGoldAdded)
+        {   
+            isGoldAdded = true;
+            gd.totalCoin +=  gd.goldCoin;
+            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        }
         Pause();
     }
 
