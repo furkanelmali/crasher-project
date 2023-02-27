@@ -8,4 +8,61 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/levels/Scene 1.unity
     guid: d25236cd3ea220a4bb910e2f710fad69
+  - enabled: 1
+    path: Assets/levels/Scene 2.unity
+    guid: ac1b86a161083364094626cded72d48b
+  - enabled: 1
+    path: Assets/levels/Scene 3.unity
+    guid: b85ad50e5fdf59a488d1bf177b76e861
+  - enabled: 1
+    path: Assets/levels/Scene 4.unity
+    guid: 2b0590a35545d024dbcdddc4dddbbb9c
+  - enabled: 1
+    path: Assets/levels/Scene 5.unity
+    guid: ed4f2662bbe02e8419479e868771c327
+  - enabled: 1
+    path: Assets/levels/Scene 6.unity
+    guid: af6a8b19d1c1d6e499e2413d47d4cec0
+  - enabled: 1
+    path: Assets/levels/Scene 7.unity
+    guid: e3deebf85088eb543bc9f82d6f7e83cf
+  - enabled: 1
+    path: Assets/levels/Scene 8.unity
+    guid: cabbff634533d0045a3fdf93db0164ff
+  - enabled: 1
+    path: Assets/levels/Scene 9.unity
+    guid: 5cd5d80c19fead74688cc59f175d23e7
+  - enabled: 1
+    path: Assets/levels/Scene 10.unity
+    guid: 4cbc4c11402a6a54483d3016a06e77dd
+  - enabled: 1
+    path: Assets/levels/Scene 11.unity
+    guid: ed6ada12d7204524698b30ab8fc0bef7
+  - enabled: 1
+    path: Assets/levels/Scene 12.unity
+    guid: ef095ce0c7794924dbd5b61c14b56893
+  - enabled: 1
+    path: Assets/levels/Scene 13.unity
+    guid: b815c52d82fccd142a57b2b590eb4dcc
+  - enabled: 1
+    path: Assets/levels/Scene 14.unity
+    guid: cf7810f4edb51c84a8ade9710c7438fe
+  - enabled: 1
+    path: Assets/levels/Scene 15.unity
+    guid: 7a37d4e224e118b4c8695eb479370b76
+  - enabled: 1
+    path: Assets/levels/Scene 16.unity
+    guid: bfa018fb51626c3408107ab7cd1f60b1
+  - enabled: 1
+    path: Assets/levels/Scene 17.unity
+    guid: fc82db706b52bb841a114b4d83f99bb2
+  - enabled: 1
+    path: Assets/levels/Scene 18.unity
+    guid: d45c479dd740cdd4b9605bb5b73a019a
+  - enabled: 1
+    path: Assets/levels/Scene 19.unity
+    guid: aea4762f3841f2646a0f1bca64863d29
+  - enabled: 1
+    path: Assets/levels/Scene 20.unity
+    guid: ff8a0baa6c74aba4cad4a690b92dec6b
   m_configObjects: {}
