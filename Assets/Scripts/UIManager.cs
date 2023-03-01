@@ -5,6 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -99,7 +100,10 @@ public class UIManager : MonoBehaviour
             gd.totalCoin +=  gd.goldCoin;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
         }
+        updatereset();
         Pause();
+        
+
     }
 
     public void startingFuelUp()
@@ -206,6 +210,16 @@ public class UIManager : MonoBehaviour
         {
             return "MAX";
         }
+    }
+
+    void updatereset()
+    {
+        PlayerPrefs.DeleteKey("Fuel");
+        PlayerPrefs.DeleteKey("Power");
+        PlayerPrefs.DeleteKey("Scale");
+        PlayerPrefs.DeleteKey("FuelPrize");
+        PlayerPrefs.DeleteKey("PowerPrize");
+        PlayerPrefs.DeleteKey("ScalePrize");
     }
 
 

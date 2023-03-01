@@ -3,6 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEditor;
+
+
 
 public class LevelSystem : MonoBehaviour
 {
@@ -16,20 +20,24 @@ public class LevelSystem : MonoBehaviour
     public bool levelUp;
 
     UIManager uıManager;
+
+    public Scene[] scenes;
+ 
     // Start is called before the first frame update
-    void Awake()
+   
+    void Start()
     {
         uıManager = FindObjectOfType<UIManager>();
         currentLevelNum = uıManager.PlayerPrefsIntKey("Level", 0);
         
-    }
-    void Start()
-    {
-        
+        if(SceneManager.GetActiveScene().buildIndex != currentLevelNum)
+        {
+           SceneManager.LoadScene(currentLevelNum);
+        }
+       
         
         firstVoxelNum = transform.childCount;
         currentVoxelNum = transform.childCount;
-
         levelBar.maxValue = firstVoxelNum;
         levelUp = false;
     }
