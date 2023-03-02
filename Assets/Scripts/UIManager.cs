@@ -5,12 +5,11 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu;
+    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu;
     public TextMeshProUGUI TotalGoldText;
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
@@ -27,6 +26,7 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {
+        
         
         LevelSystem = FindObjectOfType<LevelSystem>();
         length  = FindObjectOfType<Length>();
@@ -216,11 +216,25 @@ public class UIManager : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("Fuel");
         PlayerPrefs.DeleteKey("Power");
-        PlayerPrefs.DeleteKey("Scale");
+        PlayerPrefs.DeleteKey("ArmNum");
         PlayerPrefs.DeleteKey("FuelPrize");
         PlayerPrefs.DeleteKey("PowerPrize");
         PlayerPrefs.DeleteKey("ScalePrize");
     }
 
+    public void LevelMenuBtn()
+    {  
+        LevelMenu.SetActive(true);
+        MainMenu.SetActive(false);
+    }
+
+       public void levelButton(int levelNum)
+    {
+        
+        LevelSystem.currentLevelNum = levelNum;
+        PlayerPrefs.SetInt("Level", LevelSystem.currentLevelNum);
+        SceneManager.LoadScene(levelNum);
+    }
+   
 
 }

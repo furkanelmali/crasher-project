@@ -15,29 +15,34 @@ public class LevelSystem : MonoBehaviour
 
     public int destroyedVoxelNum;
     public int currentLevelNum;
+    public int unlockedLevelNum;
 
     public Slider levelBar;
     public bool levelUp;
 
     UIManager uıManager;
-
-    public Scene[] scenes;
+    public Button[] levelButtons;
  
+    public GameObject grid;
     // Start is called before the first frame update
    
     void Start()
     {
-        uıManager = FindObjectOfType<UIManager>();
-        currentLevelNum = uıManager.PlayerPrefsIntKey("Level", 0);
-        
-        if(SceneManager.GetActiveScene().buildIndex != currentLevelNum)
-        {
-           SceneManager.LoadScene(currentLevelNum);
-        }
        
+        uıManager = FindObjectOfType<UIManager>();
         
+        currentLevelNum = uıManager.PlayerPrefsIntKey("Level", 0);
+        unlockedLevelNum = uıManager.PlayerPrefsIntKey("UnlockedLevel", 0);
+        
+        
+        findLevelButtons();
+        startingSceneActiver();
+        buttonEnabler();
+
+        Debug.Log("Level: " + unlockedLevelNum);
         firstVoxelNum = transform.childCount;
         currentVoxelNum = transform.childCount;
+
         levelBar.maxValue = firstVoxelNum;
         levelUp = false;
     }
@@ -60,6 +65,14 @@ public class LevelSystem : MonoBehaviour
             currentLevelNum ++;
             PlayerPrefs.SetInt("Level", currentLevelNum);
             uıManager.LevelUp();  
+
+            if(unlockedLevelNum <= currentLevelNum)
+            {
+                unlockedLevelNum++;
+                PlayerPrefs.SetInt("UnlockedLevel", unlockedLevelNum);
+            }
+
+            buttonEnabler();
         }
           
     }
@@ -73,4 +86,34 @@ public class LevelSystem : MonoBehaviour
         destroyedVoxelNum = firstVoxelNum - currentVoxelNum;
         levelBar.value = destroyedVoxelNum;
     }
+
+    void startingSceneActiver()
+    {
+        if(SceneManager.GetActiveScene().buildIndex != currentLevelNum)
+        {
+           SceneManager.LoadScene(currentLevelNum);
+        }
+    }
+
+    void buttonEnabler()
+    {
+        for (int i = 0; i < 20; i++)
+        {
+                 levelButtons[i].interactable = false;
+        }
+
+        for(int i = 0; i <= unlockedLevelNum; i++)
+        {
+                 levelButtons[i].interactable = true;
+                 Debug.Log("Level " + i + " unlocked");
+        }
+    }
+
+    void findLevelButtons()
+    {
+        levelButtons = grid.GetComponentsInChildren<Button>();
+    }
+
+ 
 }
+
