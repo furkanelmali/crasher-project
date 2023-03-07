@@ -24,6 +24,8 @@ public class LevelSystem : MonoBehaviour
     public Button[] levelButtons;
  
     public GameObject grid;
+
+
     // Start is called before the first frame update
    
     void Start()
@@ -33,6 +35,8 @@ public class LevelSystem : MonoBehaviour
         
         currentLevelNum = uıManager.PlayerPrefsIntKey("Level", 0);
         unlockedLevelNum = uıManager.PlayerPrefsIntKey("UnlockedLevel", 0);
+        
+
         
         
         findLevelButtons();
