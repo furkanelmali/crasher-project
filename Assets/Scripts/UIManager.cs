@@ -9,10 +9,14 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu;
+    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu;
     public TextMeshProUGUI TotalGoldText;
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
+    public GameObject[] tutorialPages;
+
+    public int isfirstOpen;
+    public int tutorialpageNum;
     public DesignPatterns.ObjectPolling.GoldDigger gd;
     public Fuel fuel;
     private Power pw;
@@ -26,8 +30,19 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {
-        
-        
+       
+
+        isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
+
+        if(isfirstOpen == 1)
+        {
+            tutorialMenuActive();
+        }
+        else
+        {
+            MainMenu.SetActive(true);
+        }
+
         LevelSystem = FindObjectOfType<LevelSystem>();
         length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
@@ -235,6 +250,38 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetInt("Level", LevelSystem.currentLevelNum);
         SceneManager.LoadScene(levelNum);
     }
-   
 
+    
+    public void tutorialController()
+    {
+        if(tutorialPages[0].active)
+        {
+            tutorialPages[0].SetActive(false);
+            tutorialPages[1].SetActive(true);
+        }
+        else if(tutorialPages[1].active)
+        {
+            tutorialPages[1].SetActive(false);
+            tutorialPages[2].SetActive(true);
+        }
+        else if(tutorialPages[2].active)
+        {
+            tutorialPages[2].SetActive(false);
+            tutorialPages[3].SetActive(true);
+        }
+        else if(tutorialPages[3].active)
+        {
+            TutorialMenu.SetActive(false);
+            MainMenu.SetActive(true);
+        }
+
+    }
+
+    public void tutorialMenuActive()
+    {
+            TutorialMenu.SetActive(true);
+            MainMenu.SetActive(false);
+            Pause();
+            PlayerPrefs.SetInt("isfirstOpen",0);
+    }
 }
