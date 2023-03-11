@@ -9,6 +9,7 @@ public class VoxelGravity : MonoBehaviour
     public Rigidbody rb;
     public float damageCount = 4;
     public Power power;
+    Sounds sounds;
 
     private LevelSystem levelsystem;
     
@@ -19,6 +20,7 @@ public class VoxelGravity : MonoBehaviour
         this.gameObject.tag = "Voxel";
         rb = GetComponent<Rigidbody>();
         power = FindObjectOfType<Power>();
+        sounds = FindObjectOfType<Sounds>();
         levelsystem = FindObjectOfType<LevelSystem>();
         rb.isKinematic = true;
         rb.useGravity = false;
@@ -43,8 +45,8 @@ public class VoxelGravity : MonoBehaviour
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = RigidbodyConstraints.FreezePositionX;
             rb.useGravity = true;
-            //transform.parent = null;
-            
+            sounds.crushSound();
+           
         }
     }
 

@@ -14,13 +14,16 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
     
     public GameObject[] tutorialPages;
-
+    public GameObject[] musicButtons;
+    int musicIndex;
     public int isfirstOpen;
     public int tutorialpageNum;
     public DesignPatterns.ObjectPolling.GoldDigger gd;
     public Fuel fuel;
     private Power pw;
     public MarketSystem ms;
+
+    Sounds sounds;
 
     LevelSystem LevelSystem;
 
@@ -30,9 +33,10 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {
-       
+        PlayerPrefs.DeleteAll();
 
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
+        musicIndex = PlayerPrefsIntKey("musicIndex",1);
 
         if(isfirstOpen == 1)
         {
@@ -46,7 +50,7 @@ public class UIManager : MonoBehaviour
         LevelSystem = FindObjectOfType<LevelSystem>();
         length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
-
+        sounds = FindObjectOfType<Sounds>();
         
     
     }
@@ -284,4 +288,27 @@ public class UIManager : MonoBehaviour
             Pause();
             PlayerPrefs.SetInt("isfirstOpen",0);
     }
+
+    public void musicButton()
+    {
+        if(musicIndex == 1)
+        {
+            musicIndex = 0;
+            musicButtons[0].SetActive(false);
+            musicButtons[1].SetActive(true);
+            PlayerPrefs.SetInt("MusicIndex",musicIndex);
+            sounds.musicSound(musicIndex);
+        }
+        else if(musicIndex == 0)
+        {
+            musicIndex = 1;
+            musicButtons[0].SetActive(true);
+            musicButtons[1].SetActive(false);
+            PlayerPrefs.SetInt("MusicIndex",musicIndex);
+            sounds.musicSound(musicIndex);
+        }
+
+    }
+
+    
 }
