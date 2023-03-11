@@ -275,6 +275,11 @@ public class UIManager : MonoBehaviour
         }
         else if(tutorialPages[3].active)
         {
+            tutorialPages[3].SetActive(false);
+            tutorialPages[4].SetActive(true);
+        }
+        else if(tutorialPages[4].active)
+        {
             TutorialMenu.SetActive(false);
             MainMenu.SetActive(true);
         }
