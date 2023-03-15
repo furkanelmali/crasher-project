@@ -23,6 +23,8 @@ public class UIManager : MonoBehaviour
     private Power pw;
      
     adReward adReward;
+
+    BannerAd banner;
     public MarketSystem ms;
 
     Sounds sounds;
@@ -47,6 +49,7 @@ public class UIManager : MonoBehaviour
         else
         {
             MainMenu.SetActive(true);
+            
         }
 
         LevelSystem = FindObjectOfType<LevelSystem>();
@@ -78,6 +81,7 @@ public class UIManager : MonoBehaviour
         else if(GameMenu.gameObject.activeSelf)
         {
             Resume();
+            
         }
     }
 
@@ -286,6 +290,7 @@ public class UIManager : MonoBehaviour
         {
             TutorialMenu.SetActive(false);
             MainMenu.SetActive(true);
+           
         }
 
     }
