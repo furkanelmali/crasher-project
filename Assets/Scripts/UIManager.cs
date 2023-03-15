@@ -21,6 +21,8 @@ public class UIManager : MonoBehaviour
     public DesignPatterns.ObjectPolling.GoldDigger gd;
     public Fuel fuel;
     private Power pw;
+     
+    adReward adReward;
     public MarketSystem ms;
 
     Sounds sounds;
@@ -51,6 +53,7 @@ public class UIManager : MonoBehaviour
         length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
         sounds = FindObjectOfType<Sounds>();
+        adReward = FindObjectOfType<adReward>();
         
     
     }
@@ -99,6 +102,7 @@ public class UIManager : MonoBehaviour
     {
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
+        adReward.loadingAd();
         if(!isGoldAdded)
         {   
             isGoldAdded = true;
