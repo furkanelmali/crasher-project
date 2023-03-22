@@ -37,7 +37,7 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {
-        
+        PlayerPrefs.DeleteAll();
 
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         musicIndex = PlayerPrefsIntKey("musicIndex",1);

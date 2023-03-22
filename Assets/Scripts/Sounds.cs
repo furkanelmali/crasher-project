@@ -30,10 +30,12 @@ public class Sounds : MonoBehaviour
        if(index == 1)
         {
             musicSource.Play();
+            audioSource.mute = false;
         }
         else if(index == 0)
         {
             musicSource.Stop();
+            audioSource.mute = true;
         }
     }
 }
