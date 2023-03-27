@@ -156,13 +156,14 @@ PlayerSettings:
   androidMaxAspectRatio: 18.9
   applicationIdentifier:
     Android: com.DefaultCompany.crasherproject
+    iPhone: com.DefaultCompany.crasher-project
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 22
+  AndroidMinSdkVersion: 28
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 

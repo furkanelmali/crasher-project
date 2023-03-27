@@ -37,8 +37,7 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {
-        PlayerPrefs.DeleteAll();
-
+       
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         musicIndex = PlayerPrefsIntKey("musicIndex",1);
 
@@ -58,6 +57,7 @@ public class UIManager : MonoBehaviour
         sounds = FindObjectOfType<Sounds>();
         adReward = FindObjectOfType<adReward>();
         
+        
     
     }
 
@@ -70,7 +70,7 @@ public class UIManager : MonoBehaviour
     {
         if (MainMenu.gameObject.activeSelf)
         {
-            gd.totalCoin = PlayerPrefs.GetInt("Gold");
+            gd.totalCoin = PlayerPrefsIntKey("Gold",0);
             TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
             FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
@@ -129,8 +129,6 @@ public class UIManager : MonoBehaviour
         }
         updatereset();
         Pause();
-        
-
     }
 
     public void startingFuelUp()
@@ -139,11 +137,12 @@ public class UIManager : MonoBehaviour
         {
             fuel.currentFuel += 10;
             PlayerPrefs.SetFloat("Fuel",fuel.currentFuel);
+            gd.totalCoin -= ms.fuelPrize;
+            PlayerPrefs.SetInt("Gold", gd.totalCoin);
             ms.fuelPrize = ms.prizeUpdater(ms.fuelPrize);
             PlayerPrefs.SetInt("FuelPrize", ms.fuelPrize);
             FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
-            gd.totalCoin -= ms.fuelPrize;
-            PlayerPrefs.SetInt("Gold", gd.totalCoin);
+            
         }
     }
 
@@ -154,10 +153,10 @@ public class UIManager : MonoBehaviour
         {
             pw.power += 1;
             PlayerPrefs.SetFloat("Power",pw.power);
-            ms.powerPrize = ms.prizeUpdater(ms.powerPrize);
-            PlayerPrefs.SetInt("PowerPrize",ms.powerPrize);
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
             gd.totalCoin -= ms.powerPrize;
+            ms.powerPrize = ms.prizeUpdater(ms.powerPrize);
+            PlayerPrefs.SetInt("PowerPrize",ms.powerPrize);
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
         }
     }
@@ -322,6 +321,12 @@ public class UIManager : MonoBehaviour
             sounds.musicSound(musicIndex);
         }
 
+    }
+
+    public void backToMainMenu()
+    {
+        LevelMenu.SetActive(false);
+        MainMenu.SetActive(true);
     }
 
     
