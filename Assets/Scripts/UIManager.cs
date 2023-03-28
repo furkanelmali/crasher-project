@@ -106,15 +106,20 @@ public class UIManager : MonoBehaviour
     {
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
-        adReward.loadingAd();
+        
+       
+        
         if(!isGoldAdded)
         {   
             isGoldAdded = true;
             gd.totalCoin +=  gd.goldCoin;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
         }
-        Pause();
+
         
+        Pause();
+         adReward.loadingAd();
+
     }
 
     public void LevelUp()
