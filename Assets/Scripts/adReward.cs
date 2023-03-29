@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
+
 public class adReward : MonoBehaviour
 {
       private RewardedAd rewardedAd;
@@ -21,9 +22,9 @@ public class adReward : MonoBehaviour
         // These ad units are configured to always serve test ads.
         string _adUnitId;
 #if UNITY_ANDROID
-        _adUnitId = "ca-app-pub-3940256099942544/5224354917";
+        _adUnitId = "ca-app-pub-6369310904606026/9095531826";
 #elif UNITY_IPHONE
-        _adUnitId = "ca-app-pub-3940256099942544/1712485313";
+        _adUnitId = "ca-app-pub-6369310904606026/3923096199";
 #else
         _adUnitId = "unused";
 #endif

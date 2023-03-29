@@ -21,12 +21,15 @@ public class BannerAd : MonoBehaviour
     public void RequestBanner()
     {
         #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+            string adUnitId = "ca-app-pub-6369310904606026/4226348529";
         #elif UNITY_IPHONE
-            string adUnitId = "";
+            string adUnitId = "ca-app-pub-6369310904606026/4773143436";
         #else
             string adUnitId = "unexpected_platform";
         #endif
+        
+        Debug.Log("Requesting banner ad.");
+        Debug.Log(adUnitId);
 
         // Create a 320x50 banner at the top of the screen.
         this.bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
