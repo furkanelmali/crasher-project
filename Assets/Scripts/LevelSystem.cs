@@ -109,7 +109,6 @@ public class LevelSystem : MonoBehaviour
         for(int i = 0; i <= unlockedLevelNum; i++)
         {
                  levelButtons[i].interactable = true;
-                
         }
     }
 

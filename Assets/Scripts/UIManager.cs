@@ -9,9 +9,9 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu;
+    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu,PauseMenu;
     public TextMeshProUGUI TotalGoldText;
-    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize;
+    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText;
     
     public GameObject[] tutorialPages;
     public GameObject[] musicButtons;
@@ -38,7 +38,13 @@ public class UIManager : MonoBehaviour
     public bool isGoldAdded;
     
     private void Start()
-    {
+    {   
+        LevelSystem = FindObjectOfType<LevelSystem>();
+        length  = FindObjectOfType<Length>();
+        pw = FindObjectOfType<Power>();
+        sounds = FindObjectOfType<Sounds>();
+        adReward = FindObjectOfType<adReward>();
+        controller = FindObjectOfType<Controller>();
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         musicIndex = PlayerPrefsIntKey("musicIndex",1);
@@ -50,18 +56,11 @@ public class UIManager : MonoBehaviour
         else
         {
             MainMenu.SetActive(true);
-            
         }
 
-        LevelSystem = FindObjectOfType<LevelSystem>();
-        length  = FindObjectOfType<Length>();
-        pw = FindObjectOfType<Power>();
-        sounds = FindObjectOfType<Sounds>();
-        adReward = FindObjectOfType<adReward>();
-        controller = FindObjectOfType<Controller>();
         
+
         
-    
     }
 
     void Update()
@@ -84,6 +83,7 @@ public class UIManager : MonoBehaviour
         else if(GameMenu.gameObject.activeSelf)
         {
             Resume();
+            LevelText.text = "Level" +" " +(LevelSystem.currentLevelNum + 1).ToString();
         }
     }
 
@@ -108,32 +108,14 @@ public class UIManager : MonoBehaviour
     {
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
-        
-       
-        
-        if(!isGoldAdded)
-        {   
-            isGoldAdded = true;
-            gd.totalCoin +=  gd.goldCoin;
-            PlayerPrefs.SetInt("Gold",gd.totalCoin);
-        }
-
-        
         Pause();
-         adReward.loadingAd();
-
+        adReward.loadingAd();
     }
 
     public void LevelUp()
     {   
         GameMenu.SetActive(false);
         FinishMenu.SetActive(true);
-        if(!isGoldAdded)
-        {   
-            isGoldAdded = true;
-            gd.totalCoin +=  gd.goldCoin;
-            PlayerPrefs.SetInt("Gold",gd.totalCoin);
-        }
         updatereset();
         Pause();
     }
@@ -217,6 +199,12 @@ public class UIManager : MonoBehaviour
 
     public void MainMenuBtn()
     {
+        if(!isGoldAdded)
+        {   
+            isGoldAdded = true;
+            gd.totalCoin +=  gd.goldCoin;
+            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+        }
         SceneManager.LoadScene(LevelSystem.currentLevelNum);
         isGoldAdded = false;
     }
@@ -336,6 +324,21 @@ public class UIManager : MonoBehaviour
     {
         LevelMenu.SetActive(false);
         MainMenu.SetActive(true);
+    }
+
+    public void backToGame()
+    {
+        GameMenu.SetActive(true);
+        PauseMenu.SetActive(false);
+        Resume();
+    }
+
+    public void PauseBtn()
+    {
+        GameMenu.SetActive(false);
+        PauseMenu.SetActive(true);
+        
+        Pause();
     }
 
     
