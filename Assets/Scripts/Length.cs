@@ -40,6 +40,6 @@ public class Length : MonoBehaviour
         arms[0].SetActive(false);
         
         arms[armNum].SetActive(true);
-        Debug.Log("There is something wrong");
+        
     }
 }

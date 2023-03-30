@@ -35,7 +35,7 @@ public class MarketSystem : MonoBehaviour
     {
         int prizeup = (prize / 100) * 20;
         prize += prizeup;
-        Debug.Log("Prize Updated" + prize);
+        
         return prize;
     }
 }

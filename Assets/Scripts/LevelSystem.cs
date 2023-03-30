@@ -43,7 +43,7 @@ public class LevelSystem : MonoBehaviour
         startingSceneActiver();
         buttonEnabler();
 
-        Debug.Log("Level: " + unlockedLevelNum);
+        
         firstVoxelNum = transform.childCount;
         currentVoxelNum = transform.childCount;
 
@@ -109,7 +109,7 @@ public class LevelSystem : MonoBehaviour
         for(int i = 0; i <= unlockedLevelNum; i++)
         {
                  levelButtons[i].interactable = true;
-                 Debug.Log("Level " + i + " unlocked");
+                
         }
     }
 

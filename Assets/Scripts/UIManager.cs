@@ -33,6 +33,8 @@ public class UIManager : MonoBehaviour
 
     Length length;
     
+    Controller controller;
+    
     public bool isGoldAdded;
     
     private void Start()
@@ -56,6 +58,7 @@ public class UIManager : MonoBehaviour
         pw = FindObjectOfType<Power>();
         sounds = FindObjectOfType<Sounds>();
         adReward = FindObjectOfType<adReward>();
+        controller = FindObjectOfType<Controller>();
         
         
     
@@ -81,7 +84,6 @@ public class UIManager : MonoBehaviour
         else if(GameMenu.gameObject.activeSelf)
         {
             Resume();
-            
         }
     }
 
@@ -157,6 +159,8 @@ public class UIManager : MonoBehaviour
         if (gd.totalCoin >= ms.powerPrize && pw.maxPow > pw.power)
         {
             pw.power += 1;
+            fuel.fuelDownNum -= 0.12f;
+            PlayerPrefs.SetFloat("FuelDown",fuel.fuelDownNum);
             PlayerPrefs.SetFloat("Power",pw.power);
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
             gd.totalCoin -= ms.powerPrize;

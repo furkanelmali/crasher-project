@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Fuel : MonoBehaviour
 {
     public float maxFuel = 100; 
+    public float fuelDownNum;
     UIManager ui;
     
     public Slider FuelBar; //Showing fuel at the UI
@@ -21,6 +22,7 @@ public class Fuel : MonoBehaviour
         FuelBar.maxValue = maxFuel;
 
         currentFuel  = ui.PlayerPrefsFloatKey("Fuel", 30);
+        fuelDownNum = ui.PlayerPrefsFloatKey("FuelDown", 1);
     
     }
 
@@ -32,8 +34,8 @@ public class Fuel : MonoBehaviour
 
     public void fuelDown()
     {
-        currentFuel = currentFuel - Time.deltaTime;
-        
+        currentFuel = currentFuel - (fuelDownNum * Time.deltaTime);
+        Debug.Log(currentFuel);
     }
     
     

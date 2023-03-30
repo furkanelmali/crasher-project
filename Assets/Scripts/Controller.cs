@@ -31,6 +31,7 @@ public class Controller : MonoBehaviour
     
     void Start()
     {
+      
       firstpos = new Vector3(character.transform.position.x,character.transform.position.y,character.transform.position.z);
     }
 
@@ -102,13 +103,13 @@ public class Controller : MonoBehaviour
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, joystick.Vertical * speedCh, character.velocity.z);
-                    Debug.Log(firstpos.y - character.transform.position.y );
+                    
                 }
                 else
                 {
                     character.velocity =
                     new Vector3(character.velocity.x, 0, character.velocity.z);
-                    Debug.Log("stop");
+                    
                 }
         }
         else if(joystick.Vertical < 0)
@@ -135,9 +136,7 @@ public class Controller : MonoBehaviour
     {
         if(JoystickBackground.activeSelf == false)
         {
-            Debug.Log("stop");
-            character.velocity =
-            new Vector3(character.velocity.x, 0, character.velocity.z);
+            character.velocity = new Vector3(character.velocity.x, 0, character.velocity.z);
         }
     }
 
