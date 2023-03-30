@@ -159,7 +159,7 @@ public class UIManager : MonoBehaviour
         if (gd.totalCoin >= ms.powerPrize && pw.maxPow > pw.power)
         {
             pw.power += 1;
-            fuel.fuelDownNum -= 0.02f;
+            fuel.fuelDownNum -= 0.05f;
             PlayerPrefs.SetFloat("FuelDown",fuel.fuelDownNum);
             PlayerPrefs.SetFloat("Power",pw.power);
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
