@@ -77711,7 +77711,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Energy is end
+  m_text: Energy is finished
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 90da64eabf571d04dafe53783d638b7f, type: 2}
   m_sharedMaterial: {fileID: -5633917304089521901, guid: 90da64eabf571d04dafe53783d638b7f, type: 2}
