@@ -72,7 +72,7 @@ public class UIManager : MonoBehaviour
     {
         if (MainMenu.gameObject.activeSelf)
         {
-            gd.totalCoin = PlayerPrefsIntKey("Gold",0);
+            gd.totalCoin = PlayerPrefsIntKey("Gold",9999999);
             TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
             FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
