@@ -250,7 +250,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: "C:/Users/oemre/OneDrive/Masa\xFCst\xFC/qkeystore.keystore"
+  AndroidKeystoreName: '{inproject}: qkeystore.keystore'
   AndroidKeyaliasName: quintet
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

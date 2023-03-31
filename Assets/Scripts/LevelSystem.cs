@@ -65,18 +65,19 @@ public class LevelSystem : MonoBehaviour
     {
         if(!levelUp)
         {
-            levelUp = true;
-            currentLevelNum ++;
-            PlayerPrefs.SetInt("Level", currentLevelNum);
-            uıManager.LevelUp();  
-
             if(unlockedLevelNum <= currentLevelNum)
             {
                 unlockedLevelNum++;
                 PlayerPrefs.SetInt("UnlockedLevel", unlockedLevelNum);
             }
-
             buttonEnabler();
+            levelUp = true;
+            currentLevelNum ++;
+            PlayerPrefs.SetInt("Level", currentLevelNum);
+            uıManager.LevelUp();  
+
+            
+           
         }
           
     }

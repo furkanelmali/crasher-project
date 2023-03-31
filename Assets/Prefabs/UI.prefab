@@ -2762,7 +2762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Energy is finished
+  m_text: Your energy is finished
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 90da64eabf571d04dafe53783d638b7f, type: 2}
   m_sharedMaterial: {fileID: -5633917304089521901, guid: 90da64eabf571d04dafe53783d638b7f, type: 2}
@@ -2789,8 +2789,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43
-  m_fontSizeBase: 43
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11199,7 +11199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128, y: -577}
+  m_AnchoredPosition: {x: -128, y: -380.00003}
   m_SizeDelta: {x: 462.07, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &151557141826218072
@@ -14429,7 +14429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -189.50014, y: 229.5}
+  m_AnchoredPosition: {x: -189.50012, y: 426.5}
   m_SizeDelta: {x: 98.38403, y: 99.34497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &151557142224891619
@@ -15805,7 +15805,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 265, y: 247}
+  m_AnchoredPosition: {x: 265, y: 444}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2799709786676191596
