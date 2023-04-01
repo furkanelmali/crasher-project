@@ -33,7 +33,7 @@ public class LevelSystem : MonoBehaviour
        
         uıManager = FindObjectOfType<UIManager>();
         
-        currentLevelNum = uıManager.PlayerPrefsIntKey("Level", 0);
+        currentLevelNum = uıManager.PlayerPrefsIntKey("Level", 1);
         unlockedLevelNum = uıManager.PlayerPrefsIntKey("UnlockedLevel", 0);
         
 
@@ -45,7 +45,7 @@ public class LevelSystem : MonoBehaviour
 
         
         firstVoxelNum = transform.childCount;
-        currentVoxelNum = transform.childCount;
+        
 
         levelBar.maxValue = firstVoxelNum;
         levelUp = false;
@@ -91,9 +91,13 @@ public class LevelSystem : MonoBehaviour
 
     void startingSceneActiver()
     {
-        if(SceneManager.GetActiveScene().buildIndex != currentLevelNum)
+        if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-           SceneManager.LoadScene(currentLevelNum);
+           currentVoxelNum = 11;
+        }
+        else
+        {
+            currentVoxelNum = transform.childCount;
         }
     }
 

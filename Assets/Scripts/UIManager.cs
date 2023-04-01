@@ -29,7 +29,7 @@ public class UIManager : MonoBehaviour
 
     Sounds sounds;
 
-    LevelSystem LevelSystem;
+    LevelSystem levelSystem;
 
     Length length;
     
@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {   
-        LevelSystem = FindObjectOfType<LevelSystem>();
+        levelSystem = FindObjectOfType<LevelSystem>();
         length  = FindObjectOfType<Length>();
         pw = FindObjectOfType<Power>();
         sounds = FindObjectOfType<Sounds>();
@@ -55,7 +55,15 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            MainMenu.SetActive(true);
+            if(SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                MainMenu.SetActive(true);
+            }
+            else
+            {
+                GameMenu.SetActive(true);
+            }
+            
         }
     }
 
@@ -79,7 +87,8 @@ public class UIManager : MonoBehaviour
         else if(GameMenu.gameObject.activeSelf)
         {
             Resume();
-            LevelText.text = "Level" +" " +(LevelSystem.currentLevelNum + 1).ToString();
+            gd.totalCoin = PlayerPrefsIntKey("Gold",0);
+            LevelText.text = "Level" +" " +(levelSystem.currentLevelNum).ToString();
         }
     }
 
@@ -95,9 +104,10 @@ public class UIManager : MonoBehaviour
 
     public void PlayBtn()
     {
-        GameMenu.SetActive(true);
-        MainMenu.SetActive(false);
-        Resume();
+        // GameMenu.SetActive(true);
+        // MainMenu.SetActive(false);
+        SceneManager.LoadScene(levelSystem.currentLevelNum);
+        // Resume();
     }
 
     public void GameOver()
@@ -199,7 +209,7 @@ public class UIManager : MonoBehaviour
             gd.totalCoin +=  gd.goldCoin;
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
         }
-        SceneManager.LoadScene(LevelSystem.currentLevelNum);
+        SceneManager.LoadScene(0);
         isGoldAdded = false;
     }
 
@@ -245,11 +255,10 @@ public class UIManager : MonoBehaviour
         MainMenu.SetActive(false);
     }
 
-       public void levelButton(int levelNum)
+    public void levelButton(int levelNum)
     {
-        
-        LevelSystem.currentLevelNum = levelNum;
-        PlayerPrefs.SetInt("Level", LevelSystem.currentLevelNum);
+        levelSystem.currentLevelNum = levelNum;
+        PlayerPrefs.SetInt("Level", levelSystem.currentLevelNum);
         SceneManager.LoadScene(levelNum);
     }
 
