@@ -75,9 +75,6 @@ public class LevelSystem : MonoBehaviour
             currentLevelNum ++;
             PlayerPrefs.SetInt("Level", currentLevelNum);
             uıManager.LevelUp();  
-
-            
-           
         }
           
     }
@@ -117,7 +114,5 @@ public class LevelSystem : MonoBehaviour
     {
         levelButtons = grid.GetComponentsInChildren<Button>();
     }
-
- 
 }
 

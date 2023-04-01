@@ -57,10 +57,6 @@ public class UIManager : MonoBehaviour
         {
             MainMenu.SetActive(true);
         }
-
-        
-
-        
     }
 
     void Update()
@@ -165,8 +161,6 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("Gold",gd.totalCoin);
             PlayerPrefs.SetInt("ArmNum", length.armNum);
             ScalePrize.text = prizeTextChangerInt(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
-
-            
         }
     }
 
