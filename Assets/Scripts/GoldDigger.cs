@@ -11,11 +11,11 @@ namespace DesignPatterns.ObjectPolling
 {
     public class GoldDigger : MonoBehaviour
     {
-        public int totalCoin = 0;
-        public int goldCoin = 0;
+        public float totalCoin = 0;
+        public float goldCoin = 0;
     
         public Gold[] goldTypes;
-        public int[] goldIncomes;
+        public float[] goldIncomes;
         public Transform spoint;    
     
         public TextMeshProUGUI coinCount;
@@ -62,14 +62,14 @@ namespace DesignPatterns.ObjectPolling
         // Update is called once per frame
         void Update()
         {
-            coinCount.text = goldCoin.ToString();
+            coinCount.text =((int)goldCoin).ToString();
         }
     
         private void OnCollisionEnter(Collision collision)
         {
             if (collision.gameObject.tag == "Voxel")
             {
-                int rand = Random.Range(0, 2);
+                int rand = Random.Range(0, 3);
                 goldCoin += goldIncomes[rand];
                 GoldPool.Get();
                 Destroy(collision.gameObject);

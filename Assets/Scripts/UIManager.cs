@@ -133,7 +133,7 @@ public class UIManager : MonoBehaviour
             fuel.currentFuel += 10;
             PlayerPrefs.SetFloat("Fuel",fuel.currentFuel);
             gd.totalCoin -= ms.fuelPrize;
-            PlayerPrefs.SetInt("Gold", gd.totalCoin);
+            PlayerPrefs.SetFloat("Gold", gd.totalCoin);
             ms.fuelPrize = ms.prizeUpdater(ms.fuelPrize);
             PlayerPrefs.SetInt("FuelPrize", ms.fuelPrize);
             FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
@@ -154,7 +154,7 @@ public class UIManager : MonoBehaviour
             gd.totalCoin -= ms.powerPrize;
             ms.powerPrize = ms.prizeUpdater(ms.powerPrize);
             PlayerPrefs.SetInt("PowerPrize",ms.powerPrize);
-            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+            PlayerPrefs.SetFloat("Gold",gd.totalCoin);
         }
     }
     
@@ -168,7 +168,7 @@ public class UIManager : MonoBehaviour
             ms.scalePrize = ms.prizeUpdater(ms.scalePrize);
             
             PlayerPrefs.SetInt("ScalePrize",ms.scalePrize);
-            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+            PlayerPrefs.SetFloat("Gold",gd.totalCoin);
             PlayerPrefs.SetInt("ArmNum", length.armNum);
             ScalePrize.text = prizeTextChangerInt(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
         }
@@ -207,7 +207,7 @@ public class UIManager : MonoBehaviour
         {   
             isGoldAdded = true;
             gd.totalCoin +=  gd.goldCoin;
-            PlayerPrefs.SetInt("Gold",gd.totalCoin);
+            PlayerPrefs.SetFloat("Gold",gd.totalCoin);
         }
         SceneManager.LoadScene(0);
         isGoldAdded = false;
@@ -241,6 +241,7 @@ public class UIManager : MonoBehaviour
 
     void updatereset()
     {
+        PlayerPrefs.DeleteKey("FuelDown");
         PlayerPrefs.DeleteKey("Fuel");
         PlayerPrefs.DeleteKey("Power");
         PlayerPrefs.DeleteKey("ArmNum");
