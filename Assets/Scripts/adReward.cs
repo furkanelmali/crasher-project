@@ -41,15 +41,21 @@ public class adReward : MonoBehaviour
         {
             this.rewardedAd.Show();
             this.rewardedAd.OnUserEarnedReward += giveReward;
+            this.rewardedAd.OnAdClosed += (sender, args) =>
+            {
+                 uı.Resume();
+            };
         }
     }
+
+ 
  
     public void giveReward(object sender, Reward args)
     {
         Debug.Log("Reward");
         fuel.currentFuel = 30;
-        uı.GameOverMenu.SetActive(false);
+         uı.GameOverMenu.SetActive(false);
         uı.GameMenu.SetActive(true);
-        uı.Resume();
+        // uı.Resume();
     }
 }
