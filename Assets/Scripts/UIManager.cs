@@ -23,8 +23,10 @@ public class UIManager : MonoBehaviour
     private Power pw;
      
     adReward adReward;
-
+    IntersAd intersAd;
     BannerAd banner;
+
+    public LoadingPanel loadingPanel;
     public MarketSystem ms;
 
     Sounds sounds;
@@ -44,7 +46,9 @@ public class UIManager : MonoBehaviour
         pw = FindObjectOfType<Power>();
         sounds = FindObjectOfType<Sounds>();
         adReward = FindObjectOfType<adReward>();
+        intersAd = FindObjectOfType<IntersAd>();
         controller = FindObjectOfType<Controller>();
+        loadingPanel = FindObjectOfType<LoadingPanel>();
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         musicIndex = PlayerPrefsIntKey("musicIndex",1);
@@ -62,6 +66,7 @@ public class UIManager : MonoBehaviour
             else
             {
                 GameMenu.SetActive(true);
+                intersAd.requestInterstitial();
             }
             
         }
@@ -76,8 +81,8 @@ public class UIManager : MonoBehaviour
     {
         if (MainMenu.gameObject.activeSelf)
         {
-            gd.totalCoin = PlayerPrefsIntKey("Gold",0);
-            TotalGoldText.text = PlayerPrefs.GetInt("Gold").ToString();
+            gd.totalCoin = PlayerPrefsFloatKey("Gold",0);
+            TotalGoldText.text = ((int)gd.totalCoin).ToString();
             FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
             ScalePrize.text = prizeTextChangerInt(length.arms.Length-1,length.armNum,PlayerPrefs.GetInt("ScalePrize"));
@@ -87,7 +92,7 @@ public class UIManager : MonoBehaviour
         else if(GameMenu.gameObject.activeSelf)
         {
             Resume();
-            gd.totalCoin = PlayerPrefsIntKey("Gold",0);
+            TotalGoldText.text = ((int)gd.totalCoin).ToString();
             LevelText.text = "Level" +" " +(levelSystem.currentLevelNum).ToString();
         }
     }
@@ -106,7 +111,8 @@ public class UIManager : MonoBehaviour
     {
         // GameMenu.SetActive(true);
         // MainMenu.SetActive(false);
-        SceneManager.LoadScene(levelSystem.currentLevelNum);
+        MainMenu.SetActive(false);
+        loadingPanel.loadscene(levelSystem.currentLevelNum);
         // Resume();
     }
 
@@ -124,6 +130,7 @@ public class UIManager : MonoBehaviour
         FinishMenu.SetActive(true);
         updatereset();
         Pause();
+        intersAd.showInterstitial();
     }
 
     public void startingFuelUp()
@@ -204,7 +211,7 @@ public class UIManager : MonoBehaviour
     public void MainMenuBtn()
     {
         if(!isGoldAdded)
-        {   
+        {  
             isGoldAdded = true;
             gd.totalCoin +=  gd.goldCoin;
             PlayerPrefs.SetFloat("Gold",gd.totalCoin);
@@ -260,7 +267,8 @@ public class UIManager : MonoBehaviour
     {
         levelSystem.currentLevelNum = levelNum;
         PlayerPrefs.SetInt("Level", levelSystem.currentLevelNum);
-        SceneManager.LoadScene(levelNum);
+        LevelMenu.SetActive(false);
+        loadingPanel.loadscene(levelSystem.currentLevelNum);
     }
 
     

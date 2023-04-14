@@ -8,6 +8,8 @@ TagManager:
   - Plane
   - Voxel
   - Destroyer
+  - Double
+  - Rewind
   layers:
   - Default
   - TransparentFX

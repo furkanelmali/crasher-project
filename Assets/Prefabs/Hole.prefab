@@ -59,7 +59,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2480730499022768584}
-  m_LocalRotation: {x: -0.5000001, y: -0.49999988, z: -0.4999999, w: 0.5000001}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0.71, y: -2.97, z: 0.2}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
@@ -67,7 +67,7 @@ Transform:
   - {fileID: 2480730498635284119}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
 --- !u!33 &2480730499019511240
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -136,7 +136,10 @@ MonoBehaviour:
   goldTypes:
   - {fileID: 5169308573375091496, guid: 8a2eaf0fee4d79348b27ca0576bff15d, type: 3}
   - {fileID: 9005039072491756029, guid: 06873608cbc408e42b09969b2944dba3, type: 3}
-  goldIncomes: 0200000001000000
+  goldIncomes:
+  - 0.9
+  - 0.8
+  - 0.5
   spoint: {fileID: 2480730498635284119}
   coinCount: {fileID: 0}
 --- !u!114 &2480730499019511222

@@ -11,8 +11,11 @@ public class adReward : MonoBehaviour
 
       private UIManager uı;
 
+      int x;
+
     void Start() 
-    {
+    {   
+            x = 0;
             fuel = FindObjectOfType<Fuel>();
             uı = FindObjectOfType<UIManager>();
     }
@@ -36,18 +39,26 @@ public class adReward : MonoBehaviour
 
     }
 
+    public void Update()
+    {
+           /*this.rewardedAd.OnAdClosed += (sender, args) =>
+            {
+                if(x == 1)
+                 uı.Resume();
+            };*/
+    }
+
     public void showAd(int i)
     {
+        
         if (this.rewardedAd.IsLoaded())
         {
             this.rewardedAd.Show();
             this.rewardedAd.OnUserEarnedReward += i == 1 ? giveReward : giveReward2;
-            this.rewardedAd.OnAdClosed += (sender, args) =>
-            {
-                if(i == 1)
-                 uı.Resume();
-            };
+            
         }
+
+        x = i;
     }
 
  
@@ -64,9 +75,9 @@ public class adReward : MonoBehaviour
     public void giveReward2(object sender, Reward args)
     {
         Debug.Log("Reward");
-        uı.gd.goldCoin = uı.gd.goldCoin *2;
-        uı.MainMenu.SetActive(true);
-        uı.GameOverMenu.SetActive(false);
+        uı.gd.goldCoin = uı.gd.goldCoin * 2;
+        uı.MainMenuBtn();
+
         
         // uı.Resume();
     }
