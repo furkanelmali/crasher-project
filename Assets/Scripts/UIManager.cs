@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
     IntersAd intersAd;
     BannerAd banner;
 
-    public LoadingPanel loadingPanel;
+    LoadingPanel loadingPanel;
     public MarketSystem ms;
 
     Sounds sounds;
