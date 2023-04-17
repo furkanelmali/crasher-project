@@ -26,6 +26,8 @@ public class UIManager : MonoBehaviour
     IntersAd intersAd;
     BannerAd banner;
 
+    ChestAnimator chestAnimator;
+
     LoadingPanel loadingPanel;
     public MarketSystem ms;
 
@@ -49,6 +51,8 @@ public class UIManager : MonoBehaviour
         intersAd = FindObjectOfType<IntersAd>();
         controller = FindObjectOfType<Controller>();
         loadingPanel = FindObjectOfType<LoadingPanel>();
+        gd = FindObjectOfType<DesignPatterns.ObjectPolling.GoldDigger>();
+        chestAnimator = FindObjectOfType<ChestAnimator>();
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         musicIndex = PlayerPrefsIntKey("musicIndex",1);
@@ -118,18 +122,21 @@ public class UIManager : MonoBehaviour
 
     public void GameOver()
     {
+        chestAnimator.closeChest();
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
-        Pause();
+        
         adReward.loadingAd();
+        
     }
 
     public void LevelUp()
     {   
+        chestAnimator.closeChest();
         GameMenu.SetActive(false);
         FinishMenu.SetActive(true);
         updatereset();
-        Pause();
+        
         intersAd.showInterstitial();
     }
 

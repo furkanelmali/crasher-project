@@ -41,11 +41,7 @@ public class adReward : MonoBehaviour
 
     public void Update()
     {
-           /*this.rewardedAd.OnAdClosed += (sender, args) =>
-            {
-                if(x == 1)
-                 uı.Resume();
-            };*/
+           
     }
 
     public void showAd(int i)
@@ -55,6 +51,11 @@ public class adReward : MonoBehaviour
         {
             this.rewardedAd.Show();
             this.rewardedAd.OnUserEarnedReward += i == 1 ? giveReward : giveReward2;
+            this.rewardedAd.OnAdClosed += (sender, args) =>
+            {
+                if(x == 1)
+                 uı.Resume();
+            };
             
         }
 

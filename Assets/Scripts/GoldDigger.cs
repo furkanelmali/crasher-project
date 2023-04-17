@@ -25,11 +25,13 @@ namespace DesignPatterns.ObjectPolling
         private void Awake()
         {
             GoldPool = new ObjectPool<Gold>(CreateGold, OnGetGold,OnReleaseGold,OnDestroyGold,true,10,20);
+            
         }
 
         private void Start()
         {
             levelsystem = FindObjectOfType<LevelSystem>();
+            
         }
 
         private Gold CreateGold()

@@ -10,6 +10,7 @@ TagManager:
   - Destroyer
   - Double
   - Rewind
+  - CoinCount
   layers:
   - Default
   - TransparentFX
