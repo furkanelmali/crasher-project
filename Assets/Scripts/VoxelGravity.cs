@@ -1,29 +1,30 @@
+using System.Threading.Tasks;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody),typeof(BoxCollider))]
 public class VoxelGravity : MonoBehaviour
 { 
     public Rigidbody rb;
     public float damageCount = 4;
     public Power power;
-    Sounds sounds;
+    public Sounds sounds;
 
-    private LevelSystem levelsystem;
+    public LevelSystem levelsystem;
     
     
 
-    private void Start()
-    {
-        this.gameObject.tag = "Voxel";
+    public void Start()
+    {   
         rb = GetComponent<Rigidbody>();
-        power = FindObjectOfType<Power>();
+        /*power = FindObjectOfType<Power>();
         sounds = FindObjectOfType<Sounds>();
         levelsystem = FindObjectOfType<LevelSystem>();
+        this.gameObject.tag = "Voxel";
         rb.isKinematic = true;
-        rb.useGravity = false;
+        rb.useGravity = false;*/
     }
     
 
@@ -58,5 +59,13 @@ public class VoxelGravity : MonoBehaviour
             damageCheck();
         }
     }
+
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(1);
+        
+    }   
+
+    
 }
     

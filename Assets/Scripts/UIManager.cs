@@ -116,8 +116,8 @@ public class UIManager : MonoBehaviour
         // GameMenu.SetActive(true);
         // MainMenu.SetActive(false);
         MainMenu.SetActive(false);
-        loadingPanel.loadscene(levelSystem.currentLevelNum);
-        // Resume();
+        SceneManager.LoadScene(levelSystem.currentLevelNum);
+        Resume();
     }
 
     public void GameOver()
@@ -275,7 +275,8 @@ public class UIManager : MonoBehaviour
         levelSystem.currentLevelNum = levelNum;
         PlayerPrefs.SetInt("Level", levelSystem.currentLevelNum);
         LevelMenu.SetActive(false);
-        loadingPanel.loadscene(levelSystem.currentLevelNum);
+        SceneManager.LoadScene(levelSystem.currentLevelNum);
+        Resume();
     }
 
     
