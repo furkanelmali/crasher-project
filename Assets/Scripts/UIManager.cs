@@ -51,6 +51,7 @@ public class UIManager : MonoBehaviour
         sounds = FindObjectOfType<Sounds>();
         adReward = FindObjectOfType<adReward>();
         intersAd = FindObjectOfType<IntersAd>();
+        banner = FindObjectOfType<BannerAd>();
         controller = FindObjectOfType<Controller>();
         loadingPanel = FindObjectOfType<LoadingPanel>();
         gd = FindObjectOfType<DesignPatterns.ObjectPolling.GoldDigger>();
@@ -119,8 +120,10 @@ public class UIManager : MonoBehaviour
         // GameMenu.SetActive(true);
         // MainMenu.SetActive(false);
         MainMenu.SetActive(false);
+        banner.DestroyAd();
         SceneManager.LoadScene(levelSystem.currentLevelNum);
         Resume();
+        
     }
 
     public async void  GameOver()
@@ -228,8 +231,10 @@ public class UIManager : MonoBehaviour
             gd.totalCoin =gd.totalCoin + gd.goldCoin;
             PlayerPrefs.SetFloat("Gold",gd.totalCoin);
         }
+        banner.DestroyAd();
         SceneManager.LoadScene(0);
         isGoldAdded = false;
+        
     }
 
     public string prizeTextChangerFloat(float max, float current, int prize)
@@ -369,8 +374,10 @@ public class UIManager : MonoBehaviour
     public void Restart()
     {
         GameOverMenu.SetActive(false);
+        banner.DestroyAd();
         SceneManager.LoadScene(levelSystem.currentLevelNum);
         Resume();
+        
     }
 
     

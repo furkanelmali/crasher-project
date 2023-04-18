@@ -8,6 +8,7 @@ public class adReward : MonoBehaviour
 {
       private RewardedAd rewardedAd;
       private Fuel fuel;
+      public  ChestAnimator chest;
 
       private UIManager uı;
 
@@ -18,6 +19,7 @@ public class adReward : MonoBehaviour
             x = 0;
             fuel = FindObjectOfType<Fuel>();
             uı = FindObjectOfType<UIManager>();
+            chest = FindObjectOfType<ChestAnimator>();
     }
 
 
@@ -36,6 +38,7 @@ public class adReward : MonoBehaviour
          this.rewardedAd = new RewardedAd(_adUnitId);
         AdRequest request = new AdRequest.Builder().Build();
         this.rewardedAd.LoadAd(request);
+        
 
     }
 
@@ -70,6 +73,7 @@ public class adReward : MonoBehaviour
         fuel.currentFuel = 30;
          uı.GameOverMenu.SetActive(false);
         uı.GameMenu.SetActive(true);
+        chest.anim.Play();
         // uı.Resume();
     }
 
