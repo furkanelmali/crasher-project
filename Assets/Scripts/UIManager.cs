@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,9 +11,10 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu,PauseMenu;
-    public TextMeshProUGUI TotalGoldText;
+    public TextMeshProUGUI TotalGoldText,EndLevelGoldText;
     public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText;
     
+    public Rigidbody characterrb;
     public GameObject[] tutorialPages;
     public GameObject[] musicButtons;
     int musicIndex;
@@ -120,14 +122,16 @@ public class UIManager : MonoBehaviour
         Resume();
     }
 
-    public void GameOver()
+    public async void  GameOver()
     {
         chestAnimator.closeChest();
         GameMenu.SetActive(false);
         GameOverMenu.SetActive(true);
-        
+        EndLevelGoldText.text = ((int)gd.goldCoin).ToString();
         adReward.loadingAd();
-        
+        //characterrb.velocity = new Vector3(0,0,0);
+
+                    
     }
 
     public void LevelUp()
@@ -359,6 +363,13 @@ public class UIManager : MonoBehaviour
         PauseMenu.SetActive(true);
         
         Pause();
+    }
+
+    public void Restart()
+    {
+        GameOverMenu.SetActive(false);
+        SceneManager.LoadScene(levelSystem.currentLevelNum);
+        Resume();
     }
 
     

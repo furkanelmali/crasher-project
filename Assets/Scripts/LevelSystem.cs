@@ -49,6 +49,7 @@ public class LevelSystem : MonoBehaviour
 
         levelBar.maxValue = firstVoxelNum;
         levelUp = false;
+        
     }
 
    public void Update()
