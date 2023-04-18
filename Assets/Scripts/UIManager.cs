@@ -58,6 +58,7 @@ public class UIManager : MonoBehaviour
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         musicIndex = PlayerPrefsIntKey("musicIndex",1);
+        gd.totalCoin = PlayerPrefsFloatKey("Gold",0);
 
         if(isfirstOpen == 1)
         {
@@ -87,7 +88,7 @@ public class UIManager : MonoBehaviour
     {
         if (MainMenu.gameObject.activeSelf)
         {
-            gd.totalCoin = PlayerPrefsFloatKey("Gold",0);
+            
             TotalGoldText.text = ((int)gd.totalCoin).ToString();
             FuelPrize.text = prizeTextChangerFloat(fuel.maxFuel,fuel.currentFuel,PlayerPrefs.GetInt("FuelPrize"));
             PowerPrize.text = prizeTextChangerFloat(pw.maxPow,pw.power,PlayerPrefs.GetInt("PowerPrize"));
@@ -224,7 +225,7 @@ public class UIManager : MonoBehaviour
         if(!isGoldAdded)
         {  
             isGoldAdded = true;
-            gd.totalCoin +=  gd.goldCoin;
+            gd.totalCoin =gd.totalCoin + gd.goldCoin;
             PlayerPrefs.SetFloat("Gold",gd.totalCoin);
         }
         SceneManager.LoadScene(0);
