@@ -16,8 +16,8 @@ public class UIManager : MonoBehaviour
     
     public Rigidbody characterrb;
     public GameObject[] tutorialPages;
-    public GameObject[] musicButtons;
-    int musicIndex;
+    
+   
     public int isfirstOpen;
     public int tutorialpageNum;
     public DesignPatterns.ObjectPolling.GoldDigger gd;
@@ -58,7 +58,7 @@ public class UIManager : MonoBehaviour
         chestAnimator = FindObjectOfType<ChestAnimator>();
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
-        musicIndex = PlayerPrefsIntKey("musicIndex",1);
+        
         gd.totalCoin = PlayerPrefsFloatKey("Gold",0);
 
         if(isfirstOpen == 1)
@@ -78,6 +78,8 @@ public class UIManager : MonoBehaviour
             }
             
         }
+
+        
     }
 
     void Update()
@@ -329,26 +331,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("isfirstOpen",0);
     }
 
-    public void musicButton()
-    {
-        if(musicIndex == 1)
-        {
-            musicIndex = 0;
-            musicButtons[0].SetActive(false);
-            musicButtons[1].SetActive(true);
-            PlayerPrefs.SetInt("MusicIndex",musicIndex);
-            sounds.musicSound(musicIndex);
-        }
-        else if(musicIndex == 0)
-        {
-            musicIndex = 1;
-            musicButtons[0].SetActive(true);
-            musicButtons[1].SetActive(false);
-            PlayerPrefs.SetInt("MusicIndex",musicIndex);
-            sounds.musicSound(musicIndex);
-        }
-
-    }
+  
 
     public void backToMainMenu()
     {

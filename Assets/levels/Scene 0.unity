@@ -2176,6 +2176,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ec7508448960ee468d0748e50b862e5, type: 3}
+--- !u!114 &1128617141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1306429715026305840, guid: 58488cc9985757642a9e5f94f3c98485, type: 3}
+  m_PrefabInstance: {fileID: 1306429713818403802}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9eacf3cc0eb5140b215a48f86eb25d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1178866523
 GameObject:
   m_ObjectHideFlags: 0
@@ -4752,6 +4763,14 @@ PrefabInstance:
       propertyPath: m_MaxValue
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 151557140406690441, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1128617141}
+    - target: {fileID: 151557140406690441, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: musicSound
+      objectReference: {fileID: 0}
     - target: {fileID: 151557140816490949, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4767,6 +4786,14 @@ PrefabInstance:
     - target: {fileID: 151557140941017305, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151557141057348952, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1128617141}
+    - target: {fileID: 151557141057348952, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: musicSound
       objectReference: {fileID: 0}
     - target: {fileID: 151557141332351273, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_Camera
@@ -4876,6 +4903,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -31.02295
       objectReference: {fileID: 0}
+    - target: {fileID: 151557141830730337, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1128617141}
+    - target: {fileID: 151557141830730337, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: musicSound
+      objectReference: {fileID: 0}
     - target: {fileID: 151557142059233636, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -4883,6 +4918,14 @@ PrefabInstance:
     - target: {fileID: 151557142059233636, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151557142101002229, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1128617141}
+    - target: {fileID: 151557142101002229, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: musicSound
       objectReference: {fileID: 0}
     - target: {fileID: 151557142167373917, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_IsActive
@@ -4962,6 +5005,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+--- !u!1 &151557141626368715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151557140406690443, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+  m_PrefabInstance: {fileID: 151557141626368714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &151557141626368716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151557141830730339, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+  m_PrefabInstance: {fileID: 151557141626368714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &151557141626368717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151557142101002231, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+  m_PrefabInstance: {fileID: 151557141626368714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &151557141626368718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151557141057348954, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
+  m_PrefabInstance: {fileID: 151557141626368714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1306429713818403802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4973,6 +5036,22 @@ PrefabInstance:
       propertyPath: musicSource
       value: 
       objectReference: {fileID: 1589037369}
+    - target: {fileID: 1306429715026305840, guid: 58488cc9985757642a9e5f94f3c98485, type: 3}
+      propertyPath: musicButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 151557141626368718}
+    - target: {fileID: 1306429715026305840, guid: 58488cc9985757642a9e5f94f3c98485, type: 3}
+      propertyPath: musicButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 151557141626368717}
+    - target: {fileID: 1306429715026305840, guid: 58488cc9985757642a9e5f94f3c98485, type: 3}
+      propertyPath: musicButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 151557141626368716}
+    - target: {fileID: 1306429715026305840, guid: 58488cc9985757642a9e5f94f3c98485, type: 3}
+      propertyPath: musicButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 151557141626368715}
     - target: {fileID: 1306429715026305843, guid: 58488cc9985757642a9e5f94f3c98485, type: 3}
       propertyPath: m_Name
       value: Sounds
