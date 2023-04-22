@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "493705105269",
+    "project_id": "climb-and-smash",
+    "storage_bucket": "climb-and-smash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493705105269:android:9d9d8dced7e28426f04d3c",
+        "android_client_info": {
+          "package_name": "com.quintetworks.climbandsmash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493705105269-33c81pv514ggk0dt8rprcbtdn9402150.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKX9aWs0-pQeYI3dlo3GaHZSqhBjQmkP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493705105269-33c81pv514ggk0dt8rprcbtdn9402150.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "493705105269-2ltml4ilgrkfd76ldbt9j6udu8b6lip4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.climbandsmash"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
