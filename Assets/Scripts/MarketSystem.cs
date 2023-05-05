@@ -13,6 +13,8 @@ public class MarketSystem : MonoBehaviour
 
     public int powerPrize=250;
 
+    public int chessScalePrize=1000;
+
     
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,7 @@ public class MarketSystem : MonoBehaviour
         fuelPrize = ui.PlayerPrefsIntKey("FuelPrize", 110);
         scalePrize= ui.PlayerPrefsIntKey("ScalePrize", 500);
         powerPrize= ui.PlayerPrefsIntKey("PowerPrize", 250);
+        chessScalePrize= ui.PlayerPrefsIntKey("ChessScalePrize", 1000);
 
     }
 
