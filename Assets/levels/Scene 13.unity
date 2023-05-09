@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.477
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.069819644, g: 0.3403797, b: 1.0047354, a: 0.477}
+  m_IndirectSpecularColor: {r: 0.06979661, g: 0.3402905, b: 1.0051001, a: 0.477}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -39985,6 +39985,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0babcb59f4656f4d80311daaad4f31b, type: 3}
+--- !u!1 &328404770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1874582869495922365, guid: b0babcb59f4656f4d80311daaad4f31b, type: 3}
+  m_PrefabInstance: {fileID: 328404769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &330976154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138255,6 +138260,10 @@ PrefabInstance:
       propertyPath: FuelBar
       value: 
       objectReference: {fileID: 413106573}
+    - target: {fileID: 5657032035092118364, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: chest
+      value: 
+      objectReference: {fileID: 328404770}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
 --- !u!114 &5657032035092118363 stripped
