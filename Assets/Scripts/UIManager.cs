@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu,PauseMenu,ShopMenu;
     public TextMeshProUGUI TotalGoldText,EndLevelGoldText, ShopGoldText;
-    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText, chestScalePrizeText;
+    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText, chestScalePrizeText, chestSpeedPrizeText;
     
     public Rigidbody characterrb;
     public GameObject[] tutorialPages;
@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour
     ChestAnimator chestAnimator;
 
     ChestScaleSystem chestScaleSystem;
-
+    DiggerTransformer diggerTransformer;
     LoadingPanel loadingPanel;
     public MarketSystem ms;
 
@@ -61,7 +61,7 @@ public class UIManager : MonoBehaviour
         chestAnimator = FindObjectOfType<ChestAnimator>();
         chestScaleSystem = FindObjectOfType<ChestScaleSystem>();
         wheelChanger = FindObjectOfType<WheelChanger>();
-       
+        diggerTransformer = FindObjectOfType<DiggerTransformer>();
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         
         gd.totalCoin = PlayerPrefsFloatKey("Gold",0);
@@ -337,6 +337,7 @@ public class UIManager : MonoBehaviour
         ShopMenu.SetActive(true);
         MainMenu.SetActive(false);
         ShopGoldText.text = ((int)gd.totalCoin).ToString();
+        chestSpeedPrizeText.text = ms.chessSpeedPrize.ToString();
         if (wheelChanger.unlockedWheels[wheelChanger.currentWheel])
         {
             wheelChanger.buttonText.text = "choose";
@@ -439,6 +440,24 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(levelSystem.currentLevelNum);
         Resume();
         
+    }
+
+    public void ChessSpeedBuy()
+    {
+        if (gd.totalCoin >= ms.chessSpeedPrize && diggerTransformer.period < diggerTransformer.maxPeriod)
+        {
+           gd.totalCoin -= ms.chessSpeedPrize;
+           PlayerPrefs.SetFloat("Gold",gd.totalCoin);
+
+           diggerTransformer.period = diggerTransformer.period + 0.5f;
+           PlayerPrefs.SetFloat("DiggerSpeed",diggerTransformer.period);
+
+           ms.chessSpeedPrize = ms.prizeUpdater(ms.chessSpeedPrize);
+           PlayerPrefs.SetInt("ChessSpeedPrize",ms.chessSpeedPrize);
+
+           chestSpeedPrizeText.text = ms.chessSpeedPrize.ToString();
+           
+        }
     }
 
     
