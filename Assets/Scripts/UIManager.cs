@@ -10,9 +10,9 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu,PauseMenu;
-    public TextMeshProUGUI TotalGoldText,EndLevelGoldText;
-    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText;
+    public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu,PauseMenu,ShopMenu;
+    public TextMeshProUGUI TotalGoldText,EndLevelGoldText, ShopGoldText;
+    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText, chestScalePrizeText;
     
     public Rigidbody characterrb;
     public GameObject[] tutorialPages;
@@ -29,6 +29,8 @@ public class UIManager : MonoBehaviour
     BannerAd banner;
 
     ChestAnimator chestAnimator;
+
+    ChestScaleSystem chestScaleSystem;
 
     LoadingPanel loadingPanel;
     public MarketSystem ms;
@@ -56,6 +58,7 @@ public class UIManager : MonoBehaviour
         loadingPanel = FindObjectOfType<LoadingPanel>();
         gd = FindObjectOfType<DesignPatterns.ObjectPolling.GoldDigger>();
         chestAnimator = FindObjectOfType<ChestAnimator>();
+        chestScaleSystem = FindObjectOfType<ChestScaleSystem>();
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         
@@ -198,6 +201,27 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void ChestScaleUpgrade()
+    {
+        if(gd.totalCoin >= ms.chessScalePrize && chestScaleSystem.chestScale < chestScaleSystem.maxchestScale)
+        {
+            Debug.Log("Scaling");
+            gd.totalCoin -= ms.chessScalePrize;
+            ms.chessScalePrize = ms.prizeUpdater(ms.chessScalePrize);
+
+            chestScaleSystem.chestScale += .1f;
+            chestScaleSystem.chestScaler(chestScaleSystem.chestScale);
+
+            
+
+            PlayerPrefs.SetFloat("ChestScale",chestScaleSystem.chestScale);
+            PlayerPrefs.SetFloat("Gold",gd.totalCoin);
+            PlayerPrefs.SetInt("ChessScalePrize",ms.chessScalePrize);
+            chestScalePrizeText.text = ms.chessScalePrize.ToString();
+            ShopGoldText.text = ((int)gd.totalCoin).ToString();
+        }
+    }
+
     public float PlayerPrefsFloatKey (string key, float defValue)
     {
         if (PlayerPrefs.HasKey(key))
@@ -282,6 +306,13 @@ public class UIManager : MonoBehaviour
         MainMenu.SetActive(false);
     }
 
+    public void shopMenuBtn()
+    {
+        ShopMenu.SetActive(true);
+        MainMenu.SetActive(false);
+        ShopGoldText.text = ((int)gd.totalCoin).ToString();
+    }
+
     public void levelButton(int levelNum)
     {
         levelSystem.currentLevelNum = levelNum;
@@ -346,6 +377,11 @@ public class UIManager : MonoBehaviour
         Resume();
     }
 
+    public void backToShop()
+    {
+        ShopMenu.SetActive(false);
+        MainMenu.SetActive(true);
+    }
     public void PauseBtn()
     {
         GameMenu.SetActive(false);
