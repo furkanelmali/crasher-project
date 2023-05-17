@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
     IntersAd intersAd;
     BannerAd banner;
 
+    WheelChanger wheelChanger;
     ChestAnimator chestAnimator;
 
     ChestScaleSystem chestScaleSystem;
@@ -249,6 +250,27 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public bool PlayerPrefsBoolKey(string key,bool defValue)
+    {
+        if (PlayerPrefs.HasKey(key))
+        {
+            if (PlayerPrefs.GetInt(key) == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
+        }
+        else
+        {
+           PlayerPrefs.SetInt(key, defValue ? 1 : 0);
+           return false;
+        } 
+    }
+
     public void MainMenuBtn()
     {
         if(!isGoldAdded)
@@ -260,6 +282,9 @@ public class UIManager : MonoBehaviour
         banner.DestroyAd();
         SceneManager.LoadScene(0);
         isGoldAdded = false;
+        wheelChanger.currentWheel = 0;
+        PlayerPrefs.SetInt("CurrentWheel",wheelChanger.currentWheel);
+
         
     }
 
