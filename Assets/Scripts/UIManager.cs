@@ -60,6 +60,7 @@ public class UIManager : MonoBehaviour
         gd = FindObjectOfType<DesignPatterns.ObjectPolling.GoldDigger>();
         chestAnimator = FindObjectOfType<ChestAnimator>();
         chestScaleSystem = FindObjectOfType<ChestScaleSystem>();
+        wheelChanger = FindObjectOfType<WheelChanger>();
        
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         
@@ -336,6 +337,22 @@ public class UIManager : MonoBehaviour
         ShopMenu.SetActive(true);
         MainMenu.SetActive(false);
         ShopGoldText.text = ((int)gd.totalCoin).ToString();
+        if (wheelChanger.unlockedWheels[wheelChanger.currentWheel])
+        {
+            wheelChanger.buttonText.text = "choose";
+            wheelChanger.prizeText.text = wheelChanger.wheelPrizes[wheelChanger.currentWheel].ToString();
+            if(wheelChanger.currentWheel == wheelChanger.choosedWheel)
+             {
+            wheelChanger.buttonText.text = "choosed";
+            wheelChanger.prizeText.text = "buyed";
+             }
+        }
+        else
+        {
+            wheelChanger.buttonText.text = "buy";
+            wheelChanger.prizeText.text = wheelChanger.wheelPrizes[wheelChanger.currentWheel].ToString();
+        }
+        
     }
 
     public void levelButton(int levelNum)

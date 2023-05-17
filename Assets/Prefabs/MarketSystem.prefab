@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5657032034924137724}
   - component: {fileID: 5657032034924137725}
   - component: {fileID: 5657032035092118364}
+  - component: {fileID: 973289387}
   m_Layer: 0
   m_Name: MarketSystem
   m_TagString: Untagged
@@ -114,3 +115,37 @@ MonoBehaviour:
   chestScale: 0
   maxchestScale: 0
   chest: {fileID: 0}
+--- !u!114 &973289387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5657032034924137720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d7d45d09409f847bc42d55273dabcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 0}
+  gd: {fileID: 0}
+  unlockedWheels: 0000000000
+  currentWheel: 0
+  choosedWheel: 0
+  wheelPrizes: e8030000dc050000d0070000c4090000b80b0000
+  wheelMeshes:
+  - {fileID: -2395429499044029987, guid: 486f1fc5bbf49754eb0767102d09bcbb, type: 3}
+  - {fileID: 4576284387858052071, guid: 486f1fc5bbf49754eb0767102d09bcbb, type: 3}
+  - {fileID: 222236185553012547, guid: 486f1fc5bbf49754eb0767102d09bcbb, type: 3}
+  - {fileID: -361435805105104513, guid: 486f1fc5bbf49754eb0767102d09bcbb, type: 3}
+  - {fileID: -4074771182479976246, guid: 486f1fc5bbf49754eb0767102d09bcbb, type: 3}
+  buttonText: {fileID: 0}
+  prizeText: {fileID: 0}
+  wheelObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  wheelColliders:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
