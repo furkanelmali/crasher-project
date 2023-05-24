@@ -5,14 +5,18 @@ using UnityEngine;
 public class DiggerTransformer : MonoBehaviour
 {
     Vector3 startingposition;
+    UIManager uiManager;
     [SerializeField] Vector3 movementVector;
     [SerializeField] [Range(0,1)] float movementFactor;
-    [SerializeField] float period = .1f;
+    public float period = .1f;
+    public float maxPeriod = 6f;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        uiManager = FindObjectOfType<UIManager>();
+        period = uiManager.PlayerPrefsFloatKey("DiggerSpeed", 3f);
         startingposition = transform.position; 
     }
 

@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject MainMenu,GameMenu,GameOverMenu,FinishMenu,LevelMenu,TutorialMenu,PauseMenu,ShopMenu;
     public TextMeshProUGUI TotalGoldText,EndLevelGoldText, ShopGoldText;
-    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText, chestScalePrizeText;
+    public TextMeshProUGUI FuelPrize, ScalePrize, PowerPrize, LevelText, chestScalePrizeText, chestSpeedPrizeText;
     
     public Rigidbody characterrb;
     public GameObject[] tutorialPages;
@@ -28,10 +28,11 @@ public class UIManager : MonoBehaviour
     IntersAd intersAd;
     BannerAd banner;
 
+    WheelChanger wheelChanger;
     ChestAnimator chestAnimator;
 
     ChestScaleSystem chestScaleSystem;
-
+    DiggerTransformer diggerTransformer;
     LoadingPanel loadingPanel;
     public MarketSystem ms;
 
@@ -59,7 +60,8 @@ public class UIManager : MonoBehaviour
         gd = FindObjectOfType<DesignPatterns.ObjectPolling.GoldDigger>();
         chestAnimator = FindObjectOfType<ChestAnimator>();
         chestScaleSystem = FindObjectOfType<ChestScaleSystem>();
-       
+        wheelChanger = FindObjectOfType<WheelChanger>();
+        diggerTransformer = FindObjectOfType<DiggerTransformer>();
         isfirstOpen = PlayerPrefsIntKey("isfirstOpen",1);
         
         gd.totalCoin = PlayerPrefsFloatKey("Gold",0);
@@ -249,6 +251,27 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public bool PlayerPrefsBoolKey(string key,bool defValue)
+    {
+        if (PlayerPrefs.HasKey(key))
+        {
+            if (PlayerPrefs.GetInt(key) == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
+        }
+        else
+        {
+           PlayerPrefs.SetInt(key, defValue ? 1 : 0);
+           return false;
+        } 
+    }
+
     public void MainMenuBtn()
     {
         if(!isGoldAdded)
@@ -260,6 +283,9 @@ public class UIManager : MonoBehaviour
         banner.DestroyAd();
         SceneManager.LoadScene(0);
         isGoldAdded = false;
+        wheelChanger.currentWheel = 0;
+        PlayerPrefs.SetInt("CurrentWheel",wheelChanger.currentWheel);
+
         
     }
 
@@ -311,6 +337,23 @@ public class UIManager : MonoBehaviour
         ShopMenu.SetActive(true);
         MainMenu.SetActive(false);
         ShopGoldText.text = ((int)gd.totalCoin).ToString();
+        chestSpeedPrizeText.text = ms.chessSpeedPrize.ToString();
+        if (wheelChanger.unlockedWheels[wheelChanger.currentWheel])
+        {
+            wheelChanger.buttonText.text = "choose";
+            wheelChanger.prizeText.text = wheelChanger.wheelPrizes[wheelChanger.currentWheel].ToString();
+            if(wheelChanger.currentWheel == wheelChanger.choosedWheel)
+             {
+            wheelChanger.buttonText.text = "choosed";
+            wheelChanger.prizeText.text = "buyed";
+             }
+        }
+        else
+        {
+            wheelChanger.buttonText.text = "buy";
+            wheelChanger.prizeText.text = wheelChanger.wheelPrizes[wheelChanger.currentWheel].ToString();
+        }
+        
     }
 
     public void levelButton(int levelNum)
@@ -397,6 +440,24 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(levelSystem.currentLevelNum);
         Resume();
         
+    }
+
+    public void ChessSpeedBuy()
+    {
+        if (gd.totalCoin >= ms.chessSpeedPrize && diggerTransformer.period < diggerTransformer.maxPeriod)
+        {
+           gd.totalCoin -= ms.chessSpeedPrize;
+           PlayerPrefs.SetFloat("Gold",gd.totalCoin);
+
+           diggerTransformer.period = diggerTransformer.period + 0.5f;
+           PlayerPrefs.SetFloat("DiggerSpeed",diggerTransformer.period);
+
+           ms.chessSpeedPrize = ms.prizeUpdater(ms.chessSpeedPrize);
+           PlayerPrefs.SetInt("ChessSpeedPrize",ms.chessSpeedPrize);
+
+           chestSpeedPrizeText.text = ms.chessSpeedPrize.ToString();
+           
+        }
     }
 
     

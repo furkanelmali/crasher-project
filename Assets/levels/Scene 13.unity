@@ -138196,6 +138196,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 973289387, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: wheelObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1986438211}
+    - target: {fileID: 973289387, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: wheelObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1211558763}
+    - target: {fileID: 973289387, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: wheelObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1712390213}
+    - target: {fileID: 973289387, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: wheelColliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 1986438207}
+    - target: {fileID: 973289387, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: wheelColliders.Array.data[1]
+      value: 
+      objectReference: {fileID: 1211558759}
+    - target: {fileID: 973289387, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
+      propertyPath: wheelColliders.Array.data[2]
+      value: 
+      objectReference: {fileID: 1712390209}
     - target: {fileID: 5657032034924137720, guid: b48946085d0274f46ba27cd99c3c7c46, type: 3}
       propertyPath: m_Name
       value: MarketSystem

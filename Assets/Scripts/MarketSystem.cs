@@ -15,6 +15,8 @@ public class MarketSystem : MonoBehaviour
 
     public int chessScalePrize=1000;
 
+    public int chessSpeedPrize=1000;
+
     
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class MarketSystem : MonoBehaviour
         scalePrize= ui.PlayerPrefsIntKey("ScalePrize", 500);
         powerPrize= ui.PlayerPrefsIntKey("PowerPrize", 250);
         chessScalePrize= ui.PlayerPrefsIntKey("ChessScalePrize", 1000);
+        chessSpeedPrize= ui.PlayerPrefsIntKey("ChessSpeedPrize", 1000);
 
     }
 
