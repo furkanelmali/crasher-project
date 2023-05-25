@@ -1909,17 +1909,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1004775785 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8423331482921168551, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
-  m_PrefabInstance: {fileID: 151557141626368714}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1009829328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6209198092640001294, guid: 2ec7508448960ee468d0748e50b862e5, type: 3}
@@ -5031,10 +5020,6 @@ PrefabInstance:
       propertyPath: fuel
       value: 
       objectReference: {fileID: 973289381}
-    - target: {fileID: 151557141332351279, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
-      propertyPath: chestSpeedPrizeText
-      value: 
-      objectReference: {fileID: 1004775785}
     - target: {fileID: 151557141830730337, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -5051,10 +5036,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 973289387}
-    - target: {fileID: 5259240958561128382, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChessSpeedBuy
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 027d20ba8b050584898e32d56d224ddf, type: 3}
 --- !u!1 &151557141626368715 stripped
@@ -5697,27 +5678,31 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 767216276}
     m_Modifications:
     - target: {fileID: 8192738467628435200, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_Name
       value: Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 8192738467628435200, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.72
+      value: -0.015267149
       objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.13
+      value: 0.68225193
       objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.137
+      value: -0.225
       objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5733,7 +5718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8192738467628435212, guid: d11b239e5e4d4a94b92f23841c22d6fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

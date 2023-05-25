@@ -13,6 +13,7 @@ public class LaserMechanic : MonoBehaviour
     public float duration = 1f;
     public float fireRate = 1f;
 
+    public VoxelGravity vg;
     public float rotationspeed = 5f;
     
     float fireTimer;
@@ -43,6 +44,12 @@ public class LaserMechanic : MonoBehaviour
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
             laserLine.SetPosition(1, hit.point);
+            if(hit.collider.gameObject.tag == "Voxel")
+            {
+               vg = hit.collider.gameObject.GetComponent<VoxelGravity>();
+               vg.damageCount -= 4;
+               vg.damageCheck();
+            }
         }
         else
         {   
