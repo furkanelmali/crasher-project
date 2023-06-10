@@ -130,7 +130,7 @@ public class WheelChanger : MonoBehaviour
         for(int i = 0; i <= 2; i++)
         {
             wheelObjects[i].mesh = wheelMeshes[choosedWheel];
-            wheelColliders[i].sharedMesh = wheelMeshes[choosedWheel];
+            // wheelColliders[i].sharedMesh = wheelMeshes[choosedWheel];
         }
     }
 }
