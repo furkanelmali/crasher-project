@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Facebook.Unity;
 
 public class UIManager : MonoBehaviour
 {
@@ -87,9 +88,40 @@ public class UIManager : MonoBehaviour
         
     }
 
+
+
     void Update()
     {
         timeScaler();
+    }
+
+    void Awake ()
+    {
+        if (FB.IsInitialized) {
+            FB.ActivateApp();
+        } else {
+            //Handle FB.Init
+            FB.Init( () => {
+            FB.ActivateApp();
+            });
+        }
+    }
+
+    void OnApplicationPause (bool pauseStatus)
+    {
+        // Check the pauseStatus to see if we are in the foreground
+        // or background
+        if (!pauseStatus) {
+            //app resume
+            if (FB.IsInitialized) {
+            FB.ActivateApp();
+            } else {
+            //Handle FB.Init
+            FB.Init( () => {
+                FB.ActivateApp();
+            });
+            }
+        }
     }
 
     public void timeScaler()
